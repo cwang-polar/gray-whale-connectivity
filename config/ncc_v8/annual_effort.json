@@ -1,0 +1,63 @@
+{
+  "analysis_id": "phase8v_asamm_effort_rates_v1",
+  "raw_root": "data/raw/validation/asamm_1979_2021/csv_export/ASAMM to csv",
+  "metadata": "data/raw/validation/asamm_1979_2021/ASAMM_NSB_2021DataPackage/ASAMM_Metadata_2021.xml",
+  "grid": "data/processed/study_domain/ocean_mask_grid_10km_C3_recurring_support_v2.csv",
+  "domain": "data/processed/study_domain/study_domain_C3_recurring_support_v2.geojson",
+  "existing_effort_cells": "data/processed/validation/asamm_phase8i2_effort_covered_C3_cells_by_window.csv",
+  "existing_sightings": "data/processed/validation/asamm_phase8i2_gray_whale_records_on_C3_grid.csv",
+  "existing_annual_summary": "outputs/manuscript_figures_v3/supplementary_figures_working/c4_cost_observation_effort_sensitivity_v1/source_data/c4_strict_effort_sensitivity_source_data_v1.csv",
+  "cost_sources": {
+    "prey_only": "outputs/lcp_v2/prey_only_brian_C3_route_summary_v2.csv",
+    "prey_ice": "outputs/lcp_v2/prey_ice_brian_C3_route_summary_v2.csv"
+  },
+  "output_dir": "outputs/asamm_effort_rates_phase8v/v1",
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "windows": {
+    "June_July": [
+      6,
+      7
+    ],
+    "July_only": [
+      7
+    ]
+  },
+  "primary_window": "June_July",
+  "primary_effort": "transect",
+  "primary_footprint": "regional",
+  "mode_sets": {
+    "transect": [
+      2
+    ],
+    "transect_search": [
+      2,
+      4
+    ],
+    "transect_circling": [
+      2,
+      5
+    ]
+  },
+  "max_gap_seconds": 300,
+  "gap_sensitivities_seconds": [
+    60,
+    600
+  ],
+  "max_speed_kmh": 600,
+  "cell_size_m": 10000,
+  "max_grid_distance_m": 15000,
+  "projected_crs": "EPSG:3338",
+  "bootstrap_replicates": 2000,
+  "random_seed": 20261116,
+  "prey_variable": "total_kJm2_frozen"
+}

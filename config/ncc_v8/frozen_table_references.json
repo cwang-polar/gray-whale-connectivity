@@ -1,0 +1,833 @@
+{
+  "source": "docs/release_planning/v8_ncc_frozen_manuscript_inventory_v1.md",
+  "source_sha256": "bb6c66b3453b9dbb2ec1d1f4d5a48853b338f57e84fb9db3c37272ef9bfb978f",
+  "scope": "Table display reference; Table S5 uses the separate coefficient reference.",
+  "tables": {
+    "TableS1": {
+      "title": "Supplementary Table S1 | Primary May-July annual corridor metrics and paired scenario contrasts",
+      "parts": [
+        {
+          "title": "A, Absolute annual metrics",
+          "headers": [
+            "Year",
+            "Scenario",
+            "Mean modeled path cost (resistance-weighted km)",
+            "Frequent-corridor cells (n)"
+          ],
+          "rows": [
+            [
+              "2011",
+              "Prey",
+              "2,273.4",
+              "201"
+            ],
+            [
+              "2011",
+              "Prey+ice",
+              "2,623.5",
+              "179"
+            ],
+            [
+              "2012",
+              "Prey",
+              "2,205.5",
+              "224"
+            ],
+            [
+              "2012",
+              "Prey+ice",
+              "2,853.9",
+              "194"
+            ],
+            [
+              "2013",
+              "Prey",
+              "2,053.2",
+              "227"
+            ],
+            [
+              "2013",
+              "Prey+ice",
+              "2,686.9",
+              "231"
+            ],
+            [
+              "2014",
+              "Prey",
+              "1,782.7",
+              "231"
+            ],
+            [
+              "2014",
+              "Prey+ice",
+              "2,290.7",
+              "222"
+            ],
+            [
+              "2015",
+              "Prey",
+              "1,327.5",
+              "240"
+            ],
+            [
+              "2015",
+              "Prey+ice",
+              "1,825.9",
+              "205"
+            ],
+            [
+              "2015",
+              "Prey+vessel",
+              "1,439.5",
+              "206"
+            ],
+            [
+              "2015",
+              "Prey+ice+vessel",
+              "1,944.5",
+              "206"
+            ],
+            [
+              "2016",
+              "Prey",
+              "1,145.5",
+              "262"
+            ],
+            [
+              "2016",
+              "Prey+ice",
+              "1,757.0",
+              "229"
+            ],
+            [
+              "2016",
+              "Prey+vessel",
+              "1,245.9",
+              "186"
+            ],
+            [
+              "2016",
+              "Prey+ice+vessel",
+              "1,866.8",
+              "205"
+            ],
+            [
+              "2017",
+              "Prey",
+              "1,293.9",
+              "267"
+            ],
+            [
+              "2017",
+              "Prey+ice",
+              "1,585.4",
+              "246"
+            ],
+            [
+              "2017",
+              "Prey+vessel",
+              "1,398.4",
+              "195"
+            ],
+            [
+              "2017",
+              "Prey+ice+vessel",
+              "1,685.2",
+              "208"
+            ],
+            [
+              "2018",
+              "Prey",
+              "1,290.9",
+              "228"
+            ],
+            [
+              "2018",
+              "Prey+ice",
+              "1,571.4",
+              "248"
+            ],
+            [
+              "2018",
+              "Prey+vessel",
+              "1,342.4",
+              "171"
+            ],
+            [
+              "2018",
+              "Prey+ice+vessel",
+              "1,656.4",
+              "222"
+            ],
+            [
+              "2019",
+              "Prey",
+              "1,212.5",
+              "236"
+            ],
+            [
+              "2019",
+              "Prey+ice",
+              "1,342.8",
+              "234"
+            ],
+            [
+              "2019",
+              "Prey+vessel",
+              "1,274.9",
+              "179"
+            ],
+            [
+              "2019",
+              "Prey+ice+vessel",
+              "1,407.5",
+              "184"
+            ]
+          ]
+        },
+        {
+          "title": "B, Paired scenario contrasts",
+          "headers": [
+            "Year",
+            "Contrast",
+            "Mean-cost change (%)",
+            "Change in frequent-corridor cells (n)",
+            "Jaccard overlap",
+            "Centroid displacement (km)",
+            "Northward centroid component (km)"
+          ],
+          "rows": [
+            [
+              "2011",
+              "Prey+ice versus Prey",
+              "+15.4",
+              "-22",
+              "0.407",
+              "5.1",
+              "-4.6"
+            ],
+            [
+              "2012",
+              "Prey+ice versus Prey",
+              "+29.4",
+              "-30",
+              "0.370",
+              "19.5",
+              "+1.0"
+            ],
+            [
+              "2013",
+              "Prey+ice versus Prey",
+              "+30.9",
+              "+4",
+              "0.497",
+              "22.5",
+              "+16.6"
+            ],
+            [
+              "2014",
+              "Prey+ice versus Prey",
+              "+28.5",
+              "-9",
+              "0.255",
+              "18.5",
+              "-17.2"
+            ],
+            [
+              "2015",
+              "Prey+ice versus Prey",
+              "+37.5",
+              "-35",
+              "0.309",
+              "74.6",
+              "+67.7"
+            ],
+            [
+              "2016",
+              "Prey+ice versus Prey",
+              "+53.4",
+              "-33",
+              "0.272",
+              "65.0",
+              "+59.5"
+            ],
+            [
+              "2017",
+              "Prey+ice versus Prey",
+              "+22.5",
+              "-21",
+              "0.613",
+              "12.4",
+              "+12.3"
+            ],
+            [
+              "2018",
+              "Prey+ice versus Prey",
+              "+21.7",
+              "+20",
+              "0.322",
+              "80.2",
+              "+67.1"
+            ],
+            [
+              "2019",
+              "Prey+ice versus Prey",
+              "+10.7",
+              "-2",
+              "0.643",
+              "39.0",
+              "+35.6"
+            ],
+            [
+              "2015",
+              "Prey+vessel versus Prey",
+              "+8.4",
+              "-34",
+              "0.356",
+              "97.1",
+              "+94.1"
+            ],
+            [
+              "2016",
+              "Prey+vessel versus Prey",
+              "+8.8",
+              "-76",
+              "0.387",
+              "77.8",
+              "+72.3"
+            ],
+            [
+              "2017",
+              "Prey+vessel versus Prey",
+              "+8.1",
+              "-72",
+              "0.439",
+              "78.2",
+              "+74.6"
+            ],
+            [
+              "2018",
+              "Prey+vessel versus Prey",
+              "+4.0",
+              "-57",
+              "0.371",
+              "101.1",
+              "+95.5"
+            ],
+            [
+              "2019",
+              "Prey+vessel versus Prey",
+              "+5.2",
+              "-57",
+              "0.374",
+              "101.7",
+              "+92.0"
+            ],
+            [
+              "2015",
+              "Prey+ice+vessel versus Prey+ice",
+              "+6.5",
+              "+1",
+              "0.457",
+              "51.1",
+              "+45.4"
+            ],
+            [
+              "2016",
+              "Prey+ice+vessel versus Prey+ice",
+              "+6.3",
+              "-24",
+              "0.481",
+              "31.0",
+              "+26.7"
+            ],
+            [
+              "2017",
+              "Prey+ice+vessel versus Prey+ice",
+              "+6.3",
+              "-38",
+              "0.305",
+              "92.0",
+              "+83.0"
+            ],
+            [
+              "2018",
+              "Prey+ice+vessel versus Prey+ice",
+              "+5.4",
+              "-26",
+              "0.362",
+              "82.3",
+              "+79.8"
+            ],
+            [
+              "2019",
+              "Prey+ice+vessel versus Prey+ice",
+              "+4.8",
+              "-50",
+              "0.482",
+              "74.2",
+              "+66.4"
+            ]
+          ]
+        }
+      ],
+      "note": "Note. Prey denotes the primary benthic-amphipod energy-density landscape; ice and vessel denote the May-July sea-ice accessibility and Automatic Identification System-derived vessel-exposure modifiers, respectively. Each scenario-year comprised 1,600 successful least-cost paths. Frequent-corridor cells were crossed by more than 5% of paths (Fs>0.05). In B, changes are calculated as the named scenario minus its reference scenario. Jaccard overlap ranges from 0 for no shared frequent-corridor cells to 1 for identical cell sets. Centroid displacement is the distance between the unweighted geographic centers of the paired frequent-corridor sets; positive northward components indicate that the first-named scenario lay north of its reference. Modeled path cost is a relative resistance-weighted distance, not measured whale energy expenditure. Displayed values are rounded; comparisons used unrounded values."
+    },
+    "TableS2": {
+      "title": "Supplementary Table S2 | Seasonal correspondence between modeled corridors and gray whale sightings",
+      "parts": [
+        {
+          "title": "A, June-July sightings versus May-July corridors",
+          "headers": [
+            "Analysis period",
+            "Scenario",
+            "Sighting records (n)",
+            "Mean effort-footprint percentile",
+            "Sightings in annual top-5% corridor cells (%)",
+            "Median distance to frequent corridor (km)"
+          ],
+          "rows": [
+            [
+              "2011-2019",
+              "Prey",
+              "1,179",
+              "58.0",
+              "13.5",
+              "14.1"
+            ],
+            [
+              "2011-2019",
+              "Prey+ice",
+              "1,179",
+              "63.7",
+              "21.3",
+              "10.0"
+            ],
+            [
+              "2015-2019",
+              "Prey",
+              "666",
+              "54.5",
+              "10.7",
+              "28.3"
+            ],
+            [
+              "2015-2019",
+              "Prey+ice",
+              "666",
+              "58.7",
+              "15.6",
+              "20.0"
+            ],
+            [
+              "2015-2019",
+              "Prey+vessel",
+              "666",
+              "55.3",
+              "10.8",
+              "30.0"
+            ],
+            [
+              "2015-2019",
+              "Prey+ice+vessel",
+              "666",
+              "60.4",
+              "11.6",
+              "22.4"
+            ]
+          ]
+        },
+        {
+          "title": "B, August-October sightings versus August-October corridors",
+          "headers": [
+            "Analysis period",
+            "Scenario",
+            "Sighting records (n)",
+            "Mean effort-footprint percentile",
+            "Sightings in annual top-5% corridor cells (%)",
+            "Median distance to frequent corridor (km)"
+          ],
+          "rows": [
+            [
+              "2011-2019",
+              "Prey",
+              "1,843",
+              "56.8",
+              "9.5",
+              "20.0"
+            ],
+            [
+              "2011-2019",
+              "Prey+ice",
+              "1,843",
+              "56.8",
+              "9.7",
+              "20.0"
+            ],
+            [
+              "2015-2019",
+              "Prey",
+              "1,131",
+              "57.0",
+              "11.8",
+              "22.4"
+            ],
+            [
+              "2015-2019",
+              "Prey+ice",
+              "1,131",
+              "57.0",
+              "11.8",
+              "22.4"
+            ],
+            [
+              "2015-2019",
+              "Prey+vessel",
+              "1,131",
+              "57.7",
+              "12.6",
+              "22.4"
+            ],
+            [
+              "2015-2019",
+              "Prey+ice+vessel",
+              "1,131",
+              "57.7",
+              "12.6",
+              "22.4"
+            ]
+          ]
+        }
+      ],
+      "note": "Note. Sightings were obtained from the Aerial Surveys of Arctic Marine Mammals 4. Prey denotes the primary benthic prey-only scenario. Every scenario within an analysis-period block was evaluated using the same sighting records, and each record contributed once regardless of reported group size. The effort-footprint percentile ranks corridor frequency at each sighting cell against cells surveyed in the same year. Top-5% overlap is the percentage of sightings within that year's highest-frequency 5% of regional corridor cells. Distance is measured to the nearest frequent-corridor cell (Fs>0.05). Higher percentiles and overlaps, and shorter distances, indicate closer spatial correspondence."
+    },
+    "TableS3": {
+      "title": "Supplementary Table S3 | Locations and vessel exposure of recurrent biological corridor cells",
+      "parts": [
+        {
+          "title": "S3",
+          "headers": [
+            "Cell",
+            "Longitude (degrees)",
+            "Latitude (degrees)",
+            "Top-5% years, Prey (n/9)",
+            "Top-5% years, Prey+ice (n/9)",
+            "Mean scaled vessel exposure",
+            "Exposure priority"
+          ],
+          "rows": [
+            [
+              "1",
+              "-171.130",
+              "63.902",
+              "5",
+              "5",
+              "0.458",
+              "Yes"
+            ],
+            [
+              "2",
+              "-170.933",
+              "63.924",
+              "5",
+              "5",
+              "0.389",
+              "Yes"
+            ],
+            [
+              "3",
+              "-170.735",
+              "63.947",
+              "5",
+              "5",
+              "0.311",
+              "Yes"
+            ],
+            [
+              "4",
+              "-169.176",
+              "64.574",
+              "5",
+              "5",
+              "0.051",
+              "No"
+            ],
+            [
+              "5",
+              "-169.271",
+              "64.748",
+              "5",
+              "5",
+              "0.262",
+              "Yes"
+            ],
+            [
+              "6",
+              "-169.416",
+              "65.010",
+              "6",
+              "8",
+              "0.351",
+              "Yes"
+            ],
+            [
+              "7",
+              "-169.919",
+              "65.883",
+              "5",
+              "5",
+              "0.439",
+              "Yes"
+            ],
+            [
+              "8",
+              "-169.758",
+              "65.992",
+              "5",
+              "6",
+              "0.376",
+              "Yes"
+            ],
+            [
+              "9",
+              "-169.595",
+              "66.100",
+              "8",
+              "8",
+              "0.449",
+              "Yes"
+            ],
+            [
+              "10",
+              "-169.862",
+              "66.166",
+              "7",
+              "5",
+              "0.320",
+              "Yes"
+            ],
+            [
+              "11",
+              "-170.130",
+              "66.232",
+              "7",
+              "5",
+              "0.082",
+              "No"
+            ],
+            [
+              "12",
+              "-170.115",
+              "68.837",
+              "7",
+              "5",
+              "0.000",
+              "No"
+            ],
+            [
+              "13",
+              "-170.174",
+              "68.925",
+              "7",
+              "5",
+              "0.050",
+              "No"
+            ],
+            [
+              "14",
+              "-169.994",
+              "69.035",
+              "8",
+              "7",
+              "0.105",
+              "No"
+            ],
+            [
+              "15",
+              "-170.053",
+              "69.123",
+              "7",
+              "5",
+              "0.103",
+              "No"
+            ],
+            [
+              "16",
+              "-169.870",
+              "69.233",
+              "7",
+              "5",
+              "0.052",
+              "No"
+            ],
+            [
+              "17",
+              "-169.686",
+              "69.342",
+              "8",
+              "6",
+              "0.000",
+              "No"
+            ],
+            [
+              "18",
+              "-169.501",
+              "69.452",
+              "6",
+              "5",
+              "0.000",
+              "No"
+            ],
+            [
+              "19",
+              "-169.313",
+              "69.561",
+              "6",
+              "5",
+              "0.050",
+              "No"
+            ],
+            [
+              "20",
+              "-169.124",
+              "69.671",
+              "6",
+              "5",
+              "0.092",
+              "No"
+            ]
+          ]
+        }
+      ],
+      "note": "Note. Cells are ordered from south to north; negative longitudes denote degrees west. Cell numbers are display identifiers, and coordinates identify the centers of the 10-km ocean-grid cells. Prey denotes the primary benthic prey-only scenario. Recurrent biological corridor cells occurred at or above the annual 95th percentile of corridor frequency in at least five of nine years under both prey and prey+ice. Mean scaled vessel exposure is the arithmetic mean of annual May-July Automatic Identification System-derived scaled exposure during 2015-2019. Exposure-priority cells had mean scaled exposure greater than 0.25. These are model-derived corridor cells, not whale sighting records."
+    },
+    "TableS4": {
+      "title": "Supplementary Table S4 | Corridor responses to pelagic support across utility-combination assumptions",
+      "parts": [
+        {
+          "title": "A, Primary complementary operator at β=0.25",
+          "headers": [
+            "Year",
+            "Benthic baseline scenario",
+            "Mean-cost change (%)",
+            "Change in frequent-corridor cells (n)",
+            "Jaccard overlap with β=0",
+            "Centroid displacement from β=0 (km)"
+          ],
+          "rows": [
+            [
+              "2017",
+              "Prey",
+              "-8.0",
+              "-14",
+              "0.757",
+              "9.2"
+            ],
+            [
+              "2017",
+              "Prey+ice",
+              "-12.2",
+              "+20",
+              "0.407",
+              "16.1"
+            ],
+            [
+              "2017",
+              "Prey+vessel",
+              "-8.5",
+              "+9",
+              "0.663",
+              "10.3"
+            ],
+            [
+              "2017",
+              "Prey+ice+vessel",
+              "-10.2",
+              "+26",
+              "0.440",
+              "39.1"
+            ],
+            [
+              "2018",
+              "Prey",
+              "-10.0",
+              "-12",
+              "0.651",
+              "11.7"
+            ],
+            [
+              "2018",
+              "Prey+ice",
+              "-7.9",
+              "+18",
+              "0.586",
+              "13.8"
+            ],
+            [
+              "2018",
+              "Prey+vessel",
+              "-9.3",
+              "+9",
+              "0.791",
+              "10.8"
+            ],
+            [
+              "2018",
+              "Prey+ice+vessel",
+              "-7.7",
+              "+6",
+              "0.705",
+              "2.4"
+            ]
+          ]
+        },
+        {
+          "title": "B, Alternative utility-combination operators",
+          "headers": [
+            "Operator",
+            "β",
+            "Scenario-year comparisons (n)",
+            "Mean-cost change, range (%)",
+            "Jaccard overlap with β=0, range",
+            "Centroid displacement from β=0, range (km)"
+          ],
+          "rows": [
+            [
+              "Maximum",
+              "0.25",
+              "8",
+              "-6.6 to -2.6",
+              "0.440-0.921",
+              "0.4-19.0"
+            ],
+            [
+              "Maximum",
+              "0.50",
+              "8",
+              "-16.0 to -8.8",
+              "0.444-0.833",
+              "2.4-36.0"
+            ],
+            [
+              "Capped additive",
+              "0.25",
+              "8",
+              "-14.7 to -9.4",
+              "0.325-0.706",
+              "4.0-22.8"
+            ],
+            [
+              "Capped additive",
+              "0.50",
+              "8",
+              "-23.4 to -16.2",
+              "0.246-0.679",
+              "6.0-32.2"
+            ]
+          ]
+        }
+      ],
+      "note": "Note. Year-specific relative pelagic support was added only within observation-supported portions of the 2017 and 2018 landscapes. Prey denotes the primary benthic prey-only scenario. β controls the strength of added pelagic support, and β=0 reproduces the corresponding benthic baseline. The bounded complementary operator was prespecified as the primary formulation; the maximum and capped-additive operators respectively retained the larger support value or summed benthic and weighted pelagic support up to a maximum of 1. Changes and spatial comparisons are relative to the same scenario and year at β=0. Negative cost changes indicate lower modeled path cost, and positive cell-count changes indicate expansion of the frequent-corridor footprint (Fs>0.05). Panel B ranges span all four scenarios in both years. β is a sensitivity parameter, not an estimated conversion between benthic and pelagic prey energy."
+    }
+  }
+}

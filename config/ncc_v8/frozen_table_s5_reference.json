@@ -1,0 +1,53 @@
+{
+  "source": "docs/release_planning/v8_ncc_frozen_manuscript_inventory_v1.md",
+  "source_sha256": "bb6c66b3453b9dbb2ec1d1f4d5a48853b338f57e84fb9db3c37272ef9bfb978f",
+  "scope": "Additional frozen study TableS5 display; original S1-S4 reference untouched",
+  "tables": {
+    "TableS5": {
+      "title": "Supplementary Table S5 | Family-specific coefficients for converting amphipod biomass to frozen-equivalent energy density",
+      "parts": [
+        {
+          "title": "S5",
+          "headers": [
+            "Amphipod family",
+            "Dry-weight: wet-weight mass ratio",
+            "Formalin-preserved caloric content (kJ g⁻¹ dry weight)",
+            "Frozen caloric content (kJ g⁻¹ dry weight)",
+            "Frozen: formalin caloric ratio"
+          ],
+          "rows": [
+            [
+              "Ampeliscidae",
+              "0.145",
+              "22.27",
+              "21.43",
+              "0.963"
+            ],
+            [
+              "Isaeidae",
+              "0.089",
+              "23.11",
+              "19.08",
+              "0.826"
+            ],
+            [
+              "Melitidae",
+              "0.413",
+              "25.12",
+              "19.24",
+              "0.766"
+            ],
+            [
+              "Pontoporeiidae",
+              "0.103",
+              "24.40",
+              "20.28",
+              "0.831"
+            ]
+          ]
+        }
+      ],
+      "note": "Note. For each family, formalin-preserved wet-weight biomass density was multiplied by the dry-weight: wet-weight mass ratio, formalin-preserved caloric content and frozen: formalin caloric ratio to obtain frozen-equivalent energy density. Frozen caloric content is shown as the measured value underlying the preservation ratio. Values are rounded for display; analyses used the unrounded source coefficients. Exact coefficients were obtained from Marx 5; Hondolero et al. 6 and Wilt et al. 7 support the regional caloric-content and preservation-adjustment methods."
+    }
+  }
+}

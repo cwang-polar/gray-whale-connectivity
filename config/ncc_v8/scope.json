@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "status": "declarative_scope_only_not_executable_runtime_config",
+  "baseline": "study frozen figure/table inventory 2026-11-18",
+  "execution_permitted": false,
+  "primary": {
+    "grid_m": 10000,
+    "reported_ocean_cells": 2839,
+    "projected_crs": "EPSG:3338",
+    "source_endpoints": 40,
+    "destination_endpoints": 40,
+    "paths_per_scenario_year": 1600,
+    "prey_variable": "total_kJm2_frozen",
+    "prey_window": "t-4 through t inclusive",
+    "interpolation": {
+      "max_neighbors": 8,
+      "power": 2,
+      "max_distance_km": 250
+    },
+    "scaling": "use original pooled full-precision scaling JSON"
+  },
+  "scenarios": {
+    "prey": {
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    "prey_ice": {
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    "prey_vessel": {
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    "prey_ice_vessel": {
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    }
+  },
+  "early_months": [
+    5,
+    6,
+    7
+  ],
+  "late_months": [
+    8,
+    9,
+    10
+  ],
+  "ice": {
+    "primary_anchors": [
+      0.15,
+      0.55
+    ],
+    "minimum_accessibility": 0.05,
+    "sensitivity_joint_anchors": [
+      [
+        0.1,
+        0.45
+      ],
+      [
+        0.15,
+        0.55
+      ],
+      [
+        0.2,
+        0.65
+      ]
+    ],
+    "missing_value_rule": "preserve adopted v1 and SM2 implementation"
+  },
+  "vessel": {
+    "alpha": 0.5,
+    "alpha_sensitivity": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "fixed_log_q99": 12.227191402577025,
+    "season_rule": "monthly modifier then seasonal average; same primary log_q99 across seasons"
+  },
+  "graph": {
+    "neighbor_count": 8,
+    "directed": false,
+    "numerical_epsilon": 0.001,
+    "algorithm_rule": "retain original branch-specific implementation, node ordering and ties"
+  },
+  "spatial_metrics": {
+    "early_observation_months": [
+      6,
+      7
+    ],
+    "early_sightings_full_period": 1179,
+    "early_sightings_common_period": 666,
+    "percentile_background": "same-year strict effort cells",
+    "core_target": "regional annual Fs>=q95",
+    "distance_target": "nearest regional Fs>0.05 cell",
+    "mapping_gate_km": 15,
+    "leave_one_year_out": "each complete year omitted in turn within its comparison period"
+  },
+  "annual_metrics": {
+    "fig5C": "2011-2019 prey+ice cost vs June-July reported whales per 100 matched transect km",
+    "primary_mode": 2,
+    "max_gap_seconds": 300,
+    "max_speed_kmh": 600,
+    "annual_rate": "100 * sum(matched reported whales) / sum(matched transect km)",
+    "S8_periods": "prey and prey+ice 2011-2019; vessel scenarios 2015-2019",
+    "S8_statistic": "Pearson r and leave-one-year-out range",
+    "retain_2019": true,
+    "cost_band": "joint ice-anchor sensitivity, not observational CI"
+  },
+  "robustness": {
+    "IDW": [
+      {
+        "k": 8,
+        "p": 2
+      },
+      {
+        "k": 8,
+        "p": 1
+      },
+      {
+        "k": 8,
+        "p": 3
+      },
+      {
+        "k": 4,
+        "p": 2
+      }
+    ],
+    "currency_variables": [
+      "total_kJm2_frozen",
+      "total_gww",
+      "total_gC"
+    ],
+    "metric_definition_parameters": "preserve actual study S7 source tables; retain the specified regional and effort-based targets",
+    "recurrence_parameters": "preserve study S10 membership and threshold tables"
+  },
+  "pelagic": {
+    "observed_years": [
+      2017,
+      2018
+    ],
+    "month": 6,
+    "observed_grid_counts": [
+      38,
+      28
+    ],
+    "supported_grid_counts": [
+      921,
+      695
+    ],
+    "max_prediction_distance_km": 60,
+    "domain_rule": "sampled convex hull intersect observation-distance gate",
+    "primary_beta": 0.25,
+    "primary_operator": "1-(1-U_benthic)*(1-beta*P)",
+    "prediction_seed": 8675309,
+    "stored_prediction_draws": 200,
+    "used_corridor_draws": 100,
+    "temporal_extrapolation": false
+  },
+  "exclusions": [
+    "Phase8U",
+    "annual_only",
+    "IDW_k12",
+    "single_upper_ice_anchor_only",
+    "uniform_DBO3_support_results",
+    "pelagic_energy",
+    "post_2019_corridors",
+    "remove_2019",
+    "unused_8V_bootstraps_and_first_differences"
+  ],
+  "warning": "This specification records analysis selection constraints; full-precision inputs and implementation determine numerical results."
+}

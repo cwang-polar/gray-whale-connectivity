@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "summary_date": "2026-11-19",
+  "validation_date": "2026-11-18",
+  "source_report_sha256": "2fbf026245fe95bd4987f029274032b56ea7869be23fb9ac4f2fd514d6aabe27",
+  "tasks": {
+    "TableS1": {
+      "task": "TableS1",
+      "exit_code": 0,
+      "status": "passed_frozen_display_cells",
+      "checks": {
+        "task": "TableS1",
+        "inputs": {
+          "data:outputs/lcp_v2/prey_ice_brian_C3_route_summary_v2.csv": "594534d8361670dbbd4804bd1a44ecc855b88ad233655a5031c0ea52379af2da",
+          "data:outputs/lcp_v2/prey_ice_ship_brian_C3_route_summary_v2.csv": "dad89e3b9d285d611a09a22de9f4578768d112bbfbdf3904e77f4f4817903a31",
+          "data:outputs/lcp_v2/prey_only_brian_C3_route_summary_v2.csv": "756325331e2b38adf3346b826a008c0185fa2a189f201bc1b59bf278a5514aad",
+          "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_C3_route_summary_v2.csv": "91ef29d5eb89d2d6b17ec5bf3434312c0b99309591436b45574e71535fe4e95b",
+          "data:outputs/manuscript_figures_v3/figure_4/source_data/gray_whale_figure4_four_scenario_source_data_candidate_v2.csv": "5131459ffdb344696b18d27c8a5e2f482cfbacc453f57b38c012bd993cad80a9",
+          "data:outputs/manuscript_figures_v3/figure_3/source_data/gray_whale_figure3_ncc_seasonality_candidate_v3_panels_A_E_all_early_anchor_values.csv": "4706dd2eacc89a14bec51294e28442982e783e89d961b64a74936e5e757ea3a6",
+          "data:outputs/robustness_smoke_test_phase8t/figures/source_data/figure4_vessel_alpha_sensitivity_spatial_source_data_v1.csv": "d57466765fa8ae84f453191162d2b2482af76d83fc25197fc3dd155acd676989"
+        },
+        "frozen_display_cells_match": true,
+        "part_row_counts": [
+          28,
+          19
+        ],
+        "metrics_recomputed": false,
+        "layer": "Formatting stored metrics; S4B ranges aggregate the eight stored results only",
+        "reference": "config/ncc_v8/frozen_table_references.json",
+        "exporter": "gray_whale_corridor.release.table_adapters"
+      }
+    },
+    "TableS2": {
+      "task": "TableS2",
+      "exit_code": 0,
+      "status": "passed_frozen_display_cells",
+      "checks": {
+        "task": "TableS2",
+        "inputs": {
+          "data:outputs/manuscript_figures_v3/figure_5/source_data/figure5_panel_a_full_period_validation_candidate_v2.csv": "55fce85eed7a624ee72373824da3792140a100974f3bf0b250528894a0fea5f7",
+          "data:outputs/manuscript_figures_v3/figure_5/source_data/figure5_panel_b_common_period_validation_candidate_v2.csv": "7640708b26f015477f20dbf5f19c8208155b0dbae73f00c4fb213da5863c2dae",
+          "data:outputs/manuscript_figures_v3/supplementary_figures_working/d1_august_october_corridor_observed_use_v1/source_data/gray_whale_si_d1_observed_use_source_data_v1.csv": "cbc993d391589c15c0ba765230d11d7fe1ad0e74d630e697ba9f713ffe193264"
+        },
+        "frozen_display_cells_match": true,
+        "part_row_counts": [
+          6,
+          6
+        ],
+        "metrics_recomputed": false,
+        "layer": "Formatting stored metrics; S4B ranges aggregate the eight stored results only",
+        "reference": "config/ncc_v8/frozen_table_references.json",
+        "exporter": "gray_whale_corridor.release.table_adapters"
+      }
+    },
+    "TableS3": {
+      "task": "TableS3",
+      "exit_code": 0,
+      "status": "passed_frozen_display_cells",
+      "checks": {
+        "task": "TableS3",
+        "inputs": {
+          "data:outputs/manuscript_figures_v3/figure_5/source_data/figure5_panel_c_recurrent_cells_candidate_v2.csv": "93fc45b47cbc5ffbb98dacf038c76095c34269e10e23466a5f7b9adb2080662a",
+          "data:outputs/manuscript_figures_v3/figure_5/source_data/figure5_panel_d_exposure_priority_candidate_v2.csv": "fdecaba493dba826121e9c8aa1d07104a36498e7041bcc84df1fa0209df41e92"
+        },
+        "frozen_display_cells_match": true,
+        "part_row_counts": [
+          20
+        ],
+        "metrics_recomputed": false,
+        "layer": "Formatting stored metrics; S4B ranges aggregate the eight stored results only",
+        "reference": "config/ncc_v8/frozen_table_references.json",
+        "exporter": "gray_whale_corridor.release.table_adapters"
+      }
+    },
+    "TableS4": {
+      "task": "TableS4",
+      "exit_code": 0,
+      "status": "passed_frozen_display_cells",
+      "checks": {
+        "task": "TableS4",
+        "inputs": {
+          "data:outputs/pelagic_support_phase8s/corridor_sensitivity/summaries/phase8s_central_corridor_change_from_benthic_baseline.csv": "f40acf6d020560baac34255b56caaa119232474c6783d65cdbca061477894fda"
+        },
+        "frozen_display_cells_match": true,
+        "part_row_counts": [
+          8,
+          4
+        ],
+        "metrics_recomputed": false,
+        "layer": "Formatting stored metrics; S4B ranges aggregate the eight stored results only",
+        "reference": "config/ncc_v8/frozen_table_references.json",
+        "exporter": "gray_whale_corridor.release.table_adapters"
+      }
+    },
+    "annual_rates": {
+      "task": "annual_rates",
+      "exit_code": 0,
+      "status": "passed_numerical_archive_checks",
+      "checks": {
+        "scenario_year_cost_rows": 28,
+        "available_period_rows": 4,
+        "omission_rows": 28,
+        "correlations_match_frozen": true,
+        "annual_rate_rows": 9,
+        "rates_match_frozen": true,
+        "regional_membership_matches": true
+      }
+    },
+    "annual_correlation": {
+      "task": "annual_correlation",
+      "exit_code": 0,
+      "status": "passed_numerical_archive_checks",
+      "checks": {
+        "scenario_year_cost_rows": 28,
+        "available_period_rows": 4,
+        "omission_rows": 28,
+        "correlations_match_frozen": true
+      }
+    },
+    "spatial_matching": {
+      "task": "spatial_matching",
+      "exit_code": 0,
+      "status": "passed_numerical_archive_checks",
+      "checks": {
+        "records_match_archive": true,
+        "primary_matches_archive_and_fig5": true,
+        "record_rows": 5022,
+        "primary_rows": 6
+      }
+    },
+    "sensitivity_survey_year": {
+      "task": "sensitivity_survey_year",
+      "exit_code": 0,
+      "status": "passed_numerical_archive_checks",
+      "checks": {
+        "records_match_archive": true,
+        "primary_matches_archive_and_fig5": true,
+        "omissions_match_archive": true,
+        "ranges_match_archive_and_fig5": true,
+        "record_rows": 5022,
+        "summary_rows": 44,
+        "range_rows": 6
+      }
+    },
+    "Fig4": {
+      "task": "Fig4",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 4,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "Fig5": {
+      "task": "Fig5",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 4,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "Fig6": {
+      "task": "Fig6",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 0,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S2": {
+      "task": "S2",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 1,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S3": {
+      "task": "S3",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 5,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S4": {
+      "task": "S4",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 3,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S5": {
+      "task": "S5",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 2,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S6": {
+      "task": "S6",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 4,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S7": {
+      "task": "S7",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 3,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S8": {
+      "task": "S8",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 1,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S9": {
+      "task": "S9",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 4,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S10": {
+      "task": "S10",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 6,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S11": {
+      "task": "S11",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 5,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S12": {
+      "task": "S12",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 3,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    },
+    "S13": {
+      "task": "S13",
+      "exit_code": 0,
+      "status": "passed_content_checks_inspected_render_differences_accepted",
+      "source_csv_files_checked": 1,
+      "source_csv_bytes_match_previous_acceptance": true,
+      "svg_text_matches_previous_acceptance": true,
+      "caption_matches_frozen_v8": true,
+      "pdf_container_valid": true,
+      "independent_pdf_page_rendering": false,
+      "png_pixels_identical": false,
+      "visual_review": "No apparent scientific-content change or new obvious overlap; not a pixel-equivalence assertion",
+      "verification_scope": "Inspected scientific-content-preserving pixel differences; not pixel equality or future uninspected outputs"
+    }
+  },
+  "scope": "Archived-input reproduction; not complete raw-data-to-paper reproduction",
+  "display_rounding": "Table S4A Jaccard uses Decimal ROUND_HALF_UP: stored 0.6625 displays 0.663",
+  "environment": {
+    "python": "3.10.0",
+    "system": "macOS 14.6.1 arm64",
+    "new_dependency_environment": true,
+    "clean_operating_system": false,
+    "cross_platform_tested": false,
+    "generated_hash_lock_reinstalled_separately": false
+  },
+  "verification": {
+    "pip_check_passed": true,
+    "release_tests_passed": 40,
+    "survey_effort_tests_passed": 9
+  },
+  "not_claimed": [
+    "raw-data-to-paper completion",
+    "Access-to-CSV equivalence",
+    "pixel identity",
+    "publication permission"
+  ]
+}

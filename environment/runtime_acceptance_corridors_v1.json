@@ -1,0 +1,2772 @@
+{
+  "date": "2026-11-19",
+  "starting_layer": "Archived model utility or modifier inputs",
+  "raw_benthic_source_status": "External station inputs; primary corridor reproduction uses archived utility surfaces.",
+  "scientific_code_changed": [],
+  "scientific_parameters_changed": false,
+  "primary_scientific_code_sha256": {
+    "scripts/run_prey_only_lcp_brian_amphipod_C3_v2.py": "1081f16871781def9b3d59498054ad43cf304ebe1d58d1e8983a548b26a55381",
+    "scripts/run_prey_ice_lcp_brian_amphipod_C3_v2.py": "970494ce056fbdf9f17a0e78404d6ef0a3a39c50ea49d292b4aa4a6f231f71c4",
+    "scripts/run_prey_ice_ship_lcp_brian_amphipod_C3_v2.py": "55e41e53a2b0f19eec5cd1bc080a76bc5279d44f67cb0b5424f38e469a120e34",
+    "scripts/run_phase8k_prey_vessel_factorial_v1.py": "6d64b6844a9aa67a52549db1f312259af1d77291714f4b6c04c95824eefb719b",
+    "scripts/run_prey_only_lcp_main_south_to_north_v0.py": "e4cf39c4cce9e4406f68e19bf68b3d9a282fa9ae800effe6f1dccf065401cf54",
+    "src/gray_whale_corridor/movement/lcp_ensemble.py": "ad10cecf6e183ff51de396e8d3f76759eda2e8cfc049d6193cb2ce0e0cf4fb37",
+    "src/gray_whale_corridor/release/corridors_v8.py": "cf8775d1047994f8b159ab9cc7f4b1e2e710394efb5e202a915719ffa5e2a46b"
+  },
+  "tasks": {
+    "primary_corridors": {
+      "task": "primary_corridors",
+      "status": "passed_archived_input_reproduction",
+      "input_hashes": {
+        "data:data/processed/study_domain/ocean_mask_grid_10km_C3_recurring_support_v2.csv": "2c272537c7546d077e02ce4159abfbe709e3e88416b52e53363484cb9d82bccf",
+        "data:data/processed/study_domain/fixed_endpoint_candidates_main_south_to_north_C3_v2_clean_largest_component.csv": "96b836adea41fc57b5b58a358557b510cac3330342b5e3b1a1747d24f9be73f5",
+        "data:outputs/lcp_v2/prey_only_brian_C3_route_summary_v2.csv": "756325331e2b38adf3346b826a008c0185fa2a189f201bc1b59bf278a5514aad",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_path_summary_v2.csv": "e0cabc6a9593488ac445d8c744066c1cbbe6998eb8ec5db93566a678e0c4e4d9",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2011_v2.csv": "fcb806daccf7dee921452cdd19a9c1de890661cad85e3bcc0451942497fcffe0",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2011_full_trailing_C3_v2.csv": "0fcdc84a8735ecff352c83b873ac4b16d43cb7abd4b079717f39e98c2cb68c4c",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2012_v2.csv": "5e007298610a95405fb43b25b0a5e9d18b680dbe9f6cb50ee666e8e7cf2f0dc9",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2012_full_trailing_C3_v2.csv": "4cfb2d8bb02c22a07ffbf37a6754d001e3c1b948420fceff0bbf43937ed54051",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2013_v2.csv": "a181987a456d63af71f19253b5cc2422b2bb1d8a5fbeb73aee1fa8f3ee0d6fbf",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2013_full_trailing_C3_v2.csv": "c0597b3038cbaf2441e4e5a1f634bf9796dc24b5214fd9c850ffb6a067448441",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2014_v2.csv": "af4f7275d3a3e80b5317978b877eecede38b77da3d31b78ae1033913f1cb1f67",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2014_full_trailing_C3_v2.csv": "43e4d1ef35dffdb5febe18fff0285b4db1479595db4850b0060fde6e2240174c",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "dc810694aa0c29f6e92fc177f4ae553137bf4f9e4831d056460b2721860d8da7",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2015_full_trailing_C3_v2.csv": "f220077aa9641ee2f3084a0f8217df63a30b976949322f7168b3637a3d3b14f4",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "3ba818bf954516a62a69f4a109ca2a0131b0ea13bd754796e9e3e3e37c32f644",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2016_full_trailing_C3_v2.csv": "7b4cf547bc6f8c09fa096bf7ddac7f9183603c617ba9370892e1e2f10ca4aa9b",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "88b894f3af16e7905902e20295421367e77d898ecbfb207aaa25a9bd7bc18254",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2017_full_trailing_C3_v2.csv": "037a62a25785d6f15634dd4d6c7df36d7a14c4647bef176c00a44687cff65b80",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "b5b13761ab76c184e89031c934b577144a7372ac691c83a5fba2f39e3b88d4eb",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2018_full_trailing_C3_v2.csv": "774c339dc362e02eb5b2d3c43ac35c374ab2e144430dcec8be501f09a7cacdd9",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "7dc0ee02fc04b8ca3fbb346bda08ceecbf27080db3a919f5439a249a48373710",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2019_full_trailing_C3_v2.csv": "71f847a67b8dd4557d6a98941b5dc5635be751233fdf74e66cf441ee49ea08e4",
+        "data:outputs/lcp_v2/prey_ice_brian_C3_route_summary_v2.csv": "594534d8361670dbbd4804bd1a44ecc855b88ad233655a5031c0ea52379af2da",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_path_summary_v2.csv": "d384fe688595cfaec437375a1c5ddd9e4523cca6b922f68524792bed2d635b01",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2011_v2.csv": "57b3da59207c93ce37b4f8496afd83a3f782aef20c66a5080a232258bf1fd5b4",
+        "data:outputs/surfaces_v2/prey_ice_brian_kJm2_frozen_C3_utility_target2011_v2.csv": "d8fda6b256ac67d2f594871e6037d3f65bc1bd3377fcc0a1972e3886a2db063a",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2012_v2.csv": "dca8e7db544be21fe44a421bd43911fba412625a05e75fed2d5a3d8f5861d056",
+        "data:outputs/surfaces_v2/prey_ice_brian_kJm2_frozen_C3_utility_target2012_v2.csv": "576be82ba64dd969e289647b6802d41b73df6114ef0e22ff5a572d03cb88c008",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2013_v2.csv": "beada760a530b6f2e54233f88ea0beffb65a3fe37a0087f44b794363bfcf38ae",
+        "data:outputs/surfaces_v2/prey_ice_brian_kJm2_frozen_C3_utility_target2013_v2.csv": "46bc1204fcf93e0ee5f9718213d42a20c592033a400bd1f567c7fdbe9299fefb",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2014_v2.csv": "8754bc2df2f0e421a30cdd152aac22dec2fe7f81ed637797854a86504478c23b",
+        "data:outputs/surfaces_v2/prey_ice_brian_kJm2_frozen_C3_utility_target2014_v2.csv": "681d8b8002a502e74c31fc008711dba4b2161b3603c15cdc2add7bb7bef96460",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "764bfbeceb5b611f808c669c892dee44f7fb4d07e9d430be729787f1d258684e",
+        "data:outputs/surfaces_v2/prey_ice_brian_kJm2_frozen_C3_utility_target2015_v2.csv": "41c9e25b12f4652502854485925306249cdc908fd8980ef4d6bc60555f6c0a04",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "3ca72b06196ad4b59b1cb652e2a225a0f01362d2e0c9ed56a9814327a5f1889c",
+        "data:outputs/surfaces_v2/prey_ice_brian_kJm2_frozen_C3_utility_target2016_v2.csv": "1d1c03a75255158f44c1165f8f11927c1a4a0588a3700f3402c8cfc668d32042",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "5223109e4fc26725ac5a08f747877cd697bde35a5629f95e1acaa86a48117d71",
+        "data:outputs/surfaces_v2/prey_ice_brian_kJm2_frozen_C3_utility_target2017_v2.csv": "1aa7465dff4abbdec33d768977037f95e3952f415495f3ced54bd0a756ee244b",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "4a3edeb6da1cf92a4e75cd9eef424905246294851a75eb226e2268cc357c9d23",
+        "data:outputs/surfaces_v2/prey_ice_brian_kJm2_frozen_C3_utility_target2018_v2.csv": "c8260dd4da34de571290a2d4038aebcae74cef31759e9d14901dc3452ebe176a",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "813dae5f5f13a207786a5d7356441ac1e987c56824f66127b2988e0e7d84fa7a",
+        "data:outputs/surfaces_v2/prey_ice_brian_kJm2_frozen_C3_utility_target2019_v2.csv": "243958c708f33aa03f8e999bb8725508cea36590db6de5934d7da9f4c24a550d",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_C3_route_summary_v2.csv": "91ef29d5eb89d2d6b17ec5bf3434312c0b99309591436b45574e71535fe4e95b",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_path_summary_v2.csv": "473693c85d73bf460d67ce057d29be1aeaa1c8d5a9f0a7fa8e035529aa9748d1",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "0cd57a8ef4331bc8e1c9dfb4dcb64252f19bd8e762a9264bebb0ca94ecc3de64",
+        "data:outputs/prey_vessel_phase8k/surfaces/prey_vessel_brian_kJm2_frozen_C3_utility_target2015_v2.csv": "737e9d926b9cd58ce269985a68318cfc305c98d51768bf08ab2562e46dd79b8c",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "5dcdd962f73a53e0a14c4a10e869f3424fe8f3dd27ee08e439e121c8ea057b7f",
+        "data:outputs/prey_vessel_phase8k/surfaces/prey_vessel_brian_kJm2_frozen_C3_utility_target2016_v2.csv": "557b735e3a54ed2f00e141ecb6c28a9460503ca1c3f73f19e49571b21a4e4ac7",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "84fbdf75c13c26dc35b6f8cb7028fce73306f24c675604b88f544aaaef2d2c89",
+        "data:outputs/prey_vessel_phase8k/surfaces/prey_vessel_brian_kJm2_frozen_C3_utility_target2017_v2.csv": "4ea8ff076e7af33908e1a67193ca99e95e89f15e9e69fd4207c4a3cca598cc04",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "dd8a2fd17999d2dabf5f8c5e78b912fbcf9458b7de2840efb9548d3631473fc6",
+        "data:outputs/prey_vessel_phase8k/surfaces/prey_vessel_brian_kJm2_frozen_C3_utility_target2018_v2.csv": "c0ee0db480f2541209d6e5d8f74f8156d4501d6f4c2009adfc8c3d0fba5f60e3",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "c7fda182f49787589552833938c3427e24e9df1c0d3d5bf0887b6caf8e829bce",
+        "data:outputs/prey_vessel_phase8k/surfaces/prey_vessel_brian_kJm2_frozen_C3_utility_target2019_v2.csv": "009f49ac9fb214af61010b65da86a7dabcadf9f298d951af00ea447b70109f95",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_C3_route_summary_v2.csv": "dad89e3b9d285d611a09a22de9f4578768d112bbfbdf3904e77f4f4817903a31",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_path_summary_v2.csv": "f88403ec697d1446c31b7be322f6e0476898bb0f9f16aa5d136761c49923cd36",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "a78f2e1d36cfb642c72d1e118de2cbe246ea4bafa883dafa7043bb59b79a2e47",
+        "data:outputs/surfaces_v2/prey_ice_ship_brian_kJm2_frozen_C3_utility_target2015_v2.csv": "fe3021c4a695bf1c1a99a2244c53682dc3f72a2fb50f4ba903748f6c90f715f3",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "29ae44a7e7477b83f3a91cc0da8660998beba3fead3e13f7f88609e690b23970",
+        "data:outputs/surfaces_v2/prey_ice_ship_brian_kJm2_frozen_C3_utility_target2016_v2.csv": "6c23877dc703a756d87c284d8855c2ec28e412348a56478e99bcd34e8088d0fa",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "fa26a4f8461560134f1bb7cc12e7f56179f0e728b91d9804a6709ba775f2c340",
+        "data:outputs/surfaces_v2/prey_ice_ship_brian_kJm2_frozen_C3_utility_target2017_v2.csv": "35abf113cb5cc035cb1c9238651a246aa59d104ad341c15c70e1050bf9056756",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "864b0dd9ccb302adc78e5be8558e8cee1a5099a11a395314eeb3c8e83ce50bb9",
+        "data:outputs/surfaces_v2/prey_ice_ship_brian_kJm2_frozen_C3_utility_target2018_v2.csv": "70c0d011a4be9e0048e02937546c062bc97b9d96bb972f1d7f58d7a5ca2ad158",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "0e0a6a03678c9faa64ce32da1c8add004fed705ff3c075ae5817bf98773da758",
+        "data:outputs/surfaces_v2/prey_ice_ship_brian_kJm2_frozen_C3_utility_target2019_v2.csv": "774211295791c7749cae14fbec6572d58c4551f282d0522c631c4b7208e7cf82"
+      },
+      "checks_passed": 84,
+      "checks": [
+        {
+          "comparison": "prey_only_2011_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_amphipod_prey_global_q05_q95": 0.0,
+            "R_log": 4.440892098500626e-16,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2011_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U": 8.326672684688674e-17,
+            "path_min_U": 0.0,
+            "path_max_U": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2011_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2012_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_amphipod_prey_global_q05_q95": 0.0,
+            "R_log": 8.881784197001252e-16,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2012_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U": 8.326672684688674e-17,
+            "path_min_U": 0.0,
+            "path_max_U": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2012_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 2.2737367544323206e-13,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2013_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_amphipod_prey_global_q05_q95": 0.0,
+            "R_log": 8.881784197001252e-16,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2013_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U": 8.326672684688674e-17,
+            "path_min_U": 0.0,
+            "path_max_U": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2013_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2014_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_amphipod_prey_global_q05_q95": 0.0,
+            "R_log": 8.881784197001252e-16,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2014_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U": 5.551115123125783e-17,
+            "path_min_U": 0.0,
+            "path_max_U": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2014_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2015_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_amphipod_prey_global_q05_q95": 0.0,
+            "R_log": 8.881784197001252e-16,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2015_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U": 5.551115123125783e-17,
+            "path_min_U": 0.0,
+            "path_max_U": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2015_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 1.1368683772161603e-13,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2016_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_amphipod_prey_global_q05_q95": 0.0,
+            "R_log": 4.440892098500626e-16,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2016_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U": 5.551115123125783e-17,
+            "path_min_U": 0.0,
+            "path_max_U": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2016_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2017_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_amphipod_prey_global_q05_q95": 0.0,
+            "R_log": 4.440892098500626e-16,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2017_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U": 5.551115123125783e-17,
+            "path_min_U": 0.0,
+            "path_max_U": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2017_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 2.2737367544323206e-13,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 2.2737367544323206e-13,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 2.2737367544323206e-13,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2018_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_amphipod_prey_global_q05_q95": 0.0,
+            "R_log": 4.440892098500626e-16,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2018_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U": 5.551115123125783e-17,
+            "path_min_U": 0.0,
+            "path_max_U": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2018_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 2.2737367544323206e-13,
+            "median_path_cost": 0.0,
+            "min_path_cost": 1.1368683772161603e-13,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2019_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_amphipod_prey_global_q05_q95": 0.0,
+            "R_log": 4.440892098500626e-16,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2019_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U": 5.551115123125783e-17,
+            "path_min_U": 0.0,
+            "path_max_U": 0.0
+          }
+        },
+        {
+          "comparison": "prey_only_2019_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2011_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "R_log_prey_ice_beta1": 4.440892098500626e-16,
+            "delta_R_log_ice_beta1": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2011_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 8.326672684688674e-17,
+            "path_mean_A_ice": 0.0,
+            "path_mean_U_prey_ice": 8.326672684688674e-17,
+            "path_mean_delta_R_log_ice": 8.326672684688674e-17,
+            "path_min_A_ice": 0.0,
+            "path_min_U_prey_ice": 0.0,
+            "path_Aice_lt_0_50_cell_count": 0.0,
+            "path_Aice_lt_0_25_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2011_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 1.1368683772161603e-13,
+            "median_path_length_km": 0.0,
+            "mean_path_U_prey": 5.551115123125783e-17,
+            "mean_path_A_ice": 0.0,
+            "mean_path_U_prey_ice": 0.0,
+            "mean_path_delta_R_log_ice": 0.0,
+            "mean_path_Aice_lt_0_50_cell_count": 0.0,
+            "mean_path_Aice_lt_0_25_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2012_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "R_log_prey_ice_beta1": 4.440892098500626e-16,
+            "delta_R_log_ice_beta1": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2012_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 8.326672684688674e-17,
+            "path_mean_A_ice": 5.551115123125783e-17,
+            "path_mean_U_prey_ice": 9.71445146547012e-17,
+            "path_mean_delta_R_log_ice": 1.1102230246251565e-16,
+            "path_min_A_ice": 0.0,
+            "path_min_U_prey_ice": 0.0,
+            "path_Aice_lt_0_50_cell_count": 0.0,
+            "path_Aice_lt_0_25_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2012_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "mean_path_U_prey": 5.551115123125783e-17,
+            "mean_path_A_ice": 0.0,
+            "mean_path_U_prey_ice": 0.0,
+            "mean_path_delta_R_log_ice": 0.0,
+            "mean_path_Aice_lt_0_50_cell_count": 0.0,
+            "mean_path_Aice_lt_0_25_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2013_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "R_log_prey_ice_beta1": 8.881784197001252e-16,
+            "delta_R_log_ice_beta1": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2013_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 8.326672684688674e-17,
+            "path_mean_A_ice": 5.551115123125783e-17,
+            "path_mean_U_prey_ice": 8.326672684688674e-17,
+            "path_mean_delta_R_log_ice": 1.1102230246251565e-16,
+            "path_min_A_ice": 0.0,
+            "path_min_U_prey_ice": 0.0,
+            "path_Aice_lt_0_50_cell_count": 0.0,
+            "path_Aice_lt_0_25_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2013_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 1.1368683772161603e-13,
+            "median_path_length_km": 0.0,
+            "mean_path_U_prey": 5.551115123125783e-17,
+            "mean_path_A_ice": 0.0,
+            "mean_path_U_prey_ice": 0.0,
+            "mean_path_delta_R_log_ice": 0.0,
+            "mean_path_Aice_lt_0_50_cell_count": 0.0,
+            "mean_path_Aice_lt_0_25_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2014_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "R_log_prey_ice_beta1": 8.881784197001252e-16,
+            "delta_R_log_ice_beta1": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2014_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_A_ice": 0.0,
+            "path_mean_U_prey_ice": 8.326672684688674e-17,
+            "path_mean_delta_R_log_ice": 8.326672684688674e-17,
+            "path_min_A_ice": 0.0,
+            "path_min_U_prey_ice": 0.0,
+            "path_Aice_lt_0_50_cell_count": 0.0,
+            "path_Aice_lt_0_25_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2014_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "mean_path_U_prey": 0.0,
+            "mean_path_A_ice": 0.0,
+            "mean_path_U_prey_ice": 5.551115123125783e-17,
+            "mean_path_delta_R_log_ice": 5.551115123125783e-17,
+            "mean_path_Aice_lt_0_50_cell_count": 0.0,
+            "mean_path_Aice_lt_0_25_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2015_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "R_log_prey_ice_beta1": 8.881784197001252e-16,
+            "delta_R_log_ice_beta1": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2015_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_A_ice": 0.0,
+            "path_mean_U_prey_ice": 5.551115123125783e-17,
+            "path_mean_delta_R_log_ice": 5.551115123125783e-17,
+            "path_min_A_ice": 0.0,
+            "path_min_U_prey_ice": 0.0,
+            "path_Aice_lt_0_50_cell_count": 0.0,
+            "path_Aice_lt_0_25_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2015_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "mean_path_U_prey": 5.551115123125783e-17,
+            "mean_path_A_ice": 0.0,
+            "mean_path_U_prey_ice": 0.0,
+            "mean_path_delta_R_log_ice": 5.551115123125783e-17,
+            "mean_path_Aice_lt_0_50_cell_count": 0.0,
+            "mean_path_Aice_lt_0_25_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2016_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "R_log_prey_ice_beta1": 8.881784197001252e-16,
+            "delta_R_log_ice_beta1": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2016_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_A_ice": 0.0,
+            "path_mean_U_prey_ice": 5.551115123125783e-17,
+            "path_mean_delta_R_log_ice": 5.551115123125783e-17,
+            "path_min_A_ice": 0.0,
+            "path_min_U_prey_ice": 0.0,
+            "path_Aice_lt_0_50_cell_count": 0.0,
+            "path_Aice_lt_0_25_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2016_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "mean_path_U_prey": 0.0,
+            "mean_path_A_ice": 0.0,
+            "mean_path_U_prey_ice": 5.551115123125783e-17,
+            "mean_path_delta_R_log_ice": 0.0,
+            "mean_path_Aice_lt_0_50_cell_count": 0.0,
+            "mean_path_Aice_lt_0_25_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2017_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "R_log_prey_ice_beta1": 4.440892098500626e-16,
+            "delta_R_log_ice_beta1": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2017_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_A_ice": 1.1102230246251565e-16,
+            "path_mean_U_prey_ice": 5.551115123125783e-17,
+            "path_mean_delta_R_log_ice": 8.326672684688674e-17,
+            "path_min_A_ice": 0.0,
+            "path_min_U_prey_ice": 0.0,
+            "path_Aice_lt_0_50_cell_count": 0.0,
+            "path_Aice_lt_0_25_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2017_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 2.2737367544323206e-13,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 2.2737367544323206e-13,
+            "mean_path_U_prey": 0.0,
+            "mean_path_A_ice": 0.0,
+            "mean_path_U_prey_ice": 5.551115123125783e-17,
+            "mean_path_delta_R_log_ice": 2.7755575615628914e-17,
+            "mean_path_Aice_lt_0_50_cell_count": 0.0,
+            "mean_path_Aice_lt_0_25_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2018_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "R_log_prey_ice_beta1": 4.440892098500626e-16,
+            "delta_R_log_ice_beta1": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2018_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_A_ice": 1.1102230246251565e-16,
+            "path_mean_U_prey_ice": 5.551115123125783e-17,
+            "path_mean_delta_R_log_ice": 9.71445146547012e-17,
+            "path_min_A_ice": 0.0,
+            "path_min_U_prey_ice": 0.0,
+            "path_Aice_lt_0_50_cell_count": 0.0,
+            "path_Aice_lt_0_25_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2018_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 2.2737367544323206e-13,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "mean_path_U_prey": 0.0,
+            "mean_path_A_ice": 0.0,
+            "mean_path_U_prey_ice": 0.0,
+            "mean_path_delta_R_log_ice": 2.7755575615628914e-17,
+            "mean_path_Aice_lt_0_50_cell_count": 0.0,
+            "mean_path_Aice_lt_0_25_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2019_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "R_log_prey_ice_beta1": 4.440892098500626e-16,
+            "delta_R_log_ice_beta1": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2019_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_A_ice": 1.1102230246251565e-16,
+            "path_mean_U_prey_ice": 5.551115123125783e-17,
+            "path_mean_delta_R_log_ice": 9.71445146547012e-17,
+            "path_min_A_ice": 0.0,
+            "path_min_U_prey_ice": 0.0,
+            "path_Aice_lt_0_50_cell_count": 0.0,
+            "path_Aice_lt_0_25_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_2019_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "mean_path_U_prey": 5.551115123125783e-17,
+            "mean_path_A_ice": 0.0,
+            "mean_path_U_prey_ice": 5.551115123125783e-17,
+            "mean_path_delta_R_log_ice": 6.938893903907228e-17,
+            "mean_path_Aice_lt_0_50_cell_count": 0.0,
+            "mean_path_Aice_lt_0_25_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2015_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "D_vessel_alpha0_5_MayJul_mean": 0.0,
+            "S_scaled_vessel_primary_MayJul_mean": 0.0,
+            "U_prey_vessel_alpha0_5": 0.0,
+            "R_log_prey_vessel_alpha0_5": 4.440892098500626e-16,
+            "delta_R_log_vessel_alpha0_5": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2015_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_D_vessel": 1.1102230246251565e-16,
+            "path_mean_S_scaled_vessel": 9.71445146547012e-17,
+            "path_mean_U_prey_vessel": 5.551115123125783e-17,
+            "path_mean_delta_R_vessel": 9.71445146547012e-17,
+            "path_min_D_vessel": 0.0,
+            "path_min_U_prey_vessel": 0.0,
+            "path_S_scaled_vessel_gt_0_50_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2015_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 1.1368683772161603e-13,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 2.2737367544323206e-13,
+            "mean_path_D_vessel": 1.1102230246251565e-16,
+            "mean_path_S_scaled_vessel": 8.326672684688674e-17,
+            "mean_path_U_prey_vessel": 5.551115123125783e-17,
+            "mean_path_delta_R_vessel": 8.326672684688674e-17,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2016_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "D_vessel_alpha0_5_MayJul_mean": 0.0,
+            "S_scaled_vessel_primary_MayJul_mean": 0.0,
+            "U_prey_vessel_alpha0_5": 0.0,
+            "R_log_prey_vessel_alpha0_5": 4.440892098500626e-16,
+            "delta_R_log_vessel_alpha0_5": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2016_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_D_vessel": 1.1102230246251565e-16,
+            "path_mean_S_scaled_vessel": 9.71445146547012e-17,
+            "path_mean_U_prey_vessel": 5.551115123125783e-17,
+            "path_mean_delta_R_vessel": 9.71445146547012e-17,
+            "path_min_D_vessel": 0.0,
+            "path_min_U_prey_vessel": 0.0,
+            "path_S_scaled_vessel_gt_0_50_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2016_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "mean_path_D_vessel": 1.1102230246251565e-16,
+            "mean_path_S_scaled_vessel": 0.0,
+            "mean_path_U_prey_vessel": 0.0,
+            "mean_path_delta_R_vessel": 4.163336342344337e-17,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2017_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "D_vessel_alpha0_5_MayJul_mean": 0.0,
+            "S_scaled_vessel_primary_MayJul_mean": 0.0,
+            "U_prey_vessel_alpha0_5": 0.0,
+            "R_log_prey_vessel_alpha0_5": 4.440892098500626e-16,
+            "delta_R_log_vessel_alpha0_5": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2017_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_D_vessel": 1.1102230246251565e-16,
+            "path_mean_S_scaled_vessel": 8.326672684688674e-17,
+            "path_mean_U_prey_vessel": 5.551115123125783e-17,
+            "path_mean_delta_R_vessel": 9.71445146547012e-17,
+            "path_min_D_vessel": 0.0,
+            "path_min_U_prey_vessel": 0.0,
+            "path_S_scaled_vessel_gt_0_50_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2017_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 2.2737367544323206e-13,
+            "median_path_cost": 2.2737367544323206e-13,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "mean_path_D_vessel": 1.1102230246251565e-16,
+            "mean_path_S_scaled_vessel": 5.551115123125783e-17,
+            "mean_path_U_prey_vessel": 0.0,
+            "mean_path_delta_R_vessel": 4.163336342344337e-17,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2018_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "D_vessel_alpha0_5_MayJul_mean": 0.0,
+            "S_scaled_vessel_primary_MayJul_mean": 0.0,
+            "U_prey_vessel_alpha0_5": 0.0,
+            "R_log_prey_vessel_alpha0_5": 4.440892098500626e-16,
+            "delta_R_log_vessel_alpha0_5": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2018_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_D_vessel": 1.1102230246251565e-16,
+            "path_mean_S_scaled_vessel": 9.71445146547012e-17,
+            "path_mean_U_prey_vessel": 5.551115123125783e-17,
+            "path_mean_delta_R_vessel": 9.71445146547012e-17,
+            "path_min_D_vessel": 0.0,
+            "path_min_U_prey_vessel": 0.0,
+            "path_S_scaled_vessel_gt_0_50_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2018_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 2.2737367544323206e-13,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "mean_path_D_vessel": 1.1102230246251565e-16,
+            "mean_path_S_scaled_vessel": 4.163336342344337e-17,
+            "mean_path_U_prey_vessel": 0.0,
+            "mean_path_delta_R_vessel": 1.3877787807814457e-17,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2019_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "D_vessel_alpha0_5_MayJul_mean": 0.0,
+            "S_scaled_vessel_primary_MayJul_mean": 0.0,
+            "U_prey_vessel_alpha0_5": 0.0,
+            "R_log_prey_vessel_alpha0_5": 4.440892098500626e-16,
+            "delta_R_log_vessel_alpha0_5": 0.0,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2019_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_D_vessel": 1.1102230246251565e-16,
+            "path_mean_S_scaled_vessel": 9.71445146547012e-17,
+            "path_mean_U_prey_vessel": 5.551115123125783e-17,
+            "path_mean_delta_R_vessel": 9.71445146547012e-17,
+            "path_min_D_vessel": 0.0,
+            "path_min_U_prey_vessel": 0.0,
+            "path_S_scaled_vessel_gt_0_50_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_vessel_2019_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "median_path_length_km": 0.0,
+            "mean_path_D_vessel": 0.0,
+            "mean_path_S_scaled_vessel": 1.3877787807814457e-17,
+            "mean_path_U_prey_vessel": 5.551115123125783e-17,
+            "mean_path_delta_R_vessel": 9.71445146547012e-17,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2015_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "D_ship_alpha0_5_MayJul_mean": 0.0,
+            "S_scaled_ship_primary_MayJul_mean": 0.0,
+            "U_prey_ice_ship_alpha0_5": 0.0,
+            "R_log_prey_ice_ship_alpha0_5": 4.440892098500626e-16,
+            "delta_R_log_ship_alpha0_5": 3.1554436208840472e-30,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2015_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_A_ice": 0.0,
+            "path_mean_U_prey_ice": 5.551115123125783e-17,
+            "path_mean_D_ship": 1.1102230246251565e-16,
+            "path_mean_S_scaled_ship": 9.71445146547012e-17,
+            "path_mean_U_multi": 8.326672684688674e-17,
+            "path_mean_delta_R_ship": 9.71445146547012e-17,
+            "path_min_D_ship": 0.0,
+            "path_min_U_multi": 0.0,
+            "path_S_scaled_gt_0_50_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2015_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 2.2737367544323206e-13,
+            "median_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "mean_path_A_ice": 0.0,
+            "mean_path_D_ship": 1.1102230246251565e-16,
+            "mean_path_S_scaled_ship": 8.326672684688674e-17,
+            "mean_path_U_multi": 5.551115123125783e-17,
+            "mean_path_delta_R_ship": 0.0,
+            "mean_path_S_scaled_gt_0_50_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2016_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "D_ship_alpha0_5_MayJul_mean": 0.0,
+            "S_scaled_ship_primary_MayJul_mean": 0.0,
+            "U_prey_ice_ship_alpha0_5": 0.0,
+            "R_log_prey_ice_ship_alpha0_5": 8.881784197001252e-16,
+            "delta_R_log_ship_alpha0_5": 6.310887241768095e-30,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2016_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_A_ice": 0.0,
+            "path_mean_U_prey_ice": 5.551115123125783e-17,
+            "path_mean_D_ship": 1.1102230246251565e-16,
+            "path_mean_S_scaled_ship": 9.71445146547012e-17,
+            "path_mean_U_multi": 5.551115123125783e-17,
+            "path_mean_delta_R_ship": 9.71445146547012e-17,
+            "path_min_D_ship": 0.0,
+            "path_min_U_multi": 0.0,
+            "path_S_scaled_gt_0_50_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2016_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 2.2737367544323206e-13,
+            "median_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "mean_path_A_ice": 0.0,
+            "mean_path_D_ship": 1.1102230246251565e-16,
+            "mean_path_S_scaled_ship": 2.7755575615628914e-17,
+            "mean_path_U_multi": 0.0,
+            "mean_path_delta_R_ship": 8.326672684688674e-17,
+            "mean_path_S_scaled_gt_0_50_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2017_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "D_ship_alpha0_5_MayJul_mean": 0.0,
+            "S_scaled_ship_primary_MayJul_mean": 0.0,
+            "U_prey_ice_ship_alpha0_5": 0.0,
+            "R_log_prey_ice_ship_alpha0_5": 4.440892098500626e-16,
+            "delta_R_log_ship_alpha0_5": 3.1554436208840472e-30,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2017_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_A_ice": 0.0,
+            "path_mean_U_prey_ice": 5.551115123125783e-17,
+            "path_mean_D_ship": 1.1102230246251565e-16,
+            "path_mean_S_scaled_ship": 9.71445146547012e-17,
+            "path_mean_U_multi": 5.551115123125783e-17,
+            "path_mean_delta_R_ship": 9.71445146547012e-17,
+            "path_min_D_ship": 0.0,
+            "path_min_U_multi": 0.0,
+            "path_S_scaled_gt_0_50_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2017_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "mean_path_A_ice": 0.0,
+            "mean_path_D_ship": 0.0,
+            "mean_path_S_scaled_ship": 2.7755575615628914e-17,
+            "mean_path_U_multi": 0.0,
+            "mean_path_delta_R_ship": 1.3877787807814457e-17,
+            "mean_path_S_scaled_gt_0_50_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2018_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "D_ship_alpha0_5_MayJul_mean": 0.0,
+            "S_scaled_ship_primary_MayJul_mean": 0.0,
+            "U_prey_ice_ship_alpha0_5": 0.0,
+            "R_log_prey_ice_ship_alpha0_5": 4.440892098500626e-16,
+            "delta_R_log_ship_alpha0_5": 6.310887241768095e-30,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2018_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 4.547473508864641e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_A_ice": 1.1102230246251565e-16,
+            "path_mean_U_prey_ice": 5.551115123125783e-17,
+            "path_mean_D_ship": 1.1102230246251565e-16,
+            "path_mean_S_scaled_ship": 9.71445146547012e-17,
+            "path_mean_U_multi": 5.551115123125783e-17,
+            "path_mean_delta_R_ship": 9.71445146547012e-17,
+            "path_min_D_ship": 0.0,
+            "path_min_U_multi": 0.0,
+            "path_S_scaled_gt_0_50_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2018_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 2.2737367544323206e-13,
+            "median_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "mean_path_A_ice": 0.0,
+            "mean_path_D_ship": 0.0,
+            "mean_path_S_scaled_ship": 2.7755575615628914e-17,
+            "mean_path_U_multi": 0.0,
+            "mean_path_delta_R_ship": 3.469446951953614e-17,
+            "mean_path_S_scaled_gt_0_50_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2019_grid",
+          "rows": 2839,
+          "reference_rows": 2839,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "target_year": 0.0,
+            "U_prey_global": 0.0,
+            "A_ice_v1_MayJul": 0.0,
+            "U_prey_ice_beta1": 0.0,
+            "D_ship_alpha0_5_MayJul_mean": 0.0,
+            "S_scaled_ship_primary_MayJul_mean": 0.0,
+            "U_prey_ice_ship_alpha0_5": 0.0,
+            "R_log_prey_ice_ship_alpha0_5": 4.440892098500626e-16,
+            "delta_R_log_ship_alpha0_5": 3.1554436208840472e-30,
+            "lcp_count": 0.0,
+            "lcp_frequency_normalized": 0.0,
+            "ocean_flag": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2019_paths",
+          "rows": 1600,
+          "reference_rows": 1600,
+          "keys": [
+            "source_grid_id",
+            "destination_grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "path_cost": 2.2737367544323206e-13,
+            "path_length_km": 2.2737367544323206e-13,
+            "path_cell_count": 0.0,
+            "path_mean_U_prey": 5.551115123125783e-17,
+            "path_mean_A_ice": 1.1102230246251565e-16,
+            "path_mean_U_prey_ice": 5.551115123125783e-17,
+            "path_mean_D_ship": 1.1102230246251565e-16,
+            "path_mean_S_scaled_ship": 9.71445146547012e-17,
+            "path_mean_U_multi": 5.551115123125783e-17,
+            "path_mean_delta_R_ship": 9.71445146547012e-17,
+            "path_min_D_ship": 0.0,
+            "path_min_U_multi": 0.0,
+            "path_S_scaled_gt_0_50_cell_count": 0.0
+          }
+        },
+        {
+          "comparison": "prey_ice_vessel_2019_route",
+          "rows": 1,
+          "reference_rows": 1,
+          "keys": [
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "source_endpoint_count": 0.0,
+            "destination_endpoint_count": 0.0,
+            "attempted_path_count": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 2.2737367544323206e-13,
+            "median_path_cost": 0.0,
+            "mean_path_length_km": 0.0,
+            "mean_path_A_ice": 0.0,
+            "mean_path_D_ship": 0.0,
+            "mean_path_S_scaled_ship": 5.551115123125783e-17,
+            "mean_path_U_multi": 0.0,
+            "mean_path_delta_R_ship": 9.71445146547012e-17,
+            "mean_path_S_scaled_gt_0_50_cell_count": 0.0,
+            "corridor_area_cells_freq_gt_0": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "corridor_area_cells_freq_gt_0_10": 0.0,
+            "top_bottleneck_frequency": 0.0
+          }
+        }
+      ],
+      "scenario_years_recomputed": 28,
+      "paths_recomputed": 44800,
+      "layer": "Archived primary utility surfaces to corridor solutions; no raw-data preprocessing",
+      "alternate_prey_currencies_recomputed": false,
+      "raw_benthic_read": false,
+      "scientific_parameters_changed": false,
+      "full_raw_to_paper_reproduction": false,
+      "new_experiment": false,
+      "denied_nonessential_platform_probes": [
+        "Blocked subprocess.Popen outside this task's contract: lscpu"
+      ]
+    },
+    "sensitivity_ice": {
+      "task": "sensitivity_ice",
+      "status": "passed_archived_input_reproduction",
+      "input_hashes": {
+        "data:data/processed/study_domain/ocean_mask_grid_10km_C3_recurring_support_v2.csv": "2c272537c7546d077e02ce4159abfbe709e3e88416b52e53363484cb9d82bccf",
+        "data:data/processed/study_domain/fixed_endpoint_candidates_main_south_to_north_C3_v2_clean_largest_component.csv": "96b836adea41fc57b5b58a358557b510cac3330342b5e3b1a1747d24f9be73f5",
+        "data:outputs/lcp_v2/prey_only_brian_C3_route_summary_v2.csv": "756325331e2b38adf3346b826a008c0185fa2a189f201bc1b59bf278a5514aad",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2011_v2.csv": "fcb806daccf7dee921452cdd19a9c1de890661cad85e3bcc0451942497fcffe0",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2012_v2.csv": "5e007298610a95405fb43b25b0a5e9d18b680dbe9f6cb50ee666e8e7cf2f0dc9",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2013_v2.csv": "a181987a456d63af71f19253b5cc2422b2bb1d8a5fbeb73aee1fa8f3ee0d6fbf",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2014_v2.csv": "af4f7275d3a3e80b5317978b877eecede38b77da3d31b78ae1033913f1cb1f67",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "dc810694aa0c29f6e92fc177f4ae553137bf4f9e4831d056460b2721860d8da7",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "3ba818bf954516a62a69f4a109ca2a0131b0ea13bd754796e9e3e3e37c32f644",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "88b894f3af16e7905902e20295421367e77d898ecbfb207aaa25a9bd7bc18254",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "b5b13761ab76c184e89031c934b577144a7372ac691c83a5fba2f39e3b88d4eb",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "7dc0ee02fc04b8ca3fbb346bda08ceecbf27080db3a919f5439a249a48373710",
+        "data:outputs/lcp_v2/prey_ice_brian_C3_route_summary_v2.csv": "594534d8361670dbbd4804bd1a44ecc855b88ad233655a5031c0ea52379af2da",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2011_v2.csv": "57b3da59207c93ce37b4f8496afd83a3f782aef20c66a5080a232258bf1fd5b4",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2012_v2.csv": "dca8e7db544be21fe44a421bd43911fba412625a05e75fed2d5a3d8f5861d056",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2013_v2.csv": "beada760a530b6f2e54233f88ea0beffb65a3fe37a0087f44b794363bfcf38ae",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2014_v2.csv": "8754bc2df2f0e421a30cdd152aac22dec2fe7f81ed637797854a86504478c23b",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "764bfbeceb5b611f808c669c892dee44f7fb4d07e9d430be729787f1d258684e",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "3ca72b06196ad4b59b1cb652e2a225a0f01362d2e0c9ed56a9814327a5f1889c",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "5223109e4fc26725ac5a08f747877cd697bde35a5629f95e1acaa86a48117d71",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "4a3edeb6da1cf92a4e75cd9eef424905246294851a75eb226e2268cc357c9d23",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "813dae5f5f13a207786a5d7356441ac1e987c56824f66127b2988e0e7d84fa7a",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_C3_route_summary_v2.csv": "91ef29d5eb89d2d6b17ec5bf3434312c0b99309591436b45574e71535fe4e95b",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "0cd57a8ef4331bc8e1c9dfb4dcb64252f19bd8e762a9264bebb0ca94ecc3de64",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "5dcdd962f73a53e0a14c4a10e869f3424fe8f3dd27ee08e439e121c8ea057b7f",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "84fbdf75c13c26dc35b6f8cb7028fce73306f24c675604b88f544aaaef2d2c89",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "dd8a2fd17999d2dabf5f8c5e78b912fbcf9458b7de2840efb9548d3631473fc6",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "c7fda182f49787589552833938c3427e24e9df1c0d3d5bf0887b6caf8e829bce",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_C3_route_summary_v2.csv": "dad89e3b9d285d611a09a22de9f4578768d112bbfbdf3904e77f4f4817903a31",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "a78f2e1d36cfb642c72d1e118de2cbe246ea4bafa883dafa7043bb59b79a2e47",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "29ae44a7e7477b83f3a91cc0da8660998beba3fead3e13f7f88609e690b23970",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "fa26a4f8461560134f1bb7cc12e7f56179f0e728b91d9804a6709ba775f2c340",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "864b0dd9ccb302adc78e5be8558e8cee1a5099a11a395314eeb3c8e83ce50bb9",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "0e0a6a03678c9faa64ce32da1c8add004fed705ff3c075ae5817bf98773da758",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2011_full_trailing_C3_v2.csv": "0fcdc84a8735ecff352c83b873ac4b16d43cb7abd4b079717f39e98c2cb68c4c",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2011.csv": "71d2fb6ab41e9a3507a9b9851dbbb2fc4477ac0eb28e219a7e795f985a0e812f",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2012_full_trailing_C3_v2.csv": "4cfb2d8bb02c22a07ffbf37a6754d001e3c1b948420fceff0bbf43937ed54051",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2012.csv": "bf3f79b2673c21cf8d0dfb55da7c09f23eea489d57d4d4f6701ff00188c1f383",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2013_full_trailing_C3_v2.csv": "c0597b3038cbaf2441e4e5a1f634bf9796dc24b5214fd9c850ffb6a067448441",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2013.csv": "a541c74e8d116885c6b63ed682d5a444b427840fbdf73965e283d7907c69e9a8",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2014_full_trailing_C3_v2.csv": "43e4d1ef35dffdb5febe18fff0285b4db1479595db4850b0060fde6e2240174c",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2014.csv": "3b2265c8d474f9b0178fa9c666830634f2e493c63f61c4fa67097b1eba5d53ba",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2015_full_trailing_C3_v2.csv": "f220077aa9641ee2f3084a0f8217df63a30b976949322f7168b3637a3d3b14f4",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2015.csv": "6ae8359ced5259627a547623abfed73e377d08756b7a79c07d430257c32758a9",
+        "data:outputs/ship/ship_intensity_MayJul_target2015.csv": "cb63d5f352aa5b4a494ba43f30695d3c13862ba015f8a3ba0a6d5cda4c2221e7",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2016_full_trailing_C3_v2.csv": "7b4cf547bc6f8c09fa096bf7ddac7f9183603c617ba9370892e1e2f10ca4aa9b",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2016.csv": "1473780afcd651a3bd360ad89f86171de3af1a8308e37704076146da4aea9bc3",
+        "data:outputs/ship/ship_intensity_MayJul_target2016.csv": "388bfd015863be61836da25b63fee24f6c274478c50611cf3b42d4b4e55ab192",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2017_full_trailing_C3_v2.csv": "037a62a25785d6f15634dd4d6c7df36d7a14c4647bef176c00a44687cff65b80",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2017.csv": "252da9b99adaaa1e9fc3614bd668081050a17b00b9d1cb8f98ac49c27edbba71",
+        "data:outputs/ship/ship_intensity_MayJul_target2017.csv": "5b72d64d902c945932f7ebed1a846f737793bfd1c2dec68b2d524919c62f768a",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2018_full_trailing_C3_v2.csv": "774c339dc362e02eb5b2d3c43ac35c374ab2e144430dcec8be501f09a7cacdd9",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2018.csv": "b6e85fb9d24f71717e042909d75e2ed563dc10d27a19a73ffc7d222f56b31ff6",
+        "data:outputs/ship/ship_intensity_MayJul_target2018.csv": "381baaeb6717884493b2313d873ee7b67f0c89d5e206f1aad9ba75d802fdffee",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2019_full_trailing_C3_v2.csv": "71f847a67b8dd4557d6a98941b5dc5635be751233fdf74e66cf441ee49ea08e4",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2019.csv": "6cae5cd2dd9b7c973feaa36a0fd991ed09fbd03968b060a42d581a1bd8b8e7dc",
+        "data:outputs/ship/ship_intensity_MayJul_target2019.csv": "bd48b150c948d7cfe0402dee59c68fd3db4b45a2328cf7a0043bb9d91b181132",
+        "data:outputs/robustness_smoke_test_phase8t/ice_joint_anchor_v2/joint_ice_anchor_route_metrics.csv": "34d41f32e78013bb9054886d9f7d58e4be23d704798b736698b58777c80f8d2a",
+        "data:outputs/robustness_smoke_test_phase8t/ice_joint_anchor_v2/joint_ice_anchor_frequency_surfaces.csv.gz": "f2a844c2009b343c30c5f9f7791828c17b8fa802a6e07518a7bb476d06b7ff6e",
+        "data:outputs/robustness_smoke_test_phase8t/ice_joint_anchor_v2/joint_ice_anchor_prey_comparison_metrics.csv": "8f2460eccde98109258462b46182f581fba127d51a46be3a36860c964e32adb6",
+        "data:outputs/robustness_smoke_test_phase8t/ice_joint_anchor_v2/joint_ice_anchor_accessibility_summary.csv": "f27ac9d8baa737f998dc09ea9b167058b640710eed54a254310013b634190c44"
+      },
+      "checks_passed": 4,
+      "checks": [
+        {
+          "comparison": "joint_ice_anchor_route_metrics.csv",
+          "rows": 42,
+          "reference_rows": 42,
+          "keys": [
+            "setting",
+            "scenario",
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "top_bottleneck_frequency": 0.0,
+            "centroid_x": 0.0,
+            "centroid_y": 0.0,
+            "centroid_lon": 0.0,
+            "centroid_lat": 0.0
+          }
+        },
+        {
+          "comparison": "joint_ice_anchor_frequency_surfaces.csv.gz",
+          "rows": 119238,
+          "reference_rows": 119238,
+          "keys": [
+            "setting",
+            "scenario",
+            "target_year",
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "lcp_frequency_normalized": 0.0
+          }
+        },
+        {
+          "comparison": "joint_ice_anchor_prey_comparison_metrics.csv",
+          "rows": 27,
+          "reference_rows": 27,
+          "keys": [
+            "setting",
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "mean_path_cost_a": 0.0,
+            "mean_path_cost_b": 0.0,
+            "percent_cost_change_b_vs_a": 0.0,
+            "frequent_cells_a": 0.0,
+            "frequent_cells_b": 0.0,
+            "frequent_cell_change_b_minus_a": 0.0,
+            "jaccard_freq_gt_0_05": 0.0,
+            "centroid_displacement_km": 0.0,
+            "centroid_east_west_displacement_km": 0.0,
+            "centroid_north_south_displacement_km": 0.0
+          }
+        },
+        {
+          "comparison": "joint_ice_anchor_accessibility_summary.csv",
+          "rows": 27,
+          "reference_rows": 27,
+          "keys": [
+            "setting",
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "lower_sic": 0.0,
+            "upper_sic": 0.0,
+            "mean_accessibility": 0.0,
+            "median_accessibility": 0.0,
+            "cells_accessibility_lt_0_50": 0.0
+          }
+        }
+      ],
+      "scenario_year_rows": 42,
+      "alternative_scenario_years_recomputed": 28,
+      "primary_scenario_years_reused_as_in_original": 14,
+      "layer": "Archived prey and monthly SIC/modifiers; original joint-anchor workflow",
+      "raw_benthic_read": false,
+      "scientific_parameters_changed": false,
+      "full_raw_to_paper_reproduction": false,
+      "new_experiment": false,
+      "denied_nonessential_platform_probes": [
+        "Blocked subprocess.Popen outside this task's contract: lscpu"
+      ]
+    },
+    "sensitivity_vessel": {
+      "task": "sensitivity_vessel",
+      "status": "passed_archived_input_reproduction",
+      "input_hashes": {
+        "data:data/processed/study_domain/ocean_mask_grid_10km_C3_recurring_support_v2.csv": "2c272537c7546d077e02ce4159abfbe709e3e88416b52e53363484cb9d82bccf",
+        "data:data/processed/study_domain/fixed_endpoint_candidates_main_south_to_north_C3_v2_clean_largest_component.csv": "96b836adea41fc57b5b58a358557b510cac3330342b5e3b1a1747d24f9be73f5",
+        "data:outputs/lcp_v2/prey_only_brian_C3_route_summary_v2.csv": "756325331e2b38adf3346b826a008c0185fa2a189f201bc1b59bf278a5514aad",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2011_v2.csv": "fcb806daccf7dee921452cdd19a9c1de890661cad85e3bcc0451942497fcffe0",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2012_v2.csv": "5e007298610a95405fb43b25b0a5e9d18b680dbe9f6cb50ee666e8e7cf2f0dc9",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2013_v2.csv": "a181987a456d63af71f19253b5cc2422b2bb1d8a5fbeb73aee1fa8f3ee0d6fbf",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2014_v2.csv": "af4f7275d3a3e80b5317978b877eecede38b77da3d31b78ae1033913f1cb1f67",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "dc810694aa0c29f6e92fc177f4ae553137bf4f9e4831d056460b2721860d8da7",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "3ba818bf954516a62a69f4a109ca2a0131b0ea13bd754796e9e3e3e37c32f644",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "88b894f3af16e7905902e20295421367e77d898ecbfb207aaa25a9bd7bc18254",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "b5b13761ab76c184e89031c934b577144a7372ac691c83a5fba2f39e3b88d4eb",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "7dc0ee02fc04b8ca3fbb346bda08ceecbf27080db3a919f5439a249a48373710",
+        "data:outputs/lcp_v2/prey_ice_brian_C3_route_summary_v2.csv": "594534d8361670dbbd4804bd1a44ecc855b88ad233655a5031c0ea52379af2da",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2011_v2.csv": "57b3da59207c93ce37b4f8496afd83a3f782aef20c66a5080a232258bf1fd5b4",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2012_v2.csv": "dca8e7db544be21fe44a421bd43911fba412625a05e75fed2d5a3d8f5861d056",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2013_v2.csv": "beada760a530b6f2e54233f88ea0beffb65a3fe37a0087f44b794363bfcf38ae",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2014_v2.csv": "8754bc2df2f0e421a30cdd152aac22dec2fe7f81ed637797854a86504478c23b",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "764bfbeceb5b611f808c669c892dee44f7fb4d07e9d430be729787f1d258684e",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "3ca72b06196ad4b59b1cb652e2a225a0f01362d2e0c9ed56a9814327a5f1889c",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "5223109e4fc26725ac5a08f747877cd697bde35a5629f95e1acaa86a48117d71",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "4a3edeb6da1cf92a4e75cd9eef424905246294851a75eb226e2268cc357c9d23",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "813dae5f5f13a207786a5d7356441ac1e987c56824f66127b2988e0e7d84fa7a",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_C3_route_summary_v2.csv": "91ef29d5eb89d2d6b17ec5bf3434312c0b99309591436b45574e71535fe4e95b",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "0cd57a8ef4331bc8e1c9dfb4dcb64252f19bd8e762a9264bebb0ca94ecc3de64",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "5dcdd962f73a53e0a14c4a10e869f3424fe8f3dd27ee08e439e121c8ea057b7f",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "84fbdf75c13c26dc35b6f8cb7028fce73306f24c675604b88f544aaaef2d2c89",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "dd8a2fd17999d2dabf5f8c5e78b912fbcf9458b7de2840efb9548d3631473fc6",
+        "data:outputs/prey_vessel_phase8k/lcp/prey_vessel_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "c7fda182f49787589552833938c3427e24e9df1c0d3d5bf0887b6caf8e829bce",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_C3_route_summary_v2.csv": "dad89e3b9d285d611a09a22de9f4578768d112bbfbdf3904e77f4f4817903a31",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "a78f2e1d36cfb642c72d1e118de2cbe246ea4bafa883dafa7043bb59b79a2e47",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "29ae44a7e7477b83f3a91cc0da8660998beba3fead3e13f7f88609e690b23970",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "fa26a4f8461560134f1bb7cc12e7f56179f0e728b91d9804a6709ba775f2c340",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "864b0dd9ccb302adc78e5be8558e8cee1a5099a11a395314eeb3c8e83ce50bb9",
+        "data:outputs/lcp_v2/prey_ice_ship_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "0e0a6a03678c9faa64ce32da1c8add004fed705ff3c075ae5817bf98773da758",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2011_full_trailing_C3_v2.csv": "0fcdc84a8735ecff352c83b873ac4b16d43cb7abd4b079717f39e98c2cb68c4c",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2011.csv": "71d2fb6ab41e9a3507a9b9851dbbb2fc4477ac0eb28e219a7e795f985a0e812f",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2012_full_trailing_C3_v2.csv": "4cfb2d8bb02c22a07ffbf37a6754d001e3c1b948420fceff0bbf43937ed54051",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2012.csv": "bf3f79b2673c21cf8d0dfb55da7c09f23eea489d57d4d4f6701ff00188c1f383",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2013_full_trailing_C3_v2.csv": "c0597b3038cbaf2441e4e5a1f634bf9796dc24b5214fd9c850ffb6a067448441",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2013.csv": "a541c74e8d116885c6b63ed682d5a444b427840fbdf73965e283d7907c69e9a8",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2014_full_trailing_C3_v2.csv": "43e4d1ef35dffdb5febe18fff0285b4db1479595db4850b0060fde6e2240174c",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2014.csv": "3b2265c8d474f9b0178fa9c666830634f2e493c63f61c4fa67097b1eba5d53ba",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2015_full_trailing_C3_v2.csv": "f220077aa9641ee2f3084a0f8217df63a30b976949322f7168b3637a3d3b14f4",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2015.csv": "6ae8359ced5259627a547623abfed73e377d08756b7a79c07d430257c32758a9",
+        "data:outputs/ship/ship_intensity_MayJul_target2015.csv": "cb63d5f352aa5b4a494ba43f30695d3c13862ba015f8a3ba0a6d5cda4c2221e7",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2016_full_trailing_C3_v2.csv": "7b4cf547bc6f8c09fa096bf7ddac7f9183603c617ba9370892e1e2f10ca4aa9b",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2016.csv": "1473780afcd651a3bd360ad89f86171de3af1a8308e37704076146da4aea9bc3",
+        "data:outputs/ship/ship_intensity_MayJul_target2016.csv": "388bfd015863be61836da25b63fee24f6c274478c50611cf3b42d4b4e55ab192",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2017_full_trailing_C3_v2.csv": "037a62a25785d6f15634dd4d6c7df36d7a14c4647bef176c00a44687cff65b80",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2017.csv": "252da9b99adaaa1e9fc3614bd668081050a17b00b9d1cb8f98ac49c27edbba71",
+        "data:outputs/ship/ship_intensity_MayJul_target2017.csv": "5b72d64d902c945932f7ebed1a846f737793bfd1c2dec68b2d524919c62f768a",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2018_full_trailing_C3_v2.csv": "774c339dc362e02eb5b2d3c43ac35c374ab2e144430dcec8be501f09a7cacdd9",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2018.csv": "b6e85fb9d24f71717e042909d75e2ed563dc10d27a19a73ffc7d222f56b31ff6",
+        "data:outputs/ship/ship_intensity_MayJul_target2018.csv": "381baaeb6717884493b2313d873ee7b67f0c89d5e206f1aad9ba75d802fdffee",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2019_full_trailing_C3_v2.csv": "71f847a67b8dd4557d6a98941b5dc5635be751233fdf74e66cf441ee49ea08e4",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2019.csv": "6cae5cd2dd9b7c973feaa36a0fd991ed09fbd03968b060a42d581a1bd8b8e7dc",
+        "data:outputs/ship/ship_intensity_MayJul_target2019.csv": "bd48b150c948d7cfe0402dee59c68fd3db4b45a2328cf7a0043bb9d91b181132",
+        "data:outputs/robustness_smoke_test_phase8t/summaries/p3_vessel_route_metrics.csv": "609330d3735e8e303e00ec49b9e3098b95259625ee9a89e154a9e942c2e244db",
+        "data:outputs/robustness_smoke_test_phase8t/lcp/p3_vessel_frequency_surfaces.csv.gz": "8594ebfa1e555fdbf15eb9759e635068437005f2d0bb944718541e9130e0d17e",
+        "data:outputs/robustness_smoke_test_phase8t/summaries/p3_vessel_comparison_metrics.csv": "fc44cf6bd5ea50337102e33136468e797225289ca69f7e3b965686f8cec3b1d8",
+        "data:outputs/robustness_smoke_test_phase8t/surfaces/p3_vessel_modifier_summary.csv": "609ed07d43b4b584ef8ac48a6e7927d86cc3c803abc7af9a0d156791de62f32c"
+      },
+      "checks_passed": 4,
+      "checks": [
+        {
+          "comparison": "p3_vessel_route_metrics.csv",
+          "rows": 30,
+          "reference_rows": 30,
+          "keys": [
+            "setting",
+            "scenario",
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 0.0,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "top_bottleneck_frequency": 0.0,
+            "centroid_x": 0.0,
+            "centroid_y": 0.0,
+            "centroid_lon": 0.0,
+            "centroid_lat": 0.0
+          }
+        },
+        {
+          "comparison": "p3_vessel_frequency_surfaces.csv.gz",
+          "rows": 85170,
+          "reference_rows": 85170,
+          "keys": [
+            "setting",
+            "scenario",
+            "target_year",
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "x": 0.0,
+            "y": 0.0,
+            "lon": 0.0,
+            "lat": 0.0,
+            "lcp_frequency_normalized": 0.0
+          }
+        },
+        {
+          "comparison": "p3_vessel_comparison_metrics.csv",
+          "rows": 30,
+          "reference_rows": 30,
+          "keys": [
+            "setting",
+            "target_year",
+            "scenario_a",
+            "scenario_b"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "mean_path_cost_a": 0.0,
+            "mean_path_cost_b": 0.0,
+            "percent_cost_change_b_vs_a": 0.0,
+            "frequent_cells_a": 0.0,
+            "frequent_cells_b": 0.0,
+            "frequent_cell_change_b_minus_a": 0.0,
+            "jaccard_freq_gt_0_05": 0.0,
+            "centroid_displacement_km": 0.0,
+            "centroid_east_west_displacement_km": 0.0,
+            "centroid_north_south_displacement_km": 0.0
+          }
+        },
+        {
+          "comparison": "p3_vessel_modifier_summary.csv",
+          "rows": 15,
+          "reference_rows": 15,
+          "keys": [
+            "setting",
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "alpha": 0.0,
+            "target_year": 0.0,
+            "mean_modifier": 0.0,
+            "median_modifier": 0.0,
+            "minimum_modifier": 0.0
+          }
+        }
+      ],
+      "scenario_year_rows": 30,
+      "alternative_scenario_years_recomputed": 20,
+      "primary_scenario_years_reused_as_in_original": 10,
+      "layer": "Archived primary prey, ice and scaled vessel exposure; original alpha workflow",
+      "raw_benthic_read": false,
+      "scientific_parameters_changed": false,
+      "full_raw_to_paper_reproduction": false,
+      "new_experiment": false,
+      "denied_nonessential_platform_probes": [
+        "Blocked subprocess.Popen outside this task's contract: lscpu"
+      ]
+    }
+  }
+}

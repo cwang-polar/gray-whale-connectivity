@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "validation_date": "2026-11-20",
+  "scope": "Fig1 label and archived-source rendering verification",
+  "models_or_metrics_recalculated": false,
+  "other_figures_rendered": false,
+  "release_tests": {
+    "passed": 81,
+    "command": "python -B -m unittest discover -s tests -p test_release_*.py"
+  },
+  "tasks": {
+    "Fig1": {
+      "status": "passed_label_verification",
+      "execution_completed": true,
+      "inputs_unchanged": true,
+      "blocked_accesses": [],
+      "baseline_sha256": "c7b87542c2deb0c2a3f8cba47d20422fa23d9cec3a0cad6099b94ffc867dd834",
+      "output_sha256": "a238d3f2fad37951ccee46618a3504b553333181296b86d67e423ecc80cfbb6d",
+      "legacy_AB_pixels_unchanged": true,
+      "all_SVG_path_geometry_unchanged": true,
+      "two_requested_text_edits_only": true,
+      "label_x_axes_fraction": 0.76,
+      "label_height_and_font_unchanged": true,
+      "source_csv_checks": {
+        "c1_dbo_reference_polygons_figure1_matched_v1.csv": true,
+        "ocean_mask_grid_10km_C3_recurring_support_v2.csv": true,
+        "figure1_panel_b_modeled_endpoints_candidate_v2.csv": true,
+        "figure1_panel_a_prey_sampling_locations_candidate_v2.csv": true
+      },
+      "caption_matches_adopted_reference": true,
+      "editable_svg_text_elements": 64,
+      "pixel_dimensions": [
+        3576,
+        3469
+      ],
+      "changed_bounds_against_previous_public_render": [
+        2178,
+        2233,
+        2884,
+        3321
+      ],
+      "changed_pixel_fraction_against_adopted_native_asset": 0.0037357889598057066,
+      "previous_render_differences_outside_edit_regions_unchanged": true,
+      "pixel_identical_to_manuscript_native_asset": false,
+      "source_confirmation": "Unchanged: background-station contribution/source-access item remains unresolved",
+      "manual_word_replacement": true
+    }
+  }
+}

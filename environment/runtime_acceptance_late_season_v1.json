@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-19",
+  "tasks": {
+    "late_season": {
+      "status": "passed_archived_input_reproduction",
+      "task": "late_season",
+      "starting_layer": "Archived primary prey utility and August-October ice/vessel modifiers; original ASAMM CSV exports",
+      "scenario_years_recomputed": 28,
+      "paths_recomputed": 44800,
+      "comparison_checks_passed": 96,
+      "table_comparisons_passed": 95,
+      "separate_auxiliary_field_checks": 1,
+      "maximum_numeric_difference": 5.526246127374179e-12,
+      "path_sequences_counts_and_memberships_exact": true,
+      "ASAMM_record_ids_coordinates_effort_membership_checked": true,
+      "ASAMM_QA": {
+        "analysis_window": "August-October",
+        "all_year_unique_sighting_records": 1843,
+        "all_year_strict_effort_events": 42921,
+        "common_2015_2019_unique_records": 1131,
+        "common_record_count_by_scenario": {
+          "prey_ice": 1131,
+          "prey_ice_vessel": 1131,
+          "prey_only": 1131,
+          "prey_vessel": 1131
+        },
+        "common_record_counts_identical": true,
+        "validation_scope": "effort-conditioned spatial consistency; not direction, abundance, or behavioral response",
+        "warnings": []
+      },
+      "S5_source_data_reproduced": true,
+      "auxiliary_mapping_distance_atol_km": 1e-10,
+      "auxiliary_mapping_distance_max_difference_km": 5.526246127374179e-12,
+      "raw_environment_preprocessing_recomputed": false,
+      "raw_benthic_processing_recomputed": false,
+      "late_season_q99_alternative_executed": false,
+      "Phase8U_executed": false,
+      "figures_redrawn": false,
+      "scientific_parameters_changed": false,
+      "input_hashes_unchanged": true,
+      "denied_nonessential_platform_probes": [
+        "Blocked subprocess.Popen outside this task's contract: lscpu"
+      ]
+    }
+  },
+  "scientific_code_sha256": {
+    "scripts/run_phase8q_aug_oct_late_season_connectivity.py": "1d6b85e0d2b465f97703a4b1e0586cadc6844e6728622eb9ebf66009f65465bd",
+    "scripts/audit_phase8o_season_scope_and_external_method.py": "037ee47f4ac4713ac0d5de7e0d4f2ca3661567c90553b2cf159875e072751816",
+    "scripts/run_prey_only_lcp_main_south_to_north_v0.py": "e4cf39c4cce9e4406f68e19bf68b3d9a282fa9ae800effe6f1dccf065401cf54",
+    "src/gray_whale_corridor/movement/lcp_ensemble.py": "ad10cecf6e183ff51de396e8d3f76759eda2e8cfc049d6193cb2ce0e0cf4fb37",
+    "scripts/manuscript_figures_v3/build_si_d1_aug_oct_corridor_observed_use_v1.py": "f085d8171801111a98a7632afcfb7068901861977a773bc86ec034e430635fd4",
+    "src/gray_whale_corridor/release/late_season_v8.py": "7678f85df8eddaa380f57b28384691e0329b57f93658445a4c501bca06fb8735"
+  },
+  "original_scientific_functions_changed": false,
+  "tests_passed": 49,
+  "python": "3.10.0 (default, Mar  3 2022, 03:54:28) [Clang 12.0.0 ]",
+  "geopandas_io_engine": "pyogrio"
+}

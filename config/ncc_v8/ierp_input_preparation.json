@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "execution_enabled": true,
+  "adapter_status_semantics": "Historical path-registration status; current local results are in environment/runtime_acceptance_v1.json",
+  "data_index_sha256": "e79d453c23ccb56c4f7fa2b3c1c6f4242b3e00fe7c1a448f3dde002551a3bcaf",
+  "output_pattern": "runs/<explicit-run-id>/<task-id>/; never data or software",
+  "output_sections": [
+    "results",
+    "figures",
+    "source_data",
+    "qa",
+    "cache"
+  ],
+  "files": {
+    "data/processed/study_domain/ocean_mask_grid_10km_C3_recurring_support_v2.csv": {
+      "sha256": "2c272537c7546d077e02ce4159abfbe709e3e88416b52e53363484cb9d82bccf",
+      "hold": false,
+      "role": "archived_analysis_input"
+    },
+    "outputs/pelagic_support_phase8s/surfaces/phase8s_observation_informed_pelagic_support_target2017.csv": {
+      "sha256": "0b3176256e1c956c556784fceadd9723840f2893dddd6962043dfae36bf950e7",
+      "hold": false,
+      "role": "archived_analysis_input"
+    },
+    "outputs/pelagic_support_phase8s/surfaces/phase8s_observation_informed_pelagic_support_target2018.csv": {
+      "sha256": "f3e4d7bf258756161ed50aedda3ac04ff4650b9df7f50b1d59efee794f32b29f",
+      "hold": false,
+      "role": "archived_analysis_input"
+    },
+    "outputs/pelagic_prey_phase8n/raw_external/arctic_ierp_synthesis_2026/Gonzalez_INPUT_env_phyto_zoo_taxa.csv": {
+      "sha256": "c31c8f77a4356bc45524ba0232c58344ed87e498d915f2d0143ee79e16b83bbf",
+      "hold": false,
+      "role": "external_acquisition_local_validation_only"
+    },
+    "data/raw/ice/cmems_mod_glo_phy_my_0.083deg_P1M-m_1779048578112.nc": {
+      "sha256": "0684a671d429280163db374299f4185644996136be3d00e8e5c23a5181ee5f8e",
+      "hold": false,
+      "role": "external_acquisition_local_validation_only"
+    }
+  },
+  "tasks": {
+    "prepare_ierp": {
+      "inputs": [
+        "data/processed/study_domain/ocean_mask_grid_10km_C3_recurring_support_v2.csv",
+        "data/raw/ice/cmems_mod_glo_phy_my_0.083deg_P1M-m_1779048578112.nc",
+        "outputs/pelagic_prey_phase8n/raw_external/arctic_ierp_synthesis_2026/Gonzalez_INPUT_env_phyto_zoo_taxa.csv",
+        "outputs/pelagic_support_phase8s/surfaces/phase8s_observation_informed_pelagic_support_target2017.csv",
+        "outputs/pelagic_support_phase8s/surfaces/phase8s_observation_informed_pelagic_support_target2018.csv"
+      ],
+      "aliases": {
+        "grid": "data/processed/study_domain/ocean_mask_grid_10km_C3_recurring_support_v2.csv",
+        "pelagic_2017": "outputs/pelagic_support_phase8s/surfaces/phase8s_observation_informed_pelagic_support_target2017.csv",
+        "pelagic_2018": "outputs/pelagic_support_phase8s/surfaces/phase8s_observation_informed_pelagic_support_target2018.csv",
+        "ierp_csv": "outputs/pelagic_prey_phase8n/raw_external/arctic_ierp_synthesis_2026/Gonzalez_INPUT_env_phyto_zoo_taxa.csv",
+        "glorys": "data/raw/ice/cmems_mod_glo_phy_my_0.083deg_P1M-m_1779048578112.nc"
+      },
+      "hold_reasons": [],
+      "adapter": "gray_whale_corridor.release.ierp_v8:prepare_ierp",
+      "adapter_status": "source_preparation_with_approved_output_identity_checks",
+      "remaining": [
+        "External sources must be acquired separately; no model fitting or source-to-prediction validation."
+      ]
+    }
+  },
+  "output_acceptance_sha256": "c7dcd9d8837a6630405bd16f70effff3f73f5455224998af619fdeb5596a3e55"
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-19",
+  "tasks": {
+    "pelagic_support": {
+      "status": "passed_archived_input_reproduction",
+      "task": "pelagic_support",
+      "starting_layer": "Archived central pelagic support and first 100 stored prediction draws; archived benthic/ice/vessel surfaces and aligned ASAMM",
+      "central_ensembles": 72,
+      "uncertainty_ensembles": 800,
+      "paths_recomputed": 1395200,
+      "central_grid_cells_per_ensemble": 2839,
+      "sighting_records": 323,
+      "comparison_checks_passed": 143,
+      "maximum_numeric_difference": 3.1554436208840472e-30,
+      "numeric_atol": 1e-12,
+      "numeric_rtol": 1e-12,
+      "S12_numerical_sources_reproduced": true,
+      "TableS4_upstream_sources_reproduced": true,
+      "central_cell_frequencies_and_path_summary_fields_checked": true,
+      "uncertainty_route_and_ASAMM_metrics_checked_for_every_draw": true,
+      "uncertainty_grids_have_archived_reference": false,
+      "raw_to_prediction_reproduced": false,
+      "prediction_models_refitted": false,
+      "new_random_draws": false,
+      "raw_benthic_processing_recomputed": false,
+      "full_raw_to_paper_reproduction": false,
+      "figures_redrawn": false,
+      "scientific_parameters_changed": false,
+      "input_hashes_unchanged": true,
+      "TableS4_display_from_reproduced_values_matches_frozen_V8": true,
+      "TableS4_display_data_cells_checked": 72,
+      "denied_nonessential_platform_probes": [
+        "Blocked subprocess.Popen outside this task's contract: lscpu"
+      ]
+    }
+  },
+  "scientific_code_sha256": {
+    "scripts/run_phase8s_observation_informed_corridor_sensitivity.py": "0a9b7d9bdeaf064a6bd00fc51aea61579c579fd058e12585bde4cfa6b43cf663",
+    "scripts/run_phase8r_pelagic_support_structural_sensitivity.py": "a8b5e3299f2881fc180c9af8cb9912c53ab04965e4a09a187a7610fb238f58e1",
+    "scripts/run_prey_only_lcp_main_south_to_north_v0.py": "e4cf39c4cce9e4406f68e19bf68b3d9a282fa9ae800effe6f1dccf065401cf54",
+    "src/gray_whale_corridor/movement/lcp_ensemble.py": "ad10cecf6e183ff51de396e8d3f76759eda2e8cfc049d6193cb2ce0e0cf4fb37",
+    "scripts/manuscript_figures_v3/build_si_b4_pelagic_support_response_v1.py": "5ad6be04b3bf88127b2a4927bcf9b8e699cdb492496bc8228c68303033d200fd",
+    "src/gray_whale_corridor/release/pelagic_v8.py": "5fe226dc0030eb4259409f93cb40fc27b8f2f92a6082526656b1470b46d5ca15",
+    "scripts/summarize_phase8s_observation_informed_results.py": "5509dd0c498b7c38b18707561b05116967443b2d1c77244f86624010fb844c5b",
+    "scripts/plot_phase8s_observation_informed_pelagic_support.py": "c9f7d16db3a462abdaff1a1c7170e575b266601233dd11a98c52564c690129a0"
+  },
+  "original_scientific_functions_changed": false,
+  "tests_passed": 52,
+  "python": "3.10.0 (default, Mar  3 2022, 03:54:28) [Clang 12.0.0 ]",
+  "geopandas_io_engine": "pyogrio"
+}

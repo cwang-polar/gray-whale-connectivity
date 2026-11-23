@@ -1,0 +1,7 @@
+{
+  "role": "Fixed spatial reference only; not a grid-building or proxy configuration",
+  "source_crs": "EPSG:4326",
+  "target_crs": "EPSG:3338",
+  "cell_size_m": 10000,
+  "study_grid": "data/processed/study_domain/ocean_mask_grid_10km_C3_recurring_support_v2.csv"
+}

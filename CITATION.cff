@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite the software version used and the accompanying dataset."
+type: software
+title: "Gray whale Pacific Arctic connectivity: analysis software"
+version: 0.1.0-rc.4
+doi: 10.5281/zenodo.24479214
+repository-code: "https://github.com/cwang-polar/gray-whale-connectivity"
+license: MIT
+authors:
+  - family-names: Wang
+    given-names: Chao
+    affiliation: Chesapeake Biological Laboratory, University of Maryland Center for Environmental Science
+    email: cwang@umces.edu
+  - family-names: Cooper
+    given-names: Lee W.
+    affiliation: Chesapeake Biological Laboratory, University of Maryland Center for Environmental Science
+  - family-names: Moore
+    given-names: Sue E.
+    affiliation: Center for Ecosystem Sentinels, Department of Biology, University of Washington
+  - family-names: Marx
+    given-names: Brian P.
+    affiliation: Chesapeake Biological Laboratory, University of Maryland Center for Environmental Science
+  - family-names: Grebmeier
+    given-names: Jacqueline M.
+    affiliation: Chesapeake Biological Laboratory, University of Maryland Center for Environmental Science
+abstract: "Python workflows for Pacific Arctic gray whale connectivity, including least-cost corridors, seasonal and parameter sensitivities, observation comparisons, and figures and tables. Analyses use documented archived or external inputs. Validation scope, input requirements and AI assistance are documented. MIT covers original project software, not third-party libraries or data."
+keywords:
+  - gray whale
+  - connectivity
+  - Pacific Arctic
+  - reproducibility

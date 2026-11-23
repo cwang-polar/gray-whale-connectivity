@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "validation_date": "2026-11-19",
+  "scope": "Three archived display entries; preceding 25 task reports retained separately",
+  "new_models_or_metrics": false,
+  "raw_benthic_access": false,
+  "release_tests_passed": 42,
+  "runtime": "Existing verified CPython 3.10.0 / macOS 14.6.1 arm64 environment",
+  "tasks": {
+    "Fig1": {
+      "execution_completed": true,
+      "inputs_unchanged": true,
+      "blocked_accesses": [],
+      "status": "passed_archived_data_and_visual_content",
+      "baseline_sha256": "bfd963736c8d929d86f9f4fab79f3c37acbee9059056b75b794b52b70265b3c1",
+      "output_sha256": "658a526b7ee82452f81838df4d1971d81dfed8efe709006c2185505f9696773f",
+      "pixel_dimensions": [
+        3576,
+        3469
+      ],
+      "pixel_rms_0_255": 2.3548229370432368,
+      "changed_pixel_fraction": 0.0039091847704468404,
+      "final_png_identical_to_initial_reviewed_render": true,
+      "editable_svg_text_elements": 66,
+      "frozen_caption_unchanged": true,
+      "source_csv_copies_byte_identical": 4,
+      "pdf_independent_page_rendering": false,
+      "source_confirmation": "Benthic station observations are external inputs; source-specific rights apply to observed aggregates.",
+      "visual_review": "Compared frozen and reproduced PNGs; scientific content and layout retained, with no new visible overlap. Existing Fig1 label crowding preserved.",
+      "pixel_equality_required": false,
+      "unresolved_caption_provenance": "Archived background station points are not proven to be all contributing energy-surface input stations."
+    },
+    "S1": {
+      "execution_completed": true,
+      "inputs_unchanged": true,
+      "blocked_accesses": [],
+      "status": "passed_archived_data_and_visual_content",
+      "baseline_sha256": "3ead23a6ec73efe3e89991d141eebcd6b488e8f71923b5bd760a6756817edd2b",
+      "output_sha256": "5ccc2721c2231a684b77eb0dc72bfe7533ce3658ac827246938898435da4476b",
+      "pixel_dimensions": [
+        2160,
+        2595
+      ],
+      "pixel_rms_0_255": 1.631155276148798,
+      "changed_pixel_fraction": 0.002092521230286163,
+      "final_png_identical_to_initial_reviewed_render": true,
+      "editable_svg_text_elements": 26,
+      "frozen_caption_unchanged": true,
+      "source_csv_copies_byte_identical": 3,
+      "pdf_independent_page_rendering": false,
+      "archived_support_counts_match": true,
+      "annual_support_counts": [
+        [
+          2011,
+          2839,
+          171,
+          2668,
+          0.0,
+          1.0
+        ],
+        [
+          2012,
+          2839,
+          235,
+          2604,
+          0.0,
+          1.0
+        ],
+        [
+          2013,
+          2839,
+          227,
+          2612,
+          0.0,
+          1.0
+        ],
+        [
+          2014,
+          2839,
+          202,
+          2637,
+          0.0,
+          1.0
+        ],
+        [
+          2015,
+          2839,
+          183,
+          2656,
+          0.0,
+          1.0
+        ],
+        [
+          2016,
+          2839,
+          153,
+          2686,
+          0.0,
+          1.0
+        ],
+        [
+          2017,
+          2839,
+          126,
+          2713,
+          0.0,
+          1.0
+        ],
+        [
+          2018,
+          2839,
+          146,
+          2693,
+          0.0,
+          1.0
+        ],
+        [
+          2019,
+          2839,
+          148,
+          2691,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_confirmation": "Benthic station observations are external inputs; source-specific rights apply to observed aggregates.",
+      "visual_review": "Compared frozen and reproduced PNGs; scientific content and layout retained, with no new visible overlap. Existing Fig1 label crowding preserved.",
+      "pixel_equality_required": false,
+      "historical_qa_label": "Legacy mypy10 text is not the actual runtime; use this runtime record."
+    },
+    "TableS5": {
+      "execution_completed": true,
+      "inputs_unchanged": true,
+      "blocked_accesses": [],
+      "frozen_header_rows_note_exact": true,
+      "displayed_data_cells": 20,
+      "coefficient_recalculation": false,
+      "status": "passed_frozen_display",
+      "source_confirmation": "Benthic station observations are external inputs; source-specific rights apply to observed aggregates."
+    }
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-19",
+  "tasks": {
+    "sensitivity_idw": {
+      "status": "passed_archived_input_reproduction_with_documented_exception",
+      "layer": "Archived five-year observed-cell means through V8 four-setting IDW and corridor sensitivity",
+      "input_hashes": {
+        "data:data/processed/study_domain/ocean_mask_grid_10km_C3_recurring_support_v2.csv": "2c272537c7546d077e02ce4159abfbe709e3e88416b52e53363484cb9d82bccf",
+        "data:data/processed/study_domain/fixed_endpoint_candidates_main_south_to_north_C3_v2_clean_largest_component.csv": "96b836adea41fc57b5b58a358557b510cac3330342b5e3b1a1747d24f9be73f5",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2011_full_trailing_C3_v2.csv": "0fcdc84a8735ecff352c83b873ac4b16d43cb7abd4b079717f39e98c2cb68c4c",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2011.csv": "71d2fb6ab41e9a3507a9b9851dbbb2fc4477ac0eb28e219a7e795f985a0e812f",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2011_v2.csv": "fcb806daccf7dee921452cdd19a9c1de890661cad85e3bcc0451942497fcffe0",
+        "data:outputs/lcp_v2/prey_only_brian_C3_route_summary_v2.csv": "756325331e2b38adf3346b826a008c0185fa2a189f201bc1b59bf278a5514aad",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2011_v2.csv": "57b3da59207c93ce37b4f8496afd83a3f782aef20c66a5080a232258bf1fd5b4",
+        "data:outputs/lcp_v2/prey_ice_brian_C3_route_summary_v2.csv": "594534d8361670dbbd4804bd1a44ecc855b88ad233655a5031c0ea52379af2da",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2012_full_trailing_C3_v2.csv": "4cfb2d8bb02c22a07ffbf37a6754d001e3c1b948420fceff0bbf43937ed54051",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2012.csv": "bf3f79b2673c21cf8d0dfb55da7c09f23eea489d57d4d4f6701ff00188c1f383",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2012_v2.csv": "5e007298610a95405fb43b25b0a5e9d18b680dbe9f6cb50ee666e8e7cf2f0dc9",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2012_v2.csv": "dca8e7db544be21fe44a421bd43911fba412625a05e75fed2d5a3d8f5861d056",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2013_full_trailing_C3_v2.csv": "c0597b3038cbaf2441e4e5a1f634bf9796dc24b5214fd9c850ffb6a067448441",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2013.csv": "a541c74e8d116885c6b63ed682d5a444b427840fbdf73965e283d7907c69e9a8",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2013_v2.csv": "a181987a456d63af71f19253b5cc2422b2bb1d8a5fbeb73aee1fa8f3ee0d6fbf",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2013_v2.csv": "beada760a530b6f2e54233f88ea0beffb65a3fe37a0087f44b794363bfcf38ae",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2014_full_trailing_C3_v2.csv": "43e4d1ef35dffdb5febe18fff0285b4db1479595db4850b0060fde6e2240174c",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2014.csv": "3b2265c8d474f9b0178fa9c666830634f2e493c63f61c4fa67097b1eba5d53ba",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2014_v2.csv": "af4f7275d3a3e80b5317978b877eecede38b77da3d31b78ae1033913f1cb1f67",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2014_v2.csv": "8754bc2df2f0e421a30cdd152aac22dec2fe7f81ed637797854a86504478c23b",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2015_full_trailing_C3_v2.csv": "f220077aa9641ee2f3084a0f8217df63a30b976949322f7168b3637a3d3b14f4",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2015.csv": "6ae8359ced5259627a547623abfed73e377d08756b7a79c07d430257c32758a9",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "dc810694aa0c29f6e92fc177f4ae553137bf4f9e4831d056460b2721860d8da7",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2015_v2.csv": "764bfbeceb5b611f808c669c892dee44f7fb4d07e9d430be729787f1d258684e",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2016_full_trailing_C3_v2.csv": "7b4cf547bc6f8c09fa096bf7ddac7f9183603c617ba9370892e1e2f10ca4aa9b",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2016.csv": "1473780afcd651a3bd360ad89f86171de3af1a8308e37704076146da4aea9bc3",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "3ba818bf954516a62a69f4a109ca2a0131b0ea13bd754796e9e3e3e37c32f644",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2016_v2.csv": "3ca72b06196ad4b59b1cb652e2a225a0f01362d2e0c9ed56a9814327a5f1889c",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2017_full_trailing_C3_v2.csv": "037a62a25785d6f15634dd4d6c7df36d7a14c4647bef176c00a44687cff65b80",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2017.csv": "252da9b99adaaa1e9fc3614bd668081050a17b00b9d1cb8f98ac49c27edbba71",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "88b894f3af16e7905902e20295421367e77d898ecbfb207aaa25a9bd7bc18254",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2017_v2.csv": "5223109e4fc26725ac5a08f747877cd697bde35a5629f95e1acaa86a48117d71",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2018_full_trailing_C3_v2.csv": "774c339dc362e02eb5b2d3c43ac35c374ab2e144430dcec8be501f09a7cacdd9",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2018.csv": "b6e85fb9d24f71717e042909d75e2ed563dc10d27a19a73ffc7d222f56b31ff6",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "b5b13761ab76c184e89031c934b577144a7372ac691c83a5fba2f39e3b88d4eb",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2018_v2.csv": "4a3edeb6da1cf92a4e75cd9eef424905246294851a75eb226e2268cc357c9d23",
+        "data:outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target2019_full_trailing_C3_v2.csv": "71f847a67b8dd4557d6a98941b5dc5635be751233fdf74e66cf441ee49ea08e4",
+        "data:outputs/ice/ice_accessibility_v1_MayJul_target2019.csv": "6cae5cd2dd9b7c973feaa36a0fd991ed09fbd03968b060a42d581a1bd8b8e7dc",
+        "data:outputs/lcp_v2/prey_only_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "7dc0ee02fc04b8ca3fbb346bda08ceecbf27080db3a919f5439a249a48373710",
+        "data:outputs/lcp_v2/prey_ice_brian_kJm2_frozen_C3_lcp_target2019_v2.csv": "813dae5f5f13a207786a5d7356441ac1e987c56824f66127b2988e0e7d84fa7a",
+        "data:source_data/idw_v8/p1_idw_spatial_block_predictions.csv.gz": "bb9e5ad1d547e539d382c3e756ca82f3973aa1c46fc26d63fca7f2c7c9659fc9",
+        "data:source_data/idw_v8/p1_idw_spatial_block_metrics.csv": "a3aec4d6b9545c417f98ebdc10aa3c8466c004d499383e22418401e33ccd8549",
+        "data:source_data/idw_v8/p1_idw_energy_surfaces.csv.gz": "f1581d671836fe5b40095a9ad0d842f6a3aff83f195fbfa846c4646fccf30405",
+        "data:source_data/idw_v8/p1_idw_frequency_surfaces.csv.gz": "f305d9efeca491ae1e786c54291088907515fd3ff44c74ab86705e0053eb3002",
+        "data:source_data/idw_v8/p1_idw_route_metrics.csv": "917125be378009fa47fd60ab56db821ca49a7d8505ddc260c937a2c064784405",
+        "data:source_data/idw_v8/p1_primary_reproduction_check.csv": "dcaad931448c5d0a338fe004b9b88ff7cc118a8eeb7e2a40076a95075434a6d5",
+        "data:outputs/robustness_smoke_test_phase8t/figures/source_data/figure2_idw_k_le_8_source_data_v2.csv": "24b4ae5b6ad3b93727b3430f8ae2a3a814a1b7d9fff5acc2298b08cc96ade321"
+      },
+      "checks_passed": 16,
+      "checks": [
+        {
+          "comparison": "observed_checkpoint_2011",
+          "rows": 171,
+          "reference_rows": 171,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "observed": 0.0
+          }
+        },
+        {
+          "comparison": "observed_checkpoint_2012",
+          "rows": 235,
+          "reference_rows": 235,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "observed": 0.0
+          }
+        },
+        {
+          "comparison": "observed_checkpoint_2013",
+          "rows": 227,
+          "reference_rows": 227,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "observed": 0.0
+          }
+        },
+        {
+          "comparison": "observed_checkpoint_2014",
+          "rows": 202,
+          "reference_rows": 202,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "observed": 0.0
+          }
+        },
+        {
+          "comparison": "observed_checkpoint_2015",
+          "rows": 183,
+          "reference_rows": 183,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "observed": 0.0
+          }
+        },
+        {
+          "comparison": "observed_checkpoint_2016",
+          "rows": 153,
+          "reference_rows": 153,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "observed": 0.0
+          }
+        },
+        {
+          "comparison": "observed_checkpoint_2017",
+          "rows": 126,
+          "reference_rows": 126,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "observed": 0.0
+          }
+        },
+        {
+          "comparison": "observed_checkpoint_2018",
+          "rows": 146,
+          "reference_rows": 146,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "observed": 0.0
+          }
+        },
+        {
+          "comparison": "observed_checkpoint_2019",
+          "rows": 148,
+          "reference_rows": 148,
+          "keys": [
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "observed": 0.0
+          }
+        },
+        {
+          "comparison": "p1_idw_spatial_block_predictions.csv.gz",
+          "rows": 6364,
+          "reference_rows": 6364,
+          "keys": [
+            "setting",
+            "target_year",
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "observed": 0.0,
+            "predicted": 5.684341886080802e-14,
+            "null_predicted": 1.4210854715202004e-14,
+            "neighbor_count": 0.0,
+            "nearest_training_distance_km": 0.0
+          }
+        },
+        {
+          "comparison": "p1_idw_spatial_block_metrics.csv",
+          "rows": 180,
+          "reference_rows": 180,
+          "keys": [
+            "setting",
+            "target_year",
+            "scope"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "test_cells": 0.0,
+            "predicted_cells": 0.0,
+            "coverage_percent": 0.0,
+            "rmse": 1.4210854715202004e-14,
+            "mae": 7.105427357601002e-15,
+            "bias": 7.105427357601002e-15,
+            "spearman_rho": 0.0,
+            "null_rmse": 7.105427357601002e-15,
+            "rmse_skill_vs_null_percent": 4.263256414560601e-14
+          }
+        },
+        {
+          "comparison": "p1_idw_energy_surfaces.csv.gz",
+          "rows": 102204,
+          "reference_rows": 102204,
+          "keys": [
+            "setting",
+            "target_year",
+            "grid_id"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "raw_final_value": 1.7053025658242404e-13,
+            "utility": 4.440892098500626e-16,
+            "observed_window_flag": 0.0,
+            "interpolated_flag": 0.0,
+            "idw_neighbor_count": 0.0,
+            "nearest_observed_distance_km": 0.0,
+            "neighbors": 0.0,
+            "power": 0.0,
+            "q05": 0.0,
+            "q95": 0.0
+          }
+        },
+        {
+          "comparison": "p1_idw_frequency_surfaces.csv.gz",
+          "rows": 204408,
+          "passed": true,
+          "exact_frequency_match": false,
+          "known_difference_profile_used": true,
+          "differences": [
+            {
+              "setting": "k8_p1",
+              "scenario": "prey_only",
+              "target_year": 2011,
+              "grid_id": "(75, 80)",
+              "reproduced_frequency": 0.02375,
+              "reference_frequency": 0.024375
+            },
+            {
+              "setting": "k8_p1",
+              "scenario": "prey_only",
+              "target_year": 2011,
+              "grid_id": "(76, 80)",
+              "reproduced_frequency": 0.00125,
+              "reference_frequency": 0.000625
+            }
+          ],
+          "frequent_membership_exact": true,
+          "other_fields_exact": true,
+          "source_values_modified": false,
+          "general_frequency_tolerance": 0
+        },
+        {
+          "comparison": "p1_idw_route_metrics.csv",
+          "rows": 72,
+          "reference_rows": 72,
+          "keys": [
+            "setting",
+            "scenario",
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "successful_path_count": 0.0,
+            "failed_path_count": 0.0,
+            "mean_path_cost": 0.0,
+            "median_path_cost": 0.0,
+            "min_path_cost": 0.0,
+            "max_path_cost": 2.2737367544323206e-13,
+            "corridor_area_cells_freq_gt_0_05": 0.0,
+            "top_bottleneck_frequency": 0.0,
+            "centroid_x": 0.0,
+            "centroid_y": 0.0,
+            "centroid_lon": 0.0,
+            "centroid_lat": 0.0
+          }
+        },
+        {
+          "comparison": "primary_reproduction",
+          "rows": 18,
+          "reference_rows": 18,
+          "keys": [
+            "scenario",
+            "target_year"
+          ],
+          "numeric_rtol": 1e-12,
+          "numeric_atol": 1e-12,
+          "passed": true,
+          "max_numeric_difference": {
+            "target_year": 0.0,
+            "mean_cost_absolute_difference": 0.0,
+            "frequent_cell_difference": 0.0,
+            "maximum_frequency_absolute_difference": 0.0
+          }
+        },
+        {
+          "comparison": "Fig2C_source",
+          "rows": 9,
+          "data_cells": 54,
+          "passed": true,
+          "all_values_exact": true
+        }
+      ],
+      "difference_scope": "The two recorded frequencies differ by one path each; frequent-cell memberships, centroids and Fig. 2 values match. Values and general tolerances are unchanged.",
+      "reviewed_attempt": "idw_20261119_a",
+      "initial_strict_execution_status": "failed",
+      "initial_strict_report": "environment/runtime_acceptance_idw_v1.json",
+      "initial_strict_report_sha256": "50b7b672483b31fc8efd91c86155b571306fd65dbf6a5cacd6ba40dc615cd166",
+      "source_values_modified": false,
+      "scientific_parameters_changed": false,
+      "general_tolerances_changed": false,
+      "frequency_exact": false,
+      "frequent_memberships_centroids_and_Fig2_values_exact": true,
+      "alternative_ensembles_completed_in_original_attempt": 54,
+      "alternative_paths_completed_in_original_attempt": 86400,
+      "primary_ensembles_reused_as_in_original_attempt": 18,
+      "raw_benthic_read": false,
+      "raw_station_aggregation_recomputed": false,
+      "full_raw_reproduction": false,
+      "cause": "Near-equal-cost path ties are plausible, not proven; acceptance is based on unchanged adopted summaries."
+    }
+  },
+  "tests_passed": 65,
+  "python_of_original_attempt": "3.10.0 (default, Mar  3 2022, 03:54:28) [Clang 12.0.0 ]",
+  "scientific_code_sha256": {
+    "scripts/run_phase8t_primary_robustness_smoke_test.py": "5eb0ed832146d3fa75d3b14fcdabb9519dccd947a05e423b8165575cd03bc17e",
+    "scripts/build_phase8b_brian_amphipod_prey_surfaces_c3_v2.py": "aafa978c1b3a09f37f2d07f89aee096b4c0b59ccd4204cad485809ae42075b94",
+    "scripts/build_phase8b2_brian_amphipod_prey_surfaces_full_trailing_c3_v2.py": "196afe43be1c27175f7479b75dbda346b847ee67c6ab16758989b7ea5eec0359",
+    "scripts/run_prey_only_lcp_main_south_to_north_v0.py": "e4cf39c4cce9e4406f68e19bf68b3d9a282fa9ae800effe6f1dccf065401cf54",
+    "src/gray_whale_corridor/movement/lcp_ensemble.py": "ad10cecf6e183ff51de396e8d3f76759eda2e8cfc049d6193cb2ce0e0cf4fb37",
+    "src/gray_whale_corridor/release/idw_v8.py": "1a5c397824b8b112c03eeee02161f7b311695fc8601a787619dbd8a367d2f7ae"
+  },
+  "verification_code_sha256": {
+    "src/gray_whale_corridor/release/idw_acceptance.py": "b31c39e2aa8f1d3f36466059bcd2d1f89e4bb891934cee1b9d38144bcd93ad8e"
+  }
+}

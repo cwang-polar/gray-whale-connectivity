@@ -1,0 +1,140 @@
+{
+  "authority": "study frozen figure/table inventory, 2026-11-18",
+  "live_word_required": false,
+  "figures": [
+    {
+      "id": "Fig1",
+      "label": "Fig. 1",
+      "source_path": "outputs/manuscript_figures_v3/figure_1/candidates/gray_whale_figure1_label_cleanup_candidate_v3.png",
+      "sha256": "c7b87542c2deb0c2a3f8cba47d20422fa23d9cec3a0cad6099b94ffc867dd834",
+      "caption": "Figure 1 | Pacific Arctic study domain and corridor construction during 2011–2019. A, The 10-km regional ocean grid, DBO1–5 reference areas and benthic-amphipod sampling stations from 2007–2019 that contributed to the annual prey surfaces. B, Fixed modeled endpoints comprising 40 southern source cells and 40 northern destination cells, selected from prey-ranked candidates and spaced at least 25 km apart within each group. C, For each scenario and year, the 40 × 40 endpoint design produced 1,600 least-cost paths (LCPs), which were summarized as an annual corridor-frequency landscape. Cell-level normalized corridor frequency (F_s, where s denotes scenario) is the proportion of successful paths crossing each cell. The frequency map in C is illustrative, not an annual model output. The panels show study design and modeled corridor support, rather than observed whale tracks or ship-strike risk. DBO: Distributed Biological Observatory.",
+      "display_revision": "label_cleanup_v3"
+    },
+    {
+      "id": "Fig2",
+      "label": "Fig. 2",
+      "source_path": "outputs/robustness_smoke_test_phase8t/figures/candidates/gray_whale_figure2_idw_k_le_8_candidate_v2.png",
+      "sha256": "819c1eb4a7787a20c55b4c85c7c247ee2066fbc7d11f4da0183a4f43d298bdc3",
+      "caption": "Fig. 2 | Benthic prey support and prey corridor geography varied among years. A, Scaled amphipod energy density, summed across the amphipod families Ampeliscidae, Isaeidae, Melitidae and Pontoporeiidae, for alternate target years under the primary inverse-distance weighting (IDW) specification. Values use a common 0–1 prey-support scale across years. The primary interpolation uses up to eight neighboring observed grid cells, with inverse-square distance weights. B, Corresponding Prey corridor-frequency landscapes, based on benthic amphipod energy alone and summarized from 1,600 least-cost paths per year. C, Primary annual mean modeled path cost and number of frequent-corridor cells. Shading spans four IDW settings: up to eight neighboring observed cells with distance powers of 1, 2 or 3, and up to four with power 2. Frequent-corridor cells were crossed by more than 5% of annual paths (Fs>0.05). D, Primary consecutive-year trajectory of the frequent-corridor centroid. IDW: inverse-distance-weighting."
+    },
+    {
+      "id": "Fig3",
+      "label": "Fig. 3",
+      "source_path": "outputs/manuscript_figures_v3/figure_3/candidates/gray_whale_figure3_ncc_seasonality_candidate_v3.png",
+      "sha256": "f78b6be82b52e7d2b2e555fee0483ca14ed09db125e086fa6894b85c1f05d5c5",
+      "caption": "Fig. 3 | Declining modeled path costs accompanied season-dependent ice effects on corridor geography. A, Annual mean modeled path cost (resistance-weighted km) for prey and May–July prey+ice. The annotation indicates the 49% decrease in prey+ice cost between 2011 and 2019. B, Ice-related percentage increases in mean modeled path cost for May–July and August–October, relative to the same-year prey baseline. C, D, Jaccard overlap and centroid displacement, respectively, between each season’s prey+ice frequent-corridor cells and the same-year prey frequent-corridor cells. Both seasons use the same annual prey baseline. E, May–July north–south centroid displacement relative to prey; positive values indicate northward shifts. The 2017 shift is northward under the primary ice thresholds and southward under alternatives. Lines and symbols show primary settings. Shading for May–July prey+ice in A–D and gray ranges in E span results under three paired sea-ice concentration thresholds: 10%/45%, 15%/55% (primary) and 20%/65%. F, Primary prey+ice corridor frequencies for May–July (top) and August–October (bottom), with a common extent and color scale. Corridor frequency, Fs, is the proportion of 1,600 modeled paths crossing a cell; frequent-corridor cells have (Fs>0.05). Prey represents benthic amphipod support."
+    },
+    {
+      "id": "Fig4",
+      "label": "Fig. 4",
+      "source_path": "outputs/robustness_smoke_test_phase8t/figures/candidates/gray_whale_figure4_vessel_alpha_annotation_free_candidate_v2.png",
+      "sha256": "5e17eeccb66f35ed69a67e18d7adee81f459f715b12a60144a05f28e1be462c7",
+      "caption": "Fig. 4 | Modeled corridors across prey, sea-ice and vessel-exposure scenarios. Annual May–July comparisons for 2015–2019 used four scenarios on the same 10-km ocean grid. Prey used benthic amphipod energy alone; prey+ice and prey+vessel respectively applied sea-ice-accessibility and Automatic Identification System-derived all-vessel-exposure modifiers; prey+ice+vessel applied both. A, Mean modeled path cost. B, Number (n) of frequent-corridor cells (Fs>0.05). C, Distance between paired frequent-corridor centroids after adding vessel exposure. D, Jaccard overlap between the same paired cell sets. Lines show the primary vessel-modifier coefficient (α=0.50); shading on vessel-modified scenarios and vessel contrasts spans α=0.25-0.75."
+    },
+    {
+      "id": "Fig5",
+      "label": "Fig. 5",
+      "source_path": "outputs/manuscript_figures_v3/figure_5/candidates/gray_whale_figure5_spatial_annual_candidate_v1.png",
+      "sha256": "57324bd9d5f7e06240320b8b3866cf64f197bd3775ead3105bd05b5a6f60754f",
+      "caption": "Fig. 5 | Spatial corridor agreement and annual observed gray whale use. A, B, Independent June–July Aerial Surveys of Arctic Marine Mammals (ASAMM) sighting records compared with May–July corridor scenarios in surveyed U.S. waters north of Bering Strait: A, Prey and prey+ice during 2011–2019 (1,179 records); B, all four scenarios during 2015–2019 (666 records). Prey represents benthic amphipod support; ice and vessel terms denote the corresponding modifiers. Symbols show estimates using all sightings in each comparison period; horizontal ranges span estimates obtained after omitting one survey year at a time. Effort-footprint percentile averages the percentile ranks of sighting-cell corridor frequencies within their same-year surveyed backgrounds. Top-5% overlap is the percentage of sightings in the annual highest-frequency 5% of regional cells. Distance is the median distance from sightings to the nearest regional frequent-corridor cell, crossed by more than 5% of modeled paths. C, Annual mean modeled May–July prey+ice path cost under the primary ice thresholds (green squares, left axis) and June–July reported whales per 100 km of matched transect survey effort (dark circles, right axis). Cost shading spans the paired sea-ice concentration thresholds 10%/45%, 15%/55% (primary) and 20%/65%. Pearson r describes the nine annual primary cost–whale pairs."
+    },
+    {
+      "id": "Fig6",
+      "label": "Fig. 6",
+      "source_path": "outputs/manuscript_figures_v3/figure_6/candidates/gray_whale_figure6_recurrence_exposure_candidate_v2.png",
+      "sha256": "0d6cadd2e83b34cf17e522365dca8e392fc9bd14b444f9c3eae7302298cfe8d5",
+      "caption": "Fig. 6 | Recurrent modeled corridors and vessel exposure in the Pacific Arctic. A, Cells in the annual top 5% of corridor frequency in at least five of nine years during 2011–2019, assessed separately for prey and prey+ice and classified as Prey-exclusive (18), prey+ice-exclusive (23) or shared (20). B, Mean May–July scaled Automatic Identification System (AIS) vessel exposure during 2015–2019 for each of the 20 shared cells; red outlines identify the nine cells exceeding 0.25. Pale gray squares mark eligible June–July Aerial Surveys of Arctic Marine Mammals (ASAMM) survey-effort cells surveyed in at least one year during 2011–2019 in A and 2015–2019 in B. The maps summarize modeled recurrence and AIS exposure cells for targeted monitoring, with survey coverage shown as geographic context. Distributed Biological Observatory (DBO) reference areas and the U.S.–Russia maritime boundary provide additional geographic context."
+    },
+    {
+      "id": "S1",
+      "label": "Supplementary Fig. S1",
+      "source_path": "outputs/manuscript_figures_v3/supplementary_figures_approved/approved_07_annual_benthic_prey_observed_support_v1.png",
+      "sha256": "3ead23a6ec73efe3e89991d141eebcd6b488e8f71923b5bd760a6756817edd2b",
+      "caption": "Supplementary Figure S1 | Annual benthic-amphipod prey landscapes and observational support. A‑I, Primary amphipod energy-density surfaces, based on caloric values, for 2011–2019. The surface for year t used observations from t-4 to t, without future observations. All panels use the primary model's common 0–1 utility scale, bounded by the global 5th and 95th percentiles. Open circles mark 10-km ocean-grid cells observed within each trailing window; coloured cells without circles were estimated by inverse-distance weighting. Blue-grey dashed outlines mark Distributed Biological Observatory (DBO) reference areas 1–5, from St Lawrence Island to Barrow Canyon; labels in A apply throughout. Colors show modelled, scaled prey utility rather than raw energy density. Amphipod caloric values from Marx 5. Observed stations from DBO3 and DBO5 (to the north of the Chirikov Basin) contributed to all nine annual trailing windows; annual top-5% prey-utility cells occurred in DBO3 in eight of nine years and in DBO5 in all nine years."
+    },
+    {
+      "id": "S2",
+      "label": "Supplementary Fig. S2",
+      "source_path": "outputs/manuscript_figures_v3/supplementary_figures_approved/approved_09_consecutive_year_corridor_stability_v1.png",
+      "sha256": "18421b3117f7183d07daf369bbdfbf09c590af4685aeacc9763b6cb9ea2c3ea6",
+      "caption": "Supplementary Figure S2 | Consecutive-year stability of modelled corridor geography. A, Euclidean displacement between unweighted centroids of frequent-corridor cells in consecutive years. B, Jaccard overlap between consecutive-year frequent-corridor cell sets, calculated as the number of shared cells divided by the number present in either year. Frequent-corridor cells were crossed by more than 5% of the 1,600 annual source-destination least-cost paths (Fs>0.05), where Fs is the fraction of paths crossing a cell. Both metrics use the primary amphipod energy-density analysis. Prey denotes the benthic prey-only scenario. Prey and prey+ice comparisons span 2011–2012 to 2018–2019; vessel-scenario comparisons span 2015–2016 to 2018–2019. Greater displacement indicates more movement of the corridor center, whereas greater Jaccard overlap indicates stronger retention of the frequent-cell set; these properties need not change together."
+    },
+    {
+      "id": "S3",
+      "label": "Supplementary Fig. S3",
+      "source_path": "outputs/manuscript_figures_v3/supplementary_figures_approved/approved_10_cost_observation_effort_sensitivity_v1.png",
+      "sha256": "8588e053dbb50e3bf71f33f6c11970517729f05d63fa8aeac27519a663bbd3e5",
+      "caption": "Supplementary Figure S3 | Annual modelled path costs and gray whale observations across survey footprints. A, Annual mean modelled path cost for four scenarios. Prey denotes the benthic prey-only scenario. Prey and prey+ice cover 2011–2019; prey+vessel and prey+ice+vessel cover 2015–2019. B, Annual sums of reported whales across retained June-July Aerial Surveys of Arctic Marine Mammals sighting groups. C, Reported whales per surveyed grid cell. In B and C, the full annual footprint includes all study-region ocean cells containing eligible effort that year. Fixed masks retain cells surveyed in at least seven, at least eight or all nine modelled years. For the first two masks, annual rates include only cells surveyed that year; the all-nine-year mask contains the same 19 cells annually. D, Distribution of the 1,220 study-region ocean cells surveyed in at least one modelled year and nested fixed masks containing 105, 52 and 19 cells. Blue-grey dashed outlines mark Distributed Biological Observatory (DBO) reference areas 1–5 from main-text Figure 1; they provide geographic context but do not define survey masks. Grey shading over 2020–2021 indicates no eligible June-July effort within the study region, not zero whale use. Counts and per-cell rates are descriptive survey-footprint summaries, not abundance, density or detection-corrected estimates. Alignment by year is descriptive and does not represent a fitted or causal cost-observation relationship."
+    },
+    {
+      "id": "S4",
+      "label": "Supplementary Fig. S4",
+      "source_path": "outputs/manuscript_figures_v3/supplementary_figures_approved/approved_03_annual_sea_ice_accessibility_v1.png",
+      "sha256": "1648fbcdd71ed4757e25f3e582cde1fcada4672f6a7da600971886e9ab1a7960",
+      "caption": "Supplementary Figure S4 | Annual May-July sea-ice accessibility during 2011–2019. A, Annual May-July sea-ice accessibility, Aice, across the 2,839-cell study-domain ocean grid, derived from monthly Copernicus Global Ocean Reanalysis and Simulation at 1/12° resolution (GLORYS12) sea-ice concentration 2. Larger Aice values indicate greater modelled accessibility and less reduction of prey utility. All maps use the same extent and color scale. B, Study-domain mean Aice (line) and percentage of ocean cells with Aice<0.5 (bars). Mean accessibility was lowest in 2012 and 2013 and highest in 2019."
+    },
+    {
+      "id": "S5",
+      "label": "Supplementary Fig. S5",
+      "source_path": "outputs/manuscript_figures_v3/supplementary_figures_approved/approved_12_august_october_corridor_observed_use_v1.png",
+      "sha256": "ac056a052651ff9b4a0550ce289d32bb5e3335a040dff4a37cf9e0f228eb651f",
+      "caption": "Supplementary Figure S5 | Late-season effects of sea ice and vessel exposure on corridor geography and observed-use correspondence. A‑D, Annual August-October changes after adding sea-ice accessibility or vessel exposure to paired baseline landscapes. The ice contrast without vessels covers 2011–2019; vessel contrasts cover 2015–2019. A, Percentage change in mean modelled path cost. B, Change in frequent-corridor area, defined as the number of cells with Fs>0.05, where Fs is the fraction of annual least-cost paths crossing a cell. C, Jaccard overlap between baseline and layer-added frequent-corridor sets; 1 denotes identical sets. D, Displacement between their unweighted centroids. Positive values in A and B indicate higher cost and larger frequent-corridor area. Filled solid and open dashed symbols distinguish contrasts without and with the other modifier; near-coincident traces indicate similar effects on either background. E‑G, Correspondence with Aerial Surveys of Arctic Marine Mammals (ASAMM) sightings. Symbols show values and vertical lines span annual values, not confidence intervals. The 2011–2019 comparison includes benthic prey and prey+ice scenarios using 1,843 sightings; the 2015–2019 comparison includes all four scenarios using the same 1,131 sightings. E, Mean percentile rank of sighting-cell corridor frequency relative to cells surveyed that year. F, Percentage of sightings within the annual regional top 5% of corridor-frequency cells. G, Median distance to the nearest frequent-corridor cell. Higher values in E and F, and lower values in G, indicate closer correspondence. These metrics describe observed use within surveyed cells, not abundance or movement direction."
+    },
+    {
+      "id": "S6",
+      "label": "Supplementary Fig. S6",
+      "source_path": "outputs/manuscript_figures_v3/supplementary_figures_approved/approved_04_annual_june_july_asamm_observations_v1.png",
+      "sha256": "06fb9de1843d11748fa3648fd6563cd36ee011694aa4733c5d1a0ab2e4149a18",
+      "caption": "Supplementary Figure S6 | Annual June-July gray whale sightings, survey effort and recorded behavior. Maps show 1,179 retained gray whale sighting coordinates from Aerial Surveys of Arctic Marine Mammals (ASAMM) during 2011–2019; n is the annual number of sighting records. Pale squares mark 10-km ocean-grid cells containing eligible survey effort. Blue circles indicate mud-plume evidence of benthic feeding, orange triangles indicate feeding records without a mud-plume cue and grey circles indicate other or unknown behaviour. The purple star marks the single 2016 record reporting open mouths and possible skim feeding; the prey consumed was not identified. The dashed teal outline marks Distributed Biological Observatory area 3, and the grey dashed line marks the United States–Russia maritime boundary. All raw sightings lie east of this boundary. Maps show the portion of the study domain covered by June-July ASAMM effort."
+    },
+    {
+      "id": "S7",
+      "label": "Supplementary Fig. S7",
+      "source_path": "outputs/manuscript_figures_v3/figure_5/sensitivity_v2/candidates/gray_whale_figure5_metric_sensitivity_candidate_v2.png",
+      "sha256": "93af0cbf1e77703c82b150fbd5402443090bacfa0f9e1ebe3a5521fb3d4361bf",
+      "caption": "Supplementary Figure S7 | Sensitivity of observed-use comparisons to metric definitions. A‑C, Prey and prey+ice scenarios during 2011–2019, using 1,179 June-July gray whale sightings from Aerial Surveys of Arctic Marine Mammals; Prey denotes the benthic prey-only scenario. D‑F, All four scenarios during 2015–2019, using 666 sightings. A, D, Mean percentile rank of corridor frequency at sighting cells relative to cells surveyed under the same footprint definition. Moving right restricts both comparison cells and sightings to locations surveyed in progressively more years. The opposing trends in A and D reflect the different cells and sightings retained over nine- and five-year periods, rather than an expected monotonic ecological response. Values below the axes give retained sightings. B, E, Percentage of sightings within annual corridor cores containing the indicated fraction of highest-frequency regional cells. Cells tied at a boundary received fractional weights to preserve the requested core area. C, F, Median distance from sightings to the nearest corridor cell across corridor-frequency cutoffs, where Fs is the proportion of annual least-cost paths crossing a cell. Filled symbols and dashed vertical lines mark the primary definitions and parameter values. Core sizes whose boundary reached zero corridor frequency were omitted."
+    },
+    {
+      "id": "S8",
+      "label": "Supplementary Fig. S8",
+      "source_path": "outputs/manuscript_figures_v3/supplementary_figures_working/available_period_S8_20261117_v2/candidates/gray_whale_si_S8_available_period_single_candidate_v2.png",
+      "sha256": "da58739c9afcb6d756f0b6e65f4d8a6a4986e8f5a479dae9c4b1b6fce50a7011",
+      "caption": "Supplementary Figure S8 | Correlations between annual modeled costs and whales observed per 100 km of survey. Pearson correlations compare annual mean modeled May–July path costs with June–July reported gray whales per 100 km of matched transect survey effort. Prey and prey+ice use 2011–2019 (nine annual pairs); prey+vessel and prey+ice+vessel use 2015–2019 (five annual pairs). Symbols and adjacent values show full-period Pearson r. Horizontal ranges span the minimum and maximum r after omitting one year at a time, retaining eight annual pairs for the nine-year series and four for the five-year series. The horizontal dashed line separates the two periods. Negative r indicates lower modeled costs coinciding with more whales observed per 100 km of survey. All scenarios use the primary amphipod-energy surface and applicable primary ice and vessel settings (α=0.50 for vessel scenarios)."
+    },
+    {
+      "id": "S9",
+      "label": "Supplementary Fig. S9",
+      "source_path": "outputs/manuscript_figures_v3/supplementary_figures_approved/approved_05_annual_august_october_asamm_observations_v1.png",
+      "sha256": "c735036d7508c0c12b33edefbf369ee84236fcfb77e50fc9299f4c879cb009d8",
+      "caption": "Supplementary Figure S9 | Annual August-October gray whale sightings and survey effort. Maps show 1,843 retained gray whale sighting coordinates from Aerial Surveys of Arctic Marine Mammals (ASAMM) during 2011–2019; n is the annual number of retained records. Pale squares mark 10-km ocean-grid cells containing eligible August-October effort. Blue circles, orange triangles and magenta diamonds indicate August, September and October records, respectively. Records and annual effort backgrounds used the same species, coordinate, study-domain, nearest-grid and strict-effort criteria as the late-season corridor comparison. Points show raw sighting coordinates; effort is summarised at assigned grid-cell centres. The grey dashed line marks the United States–Russia maritime boundary, and all retained sightings lie east of it. Sightings are not abundance or density estimates, and observation month does not identify movement direction."
+    },
+    {
+      "id": "S10",
+      "label": "Supplementary Fig. S10",
+      "source_path": "outputs/manuscript_figures_v3/figure_5/selection_threshold_sensitivity_v4/candidates/gray_whale_figure5_selection_threshold_sensitivity_candidate_v4.png",
+      "sha256": "73f03e059640dec874bca222d1147d612f83afae044748e1800089585982ccfe",
+      "caption": "Supplementary Figure S10 | Sensitivity of recurrent-corridor and exposure-priority cell selection. A, Cells recurrent in both benthic prey and prey+ice landscapes when annual high-frequency cores included cells at or above the 97.5th, 95th, 92.5th or 90th percentile of corridor frequency and recurrence required four, five or six years. Because corridor frequency is discrete, ties were retained, so realized core sizes could slightly exceed the nominal 2.5%, 5%, 7.5% or 10%. Parenthetical values also exceeded the primary mean scaled May-July vessel-exposure cutoff of 0.25 during 2015–2019. The red box marks the primary definition: at or above the annual 95th percentile in at least five years, yielding 20 shared recurrent cells, nine above the exposure cutoff. B, Fraction of the 12 recurrence definitions selecting each cell; red outlines mark the primary 20-cell set. C, Number of these 20 cells exceeding alternative vessel-exposure cutoffs; shading spans 0.20–0.30, and the highlighted point marks the primary cutoff of 0.25. D, Fraction of the 12 definitions selecting each cell as both recurrent and exposure-priority at the 0.25 cutoff; red outlines mark the primary nine-cell set. Selection frequency measures robustness to operational definitions, not biological probability."
+    },
+    {
+      "id": "S11",
+      "label": "Supplementary Fig. S11",
+      "source_path": "outputs/manuscript_figures_v3/supplementary_figures_approved/approved_11_pelagic_support_observation_model_gate_v2.png",
+      "sha256": "7ebb1f6b24e74e3d1990cc9cfa82653c0a7cc81ad9f0b8787db6f09b1070c27a",
+      "caption": "Supplementary Figure S11 | Observation support and model validation for the 2017–2018 pelagic-prey sensitivity. A, B, Relative euphausiid-support predictions and June observations for 2017 and 2018, using within-year scaling between the 5th and 95th percentiles of log-transformed abundance. Predictions were limited to the annual observation boundary and cells within 60 km of an observation, yielding 921 of 2,839 study-region cells in 2017 (32.4%) and 695 cells in 2018 (24.5%); cells outside these domains received no added pelagic support. Dashed outlines mark Distributed Biological Observatory (DBO) reference areas 1–5; labels in A apply to both maps. C, Performance of spatial, hydrographic and combined candidate models under four-fold spatial-block cross-validation. Spatial models used location; hydrographic models used June sea-surface temperature, salinity and horizontal currents; combined models used both predictor sets. Root-mean-square-error (RMSE) skill compares model and training-fold-mean-null RMSE; Spearman ρ measures held-out rank agreement; positive folds count blocks in which model RMSE was lower than null RMSE. Models passed with RMSE skill greater than 0, ρ≥0.30 and at least three positive folds; outlined rows identify the passing model with the lowest held-out RMSE. D, Method-comparable June observation cells during 2011–2019. Blank years indicate unavailable comparable data, not zero euphausiid abundance; surfaces were not extrapolated beyond 2017 and 2018."
+    },
+    {
+      "id": "S12",
+      "label": "Supplementary Fig. S12",
+      "source_path": "outputs/manuscript_figures_v3/supplementary_figures_approved/approved_06_pelagic_support_response_v1.png",
+      "sha256": "e9e9c5138a0e15c7e811241628828f087c839a65a24c2f2b32cbfcc5bd937ac9",
+      "caption": "Supplementary Figure S12 | Pelagic support altered modelled corridors without consistently improving observed-use correspondence. Response curves use relative pelagic-support surfaces derived from June euphausiid observations in 2017 and 2018. Pelagic support was added to four benthic baseline landscapes using a bounded complementary function. The sensitivity parameter β controls its strength: β=0 reproduces each baseline, and vertical dashed lines mark the primary value, β=0.25. A‑C, Lines show the mean across 2017 and 2018; shading spans the annual values. Error bars show 5th-95th percentiles from 100 spatial-block bootstrap surfaces per year after averaging annual metrics within each draw. Intervals are offset horizontally for legibility but all represent β=0.25. A, Percentage change in mean modelled path cost relative to β=0; negative values indicate lower cost. B, Jaccard overlap between frequent-corridor cells (Fs>0.05) at each β and the corresponding β=0 set; lower values indicate greater reorganisation. C, Displacement between corresponding frequent-corridor centroids. D‑F, Observed-use metrics calculated from the same 323 June-July Aerial Surveys of Arctic Marine Mammals (ASAMM) sightings at every support level, comprising 212 records from 2017 and 111 from 2018. D, Mean percentile rank of sighting-cell corridor frequency relative to cells surveyed that year. E, Percentage of sightings within the annual regional top 5% of corridor-frequency cells. F, Median distance to the nearest frequent-corridor cell. Higher values in D and E, and lower values in F, indicate closer correspondence. Flat or stepwise responses in E and F reflect discrete top-5% membership and distance classes on the 10-km grid, not unchanged corridor geography."
+    },
+    {
+      "id": "S13",
+      "label": "Supplementary Fig. S13",
+      "source_path": "outputs/manuscript_figures_v3/supplementary_figures_approved/approved_08_prey_currency_sensitivity_v1.png",
+      "sha256": "ad4f0332b57cc63ec4e85a64bca5de541427795febddcf2a236234336d9bd53a",
+      "caption": "Supplementary Figure S13 | Sensitivity of corridor summaries to benthic-amphipod prey currency. A, Annual mean modelled path cost. B, Frequent-corridor area, defined as the number of 10-km ocean-grid cells crossed by more than 5% of the 1,600 annual least-cost paths (Fs>0.05). Columns show the prey, prey+ice, prey+vessel and prey+ice+vessel scenarios; Prey denotes the benthic prey-only scenario. Lines compare the primary amphipod energy-density surface with wet-weight and carbon-biomass sensitivity surfaces derived from the same records. Prey and prey+ice cover 2011–2019; vessel scenarios cover 2015–2019. Every variable-year ensemble completed all 1,600 paths and otherwise used identical model settings. Cost trajectories were broadly consistent among currencies, whereas frequent-corridor area was more sensitive to prey representation."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "outputs": {
+    "records": {
+      "filename": "phase8s_early_model_records_with_glorys.csv",
+      "legacy_dataset_path": "outputs/pelagic_support_phase8s/tables/phase8s_early_model_records_with_glorys.csv",
+      "accepted_sha256": {
+        "original_reference": "d48c34b07604e95b657be96fd25e3154e7536cd48d1d55d6eb43ebc78ae68664",
+        "approved_projection_roundoff": "8b998e1f5d2b0b5d5b378e93f8f2728607815487bd52b3f4e913ec7759a1f3eb"
+      }
+    },
+    "points": {
+      "filename": "phase8s_observation_points_source_data_v1.csv",
+      "legacy_dataset_path": "outputs/pelagic_support_phase8s/figures/phase8s_observation_points_source_data_v1.csv",
+      "accepted_sha256": {
+        "original_reference": "2396c17a3737f5130fe9110a0cb39cc9d53309cc887a70b244a76d221a9fbe8d",
+        "approved_projection_roundoff": "59a2c10b08ada60d47ab182380705d360c34cc2601ec714bcd859db4b604e396"
+      }
+    },
+    "s11": {
+      "filename": "c5_pelagic_observations_source_data_v2.csv",
+      "legacy_dataset_path": "outputs/manuscript_figures_v3/supplementary_figures_working/c5_pelagic_support_evidence_v2/source_data/c5_pelagic_observations_source_data_v2.csv",
+      "accepted_sha256": {
+        "original_reference": "230bc3240b8a30dbe454c946bb41140e044b0cefb4ea9f347637b74e00048666",
+        "approved_projection_roundoff": "df13f5da29bdbdf38c57da46d5fdc383e32c023d03ea76b6d346403078b2e404"
+      }
+    }
+  },
+  "scope": "Only the specified source-reference or verified output identities are accepted; general numeric tolerances are unchanged.",
+  "exception_field": "grid_match_distance_km",
+  "maximum_reported_difference_km": 2.658762099372325e-12,
+  "non_distance_fields_and_membership": "exactly identical in all three outputs",
+  "reference_values_replaced": false,
+  "original_strict_stop_retained": true
+}

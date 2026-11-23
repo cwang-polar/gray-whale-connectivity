@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "validation_date": "2026-11-19",
+  "scope": "Two archived-result drawing entries; prior 23-task acceptance retained separately",
+  "new_models_or_metrics": false,
+  "release_tests_passed": 41,
+  "survey_tests_passed": 9,
+  "tasks": {
+    "Fig2": {
+      "status": "passed_archived_data_and_visual_content",
+      "layer": "Archived-result figure reproduction; no model fitting or raw benthic input",
+      "baseline_sha256": "819c1eb4a7787a20c55b4c85c7c247ee2066fbc7d11f4da0183a4f43d298bdc3",
+      "output_sha256": "95d56885ff87924aa0779e327ef3ac0e1303ee02c3f69af55dbc4ce162f92089",
+      "same_pixel_dimensions": true,
+      "pixel_rms_0_255": 2.4494668666946686,
+      "changed_pixel_fraction": 0.0019195130542287843,
+      "editable_svg_text_elements": 70,
+      "source_csv_copies_byte_identical": 13,
+      "frozen_caption_unchanged": true,
+      "inputs_unchanged": true,
+      "python_access_violations": [],
+      "visual_review": "Frozen and reproduced PNGs inspected side by side; no changed scientific content or new label overlap.",
+      "pixel_equality_required": false,
+      "pdf_independent_page_rendering": false,
+      "rendering_note": "Explicit 0-1 colorbar ticks at 0.2 increments retain the frozen scale; data and normalization unchanged."
+    },
+    "Fig3": {
+      "status": "passed_archived_data_and_visual_content",
+      "layer": "Archived-result figure reproduction; no model fitting or raw benthic input",
+      "baseline_sha256": "f78b6be82b52e7d2b2e555fee0483ca14ed09db125e086fa6894b85c1f05d5c5",
+      "output_sha256": "cb4ef12ea7b831839c3da007f440ba3d40472e1de1cd93c7ddc3b753b31b32c7",
+      "same_pixel_dimensions": true,
+      "pixel_rms_0_255": 4.509882302318266,
+      "changed_pixel_fraction": 0.0034078850981159414,
+      "editable_svg_text_elements": 124,
+      "source_csv_copies_byte_identical": 9,
+      "frozen_caption_unchanged": true,
+      "inputs_unchanged": true,
+      "python_access_violations": [],
+      "visual_review": "Frozen and reproduced PNGs inspected side by side; no changed scientific content or new label overlap.",
+      "pixel_equality_required": false,
+      "pdf_independent_page_rendering": false,
+      "rendering_note": "Static ocean_flag joined by grid_id; no map row added or removed. Existing identity checks are read, not rerun."
+    }
+  }
+}
