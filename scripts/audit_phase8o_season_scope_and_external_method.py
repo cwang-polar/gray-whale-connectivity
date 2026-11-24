@@ -48,7 +48,7 @@ DOMAIN_PATH = ROOT / "data/processed/study_domain/study_domain_C3_recurring_supp
 ICE_INVENTORY = ROOT / "data/processed/ice/ice_data_inventory_v0.csv"
 SHIP_INVENTORY = ROOT / "data/processed/ship/ship_data_inventory_v0.csv"
 PREY_SURFACE_PATTERN = "outputs/prey_v2/amphipod_prey_surface_total_kJm2_frozen_target*_full_trailing_C3_v2.csv"
-SZESCIOKA_PDF = ROOT / "docs/coauthor reviews rounds/Szesciorka.etal.2026.BH&vesseltraffic-FMARS.pdf"
+SZESCIOKA_PDF = ROOT / "data/external/literature/Szesciorka.etal.2026.BH&vesseltraffic-FMARS.pdf"
 
 OUTPUT_COLS = [
     "ID",

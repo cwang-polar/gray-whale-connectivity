@@ -39,7 +39,7 @@ Expected values below are rounded for reading only; the CSV retains full precisi
 | Prey+vessel | 2015-2019 | 0.161842 | -0.112700 | 0.808023 |
 | Prey+ice+vessel | 2015-2019 | -0.295889 | -0.977351 | 0.029169 |
 
-The ranges are omitted-year extrema, not confidence intervals. The full-precision archived reference is [available_period_correlations.csv](../../dataset/outputs/manuscript_figures_v3/supplementary_figures_working/available_period_S8_20261117_v2/source_data/available_period_correlations.csv).
+The ranges are omitted-year extrema, not confidence intervals. The full-precision archived reference is [available_period_correlations.csv](https://doi.org/10.5281/zenodo.24479974) (`dataset/outputs/manuscript_figures_v3/supplementary_figures_working/available_period_S8_20261117_v2/source_data/available_period_correlations.csv`).
 
 ## Optional figure example
 
@@ -68,5 +68,5 @@ Validation results and scientific limits are summarized in [ACCEPTANCE.md](ACCEP
 - **Output already exists:** select a new run ID instead of deleting a previous result.
 - **Unavailable wheel:** the lock is platform-specific; other platforms remain unverified.
 - **S11 missing observation input:** follow [IERP_INPUT_PREPARATION.md](IERP_INPUT_PREPARATION.md); S11 is not the self-contained demonstration.
-- **Prey preparation missing station tables:** see the [external benthic input contract](../../dataset/source_metadata/BENTHIC_SURFACE_INPUTS.md); archived-surface downstream analyses remain usable.
+- **Prey preparation missing station tables:** see the [external benthic input contract](https://doi.org/10.5281/zenodo.24479974) (`dataset/source_metadata/BENTHIC_SURFACE_INPUTS.md`); archived-surface downstream analyses remain usable.
 - **Unexpected numerical change:** retain the output and execution record and contact cwang@umces.edu with the version, environment and task. Do not replace reference values to obtain a pass.

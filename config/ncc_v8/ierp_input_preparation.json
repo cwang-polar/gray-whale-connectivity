@@ -2,7 +2,7 @@
   "schema_version": 1,
   "execution_enabled": true,
   "adapter_status_semantics": "Historical path-registration status; current local results are in environment/runtime_acceptance_v1.json",
-  "data_index_sha256": "e79d453c23ccb56c4f7fa2b3c1c6f4242b3e00fe7c1a448f3dde002551a3bcaf",
+  "data_index_sha256": "3e37985c687f68cad2daf55e00d108ac1bb62197528fcccc568c927148d9b2d0",
   "output_pattern": "runs/<explicit-run-id>/<task-id>/; never data or software",
   "output_sections": [
     "results",
@@ -62,5 +62,5 @@
       ]
     }
   },
-  "output_acceptance_sha256": "c7dcd9d8837a6630405bd16f70effff3f73f5455224998af619fdeb5596a3e55"
+  "output_acceptance_sha256": "deb385e0dd201b1c9caf5141021ab33e8b554421171409f78f3520a223f6f188"
 }

@@ -2,7 +2,9 @@
 
 Python workflows for the Pacific Arctic gray whale connectivity study: least-cost corridors, seasonal and parameter sensitivities, observation comparisons, and manuscript figures and tables. Reproduction starts at the documented archived or external inputs, rather than a complete raw-observation-to-paper pipeline.
 
-[Repository](https://github.com/cwang-polar/gray-whale-connectivity) | [Installation](environment/CLEAN_INSTALL.md) | [Quick start](docs/QUICKSTART.md) | [Validation](docs/ACCEPTANCE.md) | [Reviewer guide](docs/REVIEWER_GUIDE.md) | [Data access](../dataset/DATA_ACCESS.md)
+Version **1.0.0**. Cite the [versioned software archive](https://doi.org/10.5281/zenodo.24479214) and [supporting dataset](https://doi.org/10.5281/zenodo.24479974) separately. GitHub provides browsable source; the archives identify the fixed files used for reproduction. Source datasets should also receive their own citations.
+
+[Repository](https://github.com/cwang-polar/gray-whale-connectivity) | [Installation](environment/CLEAN_INSTALL.md) | [Quick start](docs/QUICKSTART.md) | [Validation](docs/ACCEPTANCE.md) | [Reviewer guide](docs/REVIEWER_GUIDE.md) | [Data access](https://doi.org/10.5281/zenodo.24479974) (`dataset/DATA_ACCESS.md`)
 
 ## Installation and first use
 
@@ -32,13 +34,13 @@ Commands and filenames retain historical identifiers for compatibility; these ar
 | Prey interpolation sensitivity | Archived five-year observed-cell means | Reported summaries and frequent-cell sets matched; a documented two-cell frequency exception remains |
 | Primary prey-surface preparation | External station-year energy totals and saved coordinate matches | Annual surfaces/scaling matched; initial provider-record preparation is not reconstructed |
 
-See [validation and exceptions](docs/ACCEPTANCE.md), [upstream implementation coverage](docs/UPSTREAM_COVERAGE.md), the [analysis specification](docs/v8_analysis_contract.md), and the paired [figure/table source index](../dataset/source_data/v8_figure_table_index.csv). These starting layers must not be described as complete raw-data reproduction.
+See [validation and exceptions](docs/ACCEPTANCE.md), [upstream implementation coverage](docs/UPSTREAM_COVERAGE.md), the [analysis specification](docs/v8_analysis_contract.md), and the paired [figure/table source index](https://doi.org/10.5281/zenodo.24479974) (`dataset/source_data/v8_figure_table_index.csv`). These starting layers must not be described as complete raw-data reproduction.
 
 ## External inputs
 
-- **Benthic source:** cite the [DBO portal](https://arcticdata.io/catalog/portals/DBO/Data) provisionally; the caloric/biomass summary DOI will be added when available. The unpublished provider table and two station checkpoints are not distributed. The portal is not a claim that those exact files are already downloadable. Their absence does not prevent downstream reproduction from the archived surfaces. See the [input specification](../dataset/source_metadata/BENTHIC_SURFACE_INPUTS.md).
-- **Supplementary Fig. S11:** use the [IERP preparation instructions](docs/IERP_INPUT_PREPARATION.md) to generate its observation input from the specified external abundance CSV and GLORYS subset. The three observation-bearing tables are not redistributed. Other analyses use the archived predictions and results specified in their input guides.
-- The [data-access guide](../dataset/DATA_ACCESS.md) gives source versions, fields, checksums, licences and limits. Do not substitute a different source version merely because its columns match.
+- **Benthic source:** the [DBO portal](https://arcticdata.io/catalog/portals/DBO/Data) identifies the source collection. Original station observations, station-year energy totals and coordinate-matching tables are external inputs, and their exact public file location is not established by that collection link. Their absence does not prevent downstream reproduction from the archived surfaces. See the [input specification](https://doi.org/10.5281/zenodo.24479974) (`dataset/source_metadata/BENTHIC_SURFACE_INPUTS.md`).
+- **Supplementary Fig. S11:** use the [IERP preparation instructions](docs/IERP_INPUT_PREPARATION.md) to generate its observation input from the specified external abundance CSV and unchanged GLORYS companion, supplied separately in the paired data record. The three observation-bearing tables are not redistributed. Other analyses use the archived predictions and results specified in their input guides.
+- The [data-access guide](https://doi.org/10.5281/zenodo.24479974) (`dataset/DATA_ACCESS.md`) gives source versions, fields, checksums, licences and limits. Do not substitute a different source version merely because its columns match.
 
 ## Interpretation and reuse
 

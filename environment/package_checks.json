@@ -1,0 +1,490 @@
+{
+  "software_version": "1.0.0",
+  "checked_date": "2026-11-24",
+  "scope": "Metadata and entry-contract tests, with tiny comparison fixtures; no scientific analyses rerun.",
+  "test_command": "python -B -m unittest discover -s tests -p 'test_release_*.py' -v",
+  "release_tests_passed": 86,
+  "private_backups_required_by_tests": false,
+  "included_table_catalog_coverage": "complete",
+  "external_generated_tables": 3,
+  "IERP_accepted_output_identities_and_numeric_rules_unchanged": true,
+  "scientific_sources_unchanged": true,
+  "scientific_data_values_and_geometry_unchanged": true,
+  "provenance_field_changes": [
+    {
+      "path": "outputs/ice/ice_accessibility_v1_MayJul_target2011.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "71d2fb6ab41e9a3507a9b9851dbbb2fc4477ac0eb28e219a7e795f985a0e812f",
+      "after_sha256": "ba6253ef9344f34f8336f7fc259c91400e00ce4f026f8015284e337830254d00"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_MayJul_target2012.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "bf3f79b2673c21cf8d0dfb55da7c09f23eea489d57d4d4f6701ff00188c1f383",
+      "after_sha256": "5bf98b752ea73fdd40890ce0e865eb5659d7749a09731cda27c2c92c83c7390a"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_MayJul_target2013.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "a541c74e8d116885c6b63ed682d5a444b427840fbdf73965e283d7907c69e9a8",
+      "after_sha256": "1cd25e4b44ad55b71c03e3c9f4d882dbf119c6bab4bbbaaec3362f92679f92c6"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_MayJul_target2014.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "3b2265c8d474f9b0178fa9c666830634f2e493c63f61c4fa67097b1eba5d53ba",
+      "after_sha256": "a9352fcd02523605b7d43de108816c864937e476202e1abdff52b9421edce8e2"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_MayJul_target2015.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "6ae8359ced5259627a547623abfed73e377d08756b7a79c07d430257c32758a9",
+      "after_sha256": "310583e47f2759f79a5a27283c999fb94c9bbe1b6e917a63c47d4a3fbafa1404"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_MayJul_target2016.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "1473780afcd651a3bd360ad89f86171de3af1a8308e37704076146da4aea9bc3",
+      "after_sha256": "72623ba8bee9a1e943373c7bd9d4647cc01fe68f085f4bff50d43cf5a48d98ac"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_MayJul_target2017.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "252da9b99adaaa1e9fc3614bd668081050a17b00b9d1cb8f98ac49c27edbba71",
+      "after_sha256": "57f553338213c76b44f3d7a297babfeee591b326e23e70972de96c01eac13fef"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_MayJul_target2018.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "b6e85fb9d24f71717e042909d75e2ed563dc10d27a19a73ffc7d222f56b31ff6",
+      "after_sha256": "fb6aa2de9317bd4d09138dc72699c2f71f5cf35092882c9bd61855747c381654"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_MayJul_target2019.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "6cae5cd2dd9b7c973feaa36a0fd991ed09fbd03968b060a42d581a1bd8b8e7dc",
+      "after_sha256": "9122d04c7f9dfd38d0464a40e8c999a6fc7459b72c37dd314b7a65b8e1d9624f"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2011_month05.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "818fc1554128e378a2717a73d2d0431bf7900688e7f37b2ffeb293806770b619",
+      "after_sha256": "4f65df40e0be9caa328e861734fc0b0e8dd6857b0f7343530006b9e596350f09"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2011_month06.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "e4a6af88f1b5864dc5a697a0f76f61e000c25e9f1f3304639204d0c5e938251d",
+      "after_sha256": "54081f6aad9ff3f1e8be22466fe87f2f6c865da222a3be6dcfedab31658fb881"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2011_month07.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "dd9a88e39e5d9165c8893b303d7da270d65554e53a837fd43a53a397e0e739ee",
+      "after_sha256": "2e622f0123c4c048e1048b79a924a52f03739082badbce25b082bfab93bf7503"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2012_month05.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "e9e1a6ae49ebbd84a8fa15b9bf5ee7f6b44d0fc32fb0ad50e10993766c9a7c85",
+      "after_sha256": "89be78125ee77354762a3f46dfa9134e68d915e1fb6634ac168318f9d6d5ed80"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2012_month06.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "98e83dd075ce6fd4a3feb8aa3134e0a1f9ecbff8ea51adb5aafea50fcecdf665",
+      "after_sha256": "3a0cbc40bd2e6b26b4780d1b796df821c49744221b90692c7a9b13e74564efe0"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2012_month07.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "db956e013d6d0e9541d4950bb1e3f8964a69fbdbdeaf49b4e6e549673150eb01",
+      "after_sha256": "6d93207837734a0606d6407db0a7dc6bb133f641819927a29b15d8b100aab35b"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2013_month05.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "e46a29240f6891fc4cbf7d7de527abb896c23f8a055bf4614d40645962c29509",
+      "after_sha256": "8b4cb7725cca0e7d952a6d4f2890410094641aa5e9953b54870c2b2aa67c1856"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2013_month06.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "d1cfdf4ad3f8e7ebf7adf63211c4edd8c4238453738891dae5bc70a84a21fee1",
+      "after_sha256": "bcd0251106b9c0188697a7709ee20b35b3dd05bb2cbcc105eaa979a78e7ab55b"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2013_month07.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "f95e4220cac0f0809d4a94b5334243f2c18e229f65f4733dcebb88a7c6d8d1e6",
+      "after_sha256": "d41b9bd599dc36040bb16958014e1704f5dcfa19abf1327d3978de65f89d85bf"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2014_month05.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "8337340dcbff6ea763ba025b6a5114b369a4749b880a81f624f34c4fabab063b",
+      "after_sha256": "7b793a77ecc724b7453110fcc510a57b953a27f236fa1fa226e083250effad9f"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2014_month06.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "fb3bf3c57f6e4a53581d1082ea395ee156493b88d0372f58568d9d7408705492",
+      "after_sha256": "1c5ca7d42319725515c237f741eb8f996e29b921d0817dd5162598e3f83c118d"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2014_month07.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "9a122f03dd6008be0ff88e6daae5128d44936bc360d1bf83005b5798ac8b887a",
+      "after_sha256": "5f635547b666188cf4165d216e4dd9cc9c5e2d8b928513b80874ee83b8670bea"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2015_month05.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "2fb9f85525e9ca253cca3ef49a32efd73d2e7762e38c30273f862bf44ccc5850",
+      "after_sha256": "ad67f9705abb9ec45bdb05c63b72669641f86283dd427da14f73b1bdcb300bbe"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2015_month06.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "1c2a164ea3976e7afb820f20215fcdd93ae196f6060860a807de163352a844a0",
+      "after_sha256": "32d752e0a148cf01095733017435a44ad5ae18556357a03f8b4ce4f88461c0a1"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2015_month07.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "3b753cf24809d307b9ff0611c23d033beb766f8638e28e085e5b3182782170c8",
+      "after_sha256": "6dea09a9b60ab44822538b48dbd43e6900ce9c3045333d3c296ab59839e6ac41"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2016_month05.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "2e266d96972cdf83e311472e5f859ea131dd5033e0b4ee6351a355c72b72faa3",
+      "after_sha256": "2920ebdaa846d2b3e5c96bd6a8cf359542ca371af3b081f9ff23e928ec194efc"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2016_month06.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "2327e21210d5b4e5a2799ae8710bc314b3f812350f99d49b527ae7e424fa270b",
+      "after_sha256": "7b1c8837975544a9d95773dae8c1fe4d25e07d002ab7a843b993fb76f7510bf6"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2016_month07.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "7efce4285736a4b906ae910313d2c25f3eb410a288c59999be862cd4cd12f219",
+      "after_sha256": "ad0371d7e7982935f5f7e23887e64188a6860bac84eba858a2c9e6976457801f"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2017_month05.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "6f19f47d4d7304f1cbc8bd1efdbb2c4cd1557cb7736a330f5bc349e82401f952",
+      "after_sha256": "b0e9a37efbb791f8a106b65b2696d7a9cdba9fa087ee15463835bf2db4f5f0e3"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2017_month06.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "a9d3e6a0bc0c8822cdbf1424cf8f38a182cf2f53b463a74be7f5112ce790c814",
+      "after_sha256": "bc7981c15f67fc6b0259d77438b4c189f4c8ab8d64de19fe07b0da29c1bfbdf8"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2017_month07.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "7467f49c8cee95b7a66b92ccad4170fb7e91c78d0a9b85b6e0becf8322eaf58e",
+      "after_sha256": "24635624500c02330ee97f82c0169a6cca8496287cf8ca1713cbc9be38054cba"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2018_month05.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "6ca2c156928f248c8f7369099d69375b7721dcdc8af449f7d42afd8dddad719e",
+      "after_sha256": "5cdd53d357e7850eff55fa5731dff35ab5fad2e0b443cfbb4a40eb22112c34ff"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2018_month06.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "f2f4f5a428d800305e848ad50fad2ef928bf75aec01e5862be0c09b16de15991",
+      "after_sha256": "f5a6d91744e41f1c31020d44f0a9ab1791760a4d90deea233f87b3cbbd45c42e"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2018_month07.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "a49d76e33f1d3d9822e237bc71b4cada02bd116e802b1cac9236c811bd81cf76",
+      "after_sha256": "9ace9a38c2402b27bf4e5b8b468b8c8a4084cc3370ddefa6f4b5c2de06ddfe0c"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2019_month05.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "f10da8361e244c4850dfb876bbf79ce08ce0a8793228efdd992a81eb60a7d2de",
+      "after_sha256": "3c2ff95759c20af2878f55fbff4b79c75e4a3bb86f53e84b5b9a176f6165b543"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2019_month06.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "84296758e405acdb50557bd6abd6d07a479ae78b24c6b96f59ab594d4935aeaf",
+      "after_sha256": "71eda406cc0744f7de334c5f43db8558da7c712850cb18fbf2613af0cc378ac1"
+    },
+    {
+      "path": "outputs/ice/ice_accessibility_v1_target2019_month07.csv",
+      "field": "source_sic_file",
+      "rows": 5826,
+      "all_other_fields_exact": true,
+      "before_sha256": "1dccfd269cceee2671d7eca4adfae022b77f95ecd2d90df0c9cd5cd75254ac37",
+      "after_sha256": "c07b34c1de415ffa82430892d288d0e4200cc149ccc554388a31e77cbd9b0baf"
+    },
+    {
+      "path": "data/processed/study_domain/study_domain_C3_recurring_support_v2.geojson",
+      "field": "properties.source",
+      "geometry_and_other_properties_exact": true,
+      "before_sha256": "3960a6674c89e2139a630b8a44de813c62c925247f00dd63e4654a8dc78d6f32",
+      "after_sha256": "53a54e263988bad6feaf5d3a0c171deb416f91c865850b956c4decb2f2b9abac"
+    }
+  ],
+  "configuration_changes": [
+    {
+      "file": "entrypoints.json",
+      "field": "/configuration_sha256/path_policy.json"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/prey_processing/inputs/1/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/annual_rates/inputs/1/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/late_season/inputs/2/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_idw/inputs/3/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_idw/inputs/9/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_idw/inputs/13/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_idw/inputs/17/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_idw/inputs/21/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_idw/inputs/25/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_idw/inputs/29/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_idw/inputs/33/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_idw/inputs/37/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_ice/inputs/35/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_ice/inputs/37/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_ice/inputs/39/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_ice/inputs/41/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_ice/inputs/43/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_ice/inputs/46/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_ice/inputs/49/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_ice/inputs/52/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_ice/inputs/55/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_vessel/inputs/35/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_vessel/inputs/37/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_vessel/inputs/39/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_vessel/inputs/41/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_vessel/inputs/43/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_vessel/inputs/46/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_vessel/inputs/49/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_vessel/inputs/52/sha256"
+    },
+    {
+      "file": "entrypoints.json",
+      "field": "/tasks/sensitivity_vessel/inputs/55/sha256"
+    },
+    {
+      "file": "ierp_input_preparation.json",
+      "field": "/data_index_sha256"
+    },
+    {
+      "file": "ierp_input_preparation.json",
+      "field": "/output_acceptance_sha256"
+    },
+    {
+      "file": "path_policy.json",
+      "field": "/data_index_sha256"
+    },
+    {
+      "file": "path_policy.json",
+      "field": "/files/data/processed/study_domain/study_domain_C3_recurring_support_v2.geojson/sha256"
+    },
+    {
+      "file": "path_policy.json",
+      "field": "/files/outputs/ice/ice_accessibility_v1_MayJul_target2011.csv/sha256"
+    },
+    {
+      "file": "path_policy.json",
+      "field": "/files/outputs/ice/ice_accessibility_v1_MayJul_target2012.csv/sha256"
+    },
+    {
+      "file": "path_policy.json",
+      "field": "/files/outputs/ice/ice_accessibility_v1_MayJul_target2013.csv/sha256"
+    },
+    {
+      "file": "path_policy.json",
+      "field": "/files/outputs/ice/ice_accessibility_v1_MayJul_target2014.csv/sha256"
+    },
+    {
+      "file": "path_policy.json",
+      "field": "/files/outputs/ice/ice_accessibility_v1_MayJul_target2015.csv/sha256"
+    },
+    {
+      "file": "path_policy.json",
+      "field": "/files/outputs/ice/ice_accessibility_v1_MayJul_target2016.csv/sha256"
+    },
+    {
+      "file": "path_policy.json",
+      "field": "/files/outputs/ice/ice_accessibility_v1_MayJul_target2017.csv/sha256"
+    },
+    {
+      "file": "path_policy.json",
+      "field": "/files/outputs/ice/ice_accessibility_v1_MayJul_target2018.csv/sha256"
+    },
+    {
+      "file": "path_policy.json",
+      "field": "/files/outputs/ice/ice_accessibility_v1_MayJul_target2019.csv/sha256"
+    }
+  ],
+  "input_limits": "Original benthic station-processing tables and the source files for IERP preparation remain external. Missing-input tests verify refusal, not scientific execution.",
+  "historical_scientific_validation": "See docs/ACCEPTANCE.md; original run identities remain recorded there."
+}

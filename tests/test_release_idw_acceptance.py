@@ -4,7 +4,6 @@ import sys
 import unittest
 import subprocess
 import json
-from functools import partial
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from gray_whale_corridor.release.idw_acceptance import APPROVED, KEYS, FREQUENCY, check_frequency, check_route_invariants, ROUTE_INVARIANTS
@@ -90,8 +89,13 @@ def load_tests(loader, tests, pattern):
     if __name__ == '__main__':
         return tests
     # Numeric fixtures must not pollute the read-only entry's no-scientific-import tests.
-    return unittest.TestSuite(unittest.FunctionTestCase(partial(run_isolated_case, name), description=name)
-                              for name in loader.getTestCaseNames(IDWAcceptanceTests))
+    cases = []
+    for name in loader.getTestCaseNames(IDWAcceptanceTests):
+        def case(test_name=name):
+            run_isolated_case(test_name)
+        case.__name__ = name
+        cases.append(unittest.FunctionTestCase(case, description=name))
+    return unittest.TestSuite(cases)
 
 
 if __name__ == '__main__':

@@ -29,12 +29,25 @@ class IerpPreparationTests(unittest.TestCase):
     def test_inputs_and_no_fallback(self):
         paths = TaskPaths('prepare_ierp', SOFTWARE.parent / 'dataset', 'ierp_static_test',
                           policy_file='ierp_input_preparation.json')
-        self.assertEqual(len(paths.snapshot()), 5)
+        self.assertEqual(len(paths.contract['inputs']), 5)
         self.assertFalse(paths.task_root.exists())
         self.assertFalse(paths.contract['hold_reasons'])
-        self.assertTrue(paths.input('glorys').is_file())
+        for alias in ('grid', 'pelagic_2017', 'pelagic_2018'):
+            self.assertTrue(paths.input(alias).is_file())
+        for alias in ('glorys', 'ierp_csv'):
+            relative = paths.contract['aliases'][alias]
+            self.assertEqual(paths.policy['files'][relative]['role'], 'external_acquisition_local_validation_only')
+            with patch.object(Path, 'is_file', return_value=False):
+                with self.assertRaisesRegex(FileNotFoundError, 'Missing V8 input; no fallback'):
+                    paths.input(alias)
         self.assertFalse(any(key.startswith('reference_') for key in paths.contract['aliases']))
         self.assertEqual(len(paths.forbidden_read_paths), 3)
+
+    def test_acceptance_registry_checksum_and_rejection(self):
+        self.assertEqual(len(registry()['outputs']), 3)
+        with patch('gray_whale_corridor.release.ierp_inputs.digest', return_value='0' * 64):
+            with self.assertRaisesRegex(ValueError, 'acceptance metadata changed'):
+                registry()
 
     def test_no_fit_path_or_plot_calls(self):
         tree = ast.parse((SOFTWARE / 'src/gray_whale_corridor/release/ierp_v8.py').read_text())

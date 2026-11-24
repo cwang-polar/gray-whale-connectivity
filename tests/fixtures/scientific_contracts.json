@@ -1,0 +1,24 @@
+{
+  "encoding": "SHA-256 of newline-separated ast.dump nodes, include_attributes=False; spatial functions use one node each.",
+  "scope": "Static regression fingerprints for retained scientific statements and drawing blocks; no private files are required and no scientific calculation is performed.",
+  "drawing_blocks": {
+    "build_si_b2_june_july_asamm_observations_v1": "85ac5437a52b8cadd1dc694420714dacc3b10ac0371ba6131098eb22dd0c02de",
+    "build_si_b3_aug_oct_asamm_observations_v1": "4866c73fbe80cbcc40b209b1bf871bbe948de0be6fadd1c8daad59f170c293a2",
+    "build_si_b4_pelagic_support_response_v1": "70dd985f6a9d24fc01930a7fb158c6eab701d876161b214a891ff97c27b95b40",
+    "build_si_c2_prey_currency_sensitivity_v1": "3e5f7a6f4a51ab87ff6e928d3814d7b7bbdf27a1ae7dee0c07512be336ab7809"
+  },
+  "footprint_body": "512d15d0cc3a17aa2019f52e1adc0e8c642a614f11038888919e026e0e255b20",
+  "regional_footprint_expression": "1faba81781add9f795a44438f59afc6308a0ab81891a8db6b7368c7a8e3b6d20",
+  "rates": {
+    "initial_statement": "ef6ed9cb8e4da477f23b641310b80417392a9602857e744843025dfbb37922a6",
+    "loop_body": "d93ae954ff21827a81bf6c25b5af6187d24d0e5af77596800e6bd0216ebee870",
+    "missing_count_mask": "1b6dabc349cff609d0b76543889a205a7abb9651d241fad3481958c38743c263",
+    "missing_count_value": "d4aa78e4f52dca24b9610a2707834cef269b2c32dc0fe1ae46c2dbc3c297c0fb",
+    "missing_count_columns": "e037e1c2b091c87166773e3f58f9c89572fe23ca0b3cec0837eeac2c7be83c2b"
+  },
+  "spatial_functions": {
+    "scenario_record_metrics": "246b93ead9c8bb5302af02330fc30b18aa2a7eb71c629eca1f7a3e1bba6ce76f",
+    "summarize_records": "6cf1b96f7fb0b37187db1fa13a83824c46a4e7bd9c20f64448444a4713251b9d",
+    "p4_year_leverage": "07aa58eee2be83f349d7a7b2d9e16a65f299b410cc4e140d7c61877edb69af0a"
+  }
+}

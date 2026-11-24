@@ -6,6 +6,7 @@ import sys
 import subprocess
 import textwrap
 import unittest
+from unittest.mock import patch
 
 SOFTWARE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(SOFTWARE/'src'))
@@ -57,7 +58,14 @@ class PreyEntryTests(unittest.TestCase):
         self.assertIn('station_matches', task['aliases'])
         self.assertFalse(any('doi' in alias.lower() for alias in task['aliases']))
         context = TaskPaths('prey_processing', SOFTWARE.parent/'dataset', 'read_only_prey_contract')
-        self.assertEqual(len(context.snapshot()),15)
+        external = {task['aliases']['station_totals'], task['aliases']['station_matches']}
+        for relative in task['inputs']:
+            if relative not in external:
+                self.assertTrue(context.input_path(relative).is_file())
+        for relative in external:
+            with patch.object(Path, 'is_file', return_value=False):
+                with self.assertRaisesRegex(FileNotFoundError, 'Missing V8 input; no fallback'):
+                    context.input_path(relative)
         self.assertFalse(context.task_root.exists())
 
     def test_no_historical_main_energy_reconversion_or_corridor_dispatch(self):

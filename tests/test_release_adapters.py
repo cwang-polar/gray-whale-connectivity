@@ -1,6 +1,7 @@
 """Static contracts only; no research modules, renderers or table builders run."""
 
 import ast
+import hashlib
 import json
 from pathlib import Path
 import sys
@@ -11,7 +12,7 @@ SOFTWARE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(SOFTWARE / "src"))
 from gray_whale_corridor.release import control, paths, archived_figures, annual_v8, table_adapters
 
-BACKUP = SOFTWARE.parent / "internal_provenance/path_adapter_before_v2/software"
+CONTRACTS = json.loads((SOFTWARE / "tests/fixtures/scientific_contracts.json").read_text())
 
 
 def tree(relative, root=SOFTWARE):
@@ -24,6 +25,10 @@ def function(relative, name, root=SOFTWARE):
 
 def dump(nodes):
     return [ast.dump(n, include_attributes=False) for n in nodes]
+
+
+def fingerprint(nodes):
+    return hashlib.sha256("\n".join(dump(nodes)).encode()).hexdigest()
 
 
 class PreparedAdapterTests(unittest.TestCase):
@@ -62,7 +67,6 @@ class PreparedAdapterTests(unittest.TestCase):
                  "build_si_b4_pelagic_support_response_v1", "build_si_c2_prey_currency_sensitivity_v1"]
         for name in names:
             rel = f"scripts/manuscript_figures_v3/{name}.py"
-            before = function(rel, "build_figure", BACKUP).body
             after = function(rel, "build_figure").body
             marker = "scenario_order" if name.endswith("currency_sensitivity_v1") else "fig"
             def drawing(body):
@@ -72,32 +76,27 @@ class PreparedAdapterTests(unittest.TestCase):
                         for t in node.targets):
                         return body[index:]
                 raise AssertionError(name)
-            self.assertEqual(dump(drawing(before)), dump(drawing(after)), name)
+            self.assertEqual(fingerprint(drawing(after)), CONTRACTS["drawing_blocks"][name], name)
 
     def test_regional_footprint_is_same_expression(self):
         rel = "scripts/run_phase8v_asamm_effort_rates.py"
-        old = function(rel, "make_footprints", BACKUP)
         new = function(rel, "make_footprints")
         added = next(n for n in new.body if isinstance(n, ast.If) and ast.unparse(n.test) == "regional_only")
-        self.assertEqual(dump(old.body), dump([n for n in new.body if n is not added]))
-        original = next(n for n in old.body if isinstance(n, ast.Assign) and ast.unparse(n.targets[0]) == "footprints")
-        self.assertEqual(ast.dump(original.value), ast.dump(added.body[0].value.elts[1]))
+        self.assertEqual(fingerprint([n for n in new.body if n is not added]), CONTRACTS["footprint_body"])
+        self.assertEqual(fingerprint([added.body[0].value.elts[1]]), CONTRACTS["regional_footprint_expression"])
 
     def test_rate_math_and_missing_count_rule_unchanged(self):
         rel = "src/gray_whale_corridor/metrics/survey_effort.py"
-        before = function(rel, "summarize_rates", BACKUP).body
         after = function(rel, "summarize_rates").body
-        self.assertEqual(ast.dump(before[0]), ast.dump(after[0]))
-        a = next(n for n in before if isinstance(n, ast.For))
+        expected = CONTRACTS["rates"]
+        self.assertEqual(fingerprint(after[:1]), expected["initial_statement"])
         b = next(n for n in after if isinstance(n, ast.For))
-        self.assertEqual(dump(a.body), dump(b.body[1:]))
+        self.assertEqual(fingerprint(b.body[1:]), expected["loop_body"])
         self.assertEqual(ast.unparse(b.body[0].test), "metrics is not None and name not in metrics")
-        old_assignment = before[-2]
         new_assignment = after[-2]
-        self.assertEqual(ast.dump(old_assignment.targets[0].slice.elts[0]),
-                         ast.dump(new_assignment.targets[0].slice.elts[0]))
-        self.assertEqual(ast.dump(old_assignment.value), ast.dump(new_assignment.value))
-        self.assertEqual(ast.dump(old_assignment.targets[0].slice.elts[1]), ast.dump(after[-3].value.generators[0].iter))
+        self.assertEqual(fingerprint([new_assignment.targets[0].slice.elts[0]]), expected["missing_count_mask"])
+        self.assertEqual(fingerprint([new_assignment.value]), expected["missing_count_value"])
+        self.assertEqual(fingerprint([after[-3].value.generators[0].iter]), expected["missing_count_columns"])
 
     def test_v8_annual_selection_is_explicit(self):
         config = annual_v8.annual_contract()

@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the software version used and the accompanying dataset."
 type: software
 title: "Gray whale Pacific Arctic connectivity: analysis software"
-version: 0.1.0-rc.4
+version: 1.0.0
 doi: 10.5281/zenodo.24479214
 repository-code: "https://github.com/cwang-polar/gray-whale-connectivity"
 license: MIT

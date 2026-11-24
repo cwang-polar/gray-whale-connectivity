@@ -1,6 +1,7 @@
 """Metadata, binding and syntax tests only; never calculate spatial metrics."""
 
 import ast
+import hashlib
 import json
 from pathlib import Path
 import sys
@@ -13,7 +14,7 @@ SOFTWARE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(SOFTWARE / "src"))
 from gray_whale_corridor.release import control, paths, spatial_v8
 
-BACKUP = SOFTWARE.parent / "internal_provenance/path_adapter_before_v3/software"
+CONTRACTS = json.loads((SOFTWARE / "tests/fixtures/scientific_contracts.json").read_text())
 LEGACY = "scripts/run_phase8t_primary_robustness_smoke_test.py"
 ADAPTER = "src/gray_whale_corridor/release/spatial_v8.py"
 
@@ -28,8 +29,10 @@ class SpatialEntryTests(unittest.TestCase):
         self.assertFalse(any(name.split('.')[0] in {"numpy", "pandas", "scipy", "matplotlib", "shapely", "geopandas"}
                              for name in sys.modules))
 
-    def test_original_scientific_script_is_byte_identical(self):
-        self.assertEqual(control.digest(SOFTWARE / LEGACY), control.digest(BACKUP / LEGACY))
+    def test_scientific_functions_match_packaged_contracts(self):
+        for name, expected in CONTRACTS["spatial_functions"].items():
+            value = ast.dump(function(LEGACY, name), include_attributes=False)
+            self.assertEqual(hashlib.sha256(value.encode()).hexdigest(), expected, name)
 
     def test_observation_filter_statements_identical(self):
         legacy = function(LEGACY, "p4_year_leverage")

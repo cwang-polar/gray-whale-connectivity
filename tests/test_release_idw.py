@@ -33,7 +33,8 @@ class IDWEntryTests(unittest.TestCase):
         task = load_policy()['tasks']['prey_processing']
         self.assertFalse(task['hold_reasons'])
         self.assertIn('pending', task['source_access_status'])
-        self.assertIn('not an execution dependency', task['source_access_status'])
+        self.assertIn('archived model-ready surfaces are included', task['source_access_status'])
+        self.assertFalse(any('doi' in name.lower() for name in task['aliases']))
 
 
 if __name__ == '__main__':

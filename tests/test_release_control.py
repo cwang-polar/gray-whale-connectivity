@@ -38,7 +38,11 @@ class ReleaseControlTests(unittest.TestCase):
         report = control.inspect_task("prey_processing", SOFTWARE.parent / "dataset")
         self.assertFalse(report["has_held_inputs"])
         self.assertFalse(report["ready_for_execution"])
-        self.assertTrue(all(row["status"] == "present" for row in report["inputs"]))
+        from gray_whale_corridor.release.paths import load_policy
+        aliases = load_policy()["tasks"]["prey_processing"]["aliases"]
+        external = {aliases["station_totals"], aliases["station_matches"]}
+        self.assertTrue(all(row["status"] == "present" for row in report["inputs"] if row["path"] not in external))
+        self.assertTrue(all(row["status"] in ("present", "missing") for row in report["inputs"] if row["path"] in external))
         self.assertFalse(any('data/raw/prey/' in row['path'] for row in report['inputs']))
 
     def test_inspection_does_not_import_scientific_modules(self):

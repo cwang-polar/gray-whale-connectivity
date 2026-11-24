@@ -29,8 +29,10 @@ This summary describes completed validation of the paper's analyses in the recor
 
 Primary prey preparation begins at station totals/matches, not original provider records. Primary models begin at archived surfaces; pelagic integration begins at saved predictions and draws. The [upstream coverage table](UPSTREAM_COVERAGE.md) identifies raw environmental extraction, early ASAMM alignment, pelagic fitting/CV/draw generation and alternate-prey-currency solver layers that were not independently rerun through dedicated release entries. The relevant source implementations are retained where identified.
 
-Annual and late-season observation readers start at CSV exports, not Access databases. Source access is distinct from numerical acceptance. The [data-access guide](../../dataset/DATA_ACCESS.md) explains exact external dependencies; an input specification does not make an unavailable table public.
+Annual and late-season observation readers start at CSV exports, not Access databases. Source access is distinct from numerical acceptance. The [data-access guide](https://doi.org/10.5281/zenodo.24479974) (`dataset/DATA_ACCESS.md`) explains exact external dependencies; an input specification does not make an unavailable table public.
 
 The generated wheel-hash lock passed a second isolated macOS ARM64 installation and read-only entry check on 23 November 2026; analyses were not rerun in that environment. Linux, Windows and Intel Mac execution remain unverified. Recorded control tests passed, but no unfamiliar-user installation trial is documented. See [installation](../environment/CLEAN_INSTALL.md) and [demonstration](QUICKSTART.md).
 
 Machine-readable reports record comparison results and documented numerical exceptions. They do not establish complete upstream reproduction.
+
+For checks of the distributed files and entry contracts without rerunning those analyses, see [Package checks](PACKAGE_CHECKS.md). These checks preserve the original scientific validation records and explicitly test missing external-input handling.

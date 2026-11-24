@@ -33,11 +33,20 @@ class ReleasePathsTests(unittest.TestCase):
 
     def test_preview_all_tasks_creates_nothing(self):
         before = set(sys.modules)
+        policy = paths.load_policy()
+        prey = policy['tasks']['prey_processing']['aliases']
+        external = {prey['station_totals'], prey['station_matches'],
+                    policy['tasks']['S11']['aliases']['observations']}
         for name in control.load_catalog()["tasks"]:
             result = self.task(name).preview()
             self.assertFalse(result["directories_created"])
             self.assertFalse(result["execution_enabled"])
-            self.assertFalse(any(row["status"] == "blocked" for row in result["inputs"]))
+            for row in result["inputs"]:
+                if row["relative_path"] in external and not (DATA / row["relative_path"]).exists():
+                    self.assertEqual(row["status"], "blocked")
+                    self.assertIn("Missing V8 input; no fallback", row["reason"])
+                else:
+                    self.assertEqual(row["status"], "present_and_hash_verified", row)
         self.assertFalse((self.root / "runs").exists())
         self.assertFalse(any(name.split('.')[0] in {"numpy", "pandas", "scipy", "matplotlib", "geopandas"}
                              for name in set(sys.modules) - before))

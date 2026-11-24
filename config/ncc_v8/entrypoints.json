@@ -5,7 +5,7 @@
   "scope_sha256": "9905bc6ca45819892d9dc965f64c5f9a418d59128174489b2a3d4dc1bd62c433",
   "figure_references_sha256": "89c35093a5b1b0d3f87d4be88783d8954784703d8e7b158155211e545836efa5",
   "configuration_sha256": {
-    "path_policy.json": "f25b9049307ea6dc074f8e01da204ddfb1da93cf53781f0453316967e82a6e82",
+    "path_policy.json": "51b4b32ad0e68537d66ab9751f51406d7f9c3e9d3d9d79e6949b64575aabb8eb",
     "annual_effort.json": "bc0d9846f190e522adc52a56ff402674525cc95c471ca630d8f6f92ccc5996c6",
     "spatial_reference.json": "37922015a58d3cb22d1675ac22dbc0742875b7df136145074b3870e7c1bd0822",
     "frozen_table_references.json": "f40d5479586f79e3bd4a44079adb50cda615f4d43fe92359f76c68c596dfd9a1",
@@ -1302,7 +1302,7 @@
         },
         {
           "path": "data/processed/study_domain/study_domain_C3_recurring_support_v2.geojson",
-          "sha256": "3960a6674c89e2139a630b8a44de813c62c925247f00dd63e4654a8dc78d6f32",
+          "sha256": "53a54e263988bad6feaf5d3a0c171deb416f91c865850b956c4decb2f2b9abac",
           "role": "existing station checkpoint or archived reference",
           "hold": false
         },
@@ -2012,7 +2012,7 @@
         },
         {
           "path": "data/processed/study_domain/study_domain_C3_recurring_support_v2.geojson",
-          "sha256": "3960a6674c89e2139a630b8a44de813c62c925247f00dd63e4654a8dc78d6f32",
+          "sha256": "53a54e263988bad6feaf5d3a0c171deb416f91c865850b956c4decb2f2b9abac",
           "role": "listed source; not a complete dependency closure"
         },
         {
@@ -2207,7 +2207,7 @@
         },
         {
           "path": "data/processed/study_domain/study_domain_C3_recurring_support_v2.geojson",
-          "sha256": "3960a6674c89e2139a630b8a44de813c62c925247f00dd63e4654a8dc78d6f32",
+          "sha256": "53a54e263988bad6feaf5d3a0c171deb416f91c865850b956c4decb2f2b9abac",
           "role": "Frozen input or verification reference"
         },
         {
@@ -3941,7 +3941,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2011.csv",
-          "sha256": "71d2fb6ab41e9a3507a9b9851dbbb2fc4477ac0eb28e219a7e795f985a0e812f",
+          "sha256": "ba6253ef9344f34f8336f7fc259c91400e00ce4f026f8015284e337830254d00",
           "role": "Archived input or study-only reference"
         },
         {
@@ -3971,7 +3971,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2012.csv",
-          "sha256": "bf3f79b2673c21cf8d0dfb55da7c09f23eea489d57d4d4f6701ff00188c1f383",
+          "sha256": "5bf98b752ea73fdd40890ce0e865eb5659d7749a09731cda27c2c92c83c7390a",
           "role": "Archived input or study-only reference"
         },
         {
@@ -3991,7 +3991,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2013.csv",
-          "sha256": "a541c74e8d116885c6b63ed682d5a444b427840fbdf73965e283d7907c69e9a8",
+          "sha256": "1cd25e4b44ad55b71c03e3c9f4d882dbf119c6bab4bbbaaec3362f92679f92c6",
           "role": "Archived input or study-only reference"
         },
         {
@@ -4011,7 +4011,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2014.csv",
-          "sha256": "3b2265c8d474f9b0178fa9c666830634f2e493c63f61c4fa67097b1eba5d53ba",
+          "sha256": "a9352fcd02523605b7d43de108816c864937e476202e1abdff52b9421edce8e2",
           "role": "Archived input or study-only reference"
         },
         {
@@ -4031,7 +4031,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2015.csv",
-          "sha256": "6ae8359ced5259627a547623abfed73e377d08756b7a79c07d430257c32758a9",
+          "sha256": "310583e47f2759f79a5a27283c999fb94c9bbe1b6e917a63c47d4a3fbafa1404",
           "role": "Archived input or study-only reference"
         },
         {
@@ -4051,7 +4051,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2016.csv",
-          "sha256": "1473780afcd651a3bd360ad89f86171de3af1a8308e37704076146da4aea9bc3",
+          "sha256": "72623ba8bee9a1e943373c7bd9d4647cc01fe68f085f4bff50d43cf5a48d98ac",
           "role": "Archived input or study-only reference"
         },
         {
@@ -4071,7 +4071,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2017.csv",
-          "sha256": "252da9b99adaaa1e9fc3614bd668081050a17b00b9d1cb8f98ac49c27edbba71",
+          "sha256": "57f553338213c76b44f3d7a297babfeee591b326e23e70972de96c01eac13fef",
           "role": "Archived input or study-only reference"
         },
         {
@@ -4091,7 +4091,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2018.csv",
-          "sha256": "b6e85fb9d24f71717e042909d75e2ed563dc10d27a19a73ffc7d222f56b31ff6",
+          "sha256": "fb6aa2de9317bd4d09138dc72699c2f71f5cf35092882c9bd61855747c381654",
           "role": "Archived input or study-only reference"
         },
         {
@@ -4111,7 +4111,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2019.csv",
-          "sha256": "6cae5cd2dd9b7c973feaa36a0fd991ed09fbd03968b060a42d581a1bd8b8e7dc",
+          "sha256": "9122d04c7f9dfd38d0464a40e8c999a6fc7459b72c37dd314b7a65b8e1d9624f",
           "role": "Archived input or study-only reference"
         },
         {
@@ -4359,7 +4359,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2011.csv",
-          "sha256": "71d2fb6ab41e9a3507a9b9851dbbb2fc4477ac0eb28e219a7e795f985a0e812f",
+          "sha256": "ba6253ef9344f34f8336f7fc259c91400e00ce4f026f8015284e337830254d00",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4369,7 +4369,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2012.csv",
-          "sha256": "bf3f79b2673c21cf8d0dfb55da7c09f23eea489d57d4d4f6701ff00188c1f383",
+          "sha256": "5bf98b752ea73fdd40890ce0e865eb5659d7749a09731cda27c2c92c83c7390a",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4379,7 +4379,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2013.csv",
-          "sha256": "a541c74e8d116885c6b63ed682d5a444b427840fbdf73965e283d7907c69e9a8",
+          "sha256": "1cd25e4b44ad55b71c03e3c9f4d882dbf119c6bab4bbbaaec3362f92679f92c6",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4389,7 +4389,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2014.csv",
-          "sha256": "3b2265c8d474f9b0178fa9c666830634f2e493c63f61c4fa67097b1eba5d53ba",
+          "sha256": "a9352fcd02523605b7d43de108816c864937e476202e1abdff52b9421edce8e2",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4399,7 +4399,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2015.csv",
-          "sha256": "6ae8359ced5259627a547623abfed73e377d08756b7a79c07d430257c32758a9",
+          "sha256": "310583e47f2759f79a5a27283c999fb94c9bbe1b6e917a63c47d4a3fbafa1404",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4414,7 +4414,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2016.csv",
-          "sha256": "1473780afcd651a3bd360ad89f86171de3af1a8308e37704076146da4aea9bc3",
+          "sha256": "72623ba8bee9a1e943373c7bd9d4647cc01fe68f085f4bff50d43cf5a48d98ac",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4429,7 +4429,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2017.csv",
-          "sha256": "252da9b99adaaa1e9fc3614bd668081050a17b00b9d1cb8f98ac49c27edbba71",
+          "sha256": "57f553338213c76b44f3d7a297babfeee591b326e23e70972de96c01eac13fef",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4444,7 +4444,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2018.csv",
-          "sha256": "b6e85fb9d24f71717e042909d75e2ed563dc10d27a19a73ffc7d222f56b31ff6",
+          "sha256": "fb6aa2de9317bd4d09138dc72699c2f71f5cf35092882c9bd61855747c381654",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4459,7 +4459,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2019.csv",
-          "sha256": "6cae5cd2dd9b7c973feaa36a0fd991ed09fbd03968b060a42d581a1bd8b8e7dc",
+          "sha256": "9122d04c7f9dfd38d0464a40e8c999a6fc7459b72c37dd314b7a65b8e1d9624f",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4688,7 +4688,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2011.csv",
-          "sha256": "71d2fb6ab41e9a3507a9b9851dbbb2fc4477ac0eb28e219a7e795f985a0e812f",
+          "sha256": "ba6253ef9344f34f8336f7fc259c91400e00ce4f026f8015284e337830254d00",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4698,7 +4698,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2012.csv",
-          "sha256": "bf3f79b2673c21cf8d0dfb55da7c09f23eea489d57d4d4f6701ff00188c1f383",
+          "sha256": "5bf98b752ea73fdd40890ce0e865eb5659d7749a09731cda27c2c92c83c7390a",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4708,7 +4708,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2013.csv",
-          "sha256": "a541c74e8d116885c6b63ed682d5a444b427840fbdf73965e283d7907c69e9a8",
+          "sha256": "1cd25e4b44ad55b71c03e3c9f4d882dbf119c6bab4bbbaaec3362f92679f92c6",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4718,7 +4718,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2014.csv",
-          "sha256": "3b2265c8d474f9b0178fa9c666830634f2e493c63f61c4fa67097b1eba5d53ba",
+          "sha256": "a9352fcd02523605b7d43de108816c864937e476202e1abdff52b9421edce8e2",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4728,7 +4728,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2015.csv",
-          "sha256": "6ae8359ced5259627a547623abfed73e377d08756b7a79c07d430257c32758a9",
+          "sha256": "310583e47f2759f79a5a27283c999fb94c9bbe1b6e917a63c47d4a3fbafa1404",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4743,7 +4743,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2016.csv",
-          "sha256": "1473780afcd651a3bd360ad89f86171de3af1a8308e37704076146da4aea9bc3",
+          "sha256": "72623ba8bee9a1e943373c7bd9d4647cc01fe68f085f4bff50d43cf5a48d98ac",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4758,7 +4758,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2017.csv",
-          "sha256": "252da9b99adaaa1e9fc3614bd668081050a17b00b9d1cb8f98ac49c27edbba71",
+          "sha256": "57f553338213c76b44f3d7a297babfeee591b326e23e70972de96c01eac13fef",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4773,7 +4773,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2018.csv",
-          "sha256": "b6e85fb9d24f71717e042909d75e2ed563dc10d27a19a73ffc7d222f56b31ff6",
+          "sha256": "fb6aa2de9317bd4d09138dc72699c2f71f5cf35092882c9bd61855747c381654",
           "role": "Archived input or frozen verification reference"
         },
         {
@@ -4788,7 +4788,7 @@
         },
         {
           "path": "outputs/ice/ice_accessibility_v1_MayJul_target2019.csv",
-          "sha256": "6cae5cd2dd9b7c973feaa36a0fd991ed09fbd03968b060a42d581a1bd8b8e7dc",
+          "sha256": "9122d04c7f9dfd38d0464a40e8c999a6fc7459b72c37dd314b7a65b8e1d9624f",
           "role": "Archived input or frozen verification reference"
         },
         {
